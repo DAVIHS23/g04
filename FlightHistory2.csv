@@ -1,0 +1,903 @@
+DATE;FROM;TO;FLIGHT;FLIGHT TIME;STD;ATD;STA;STATUS;Value,
+Dienstag, 19. November 2019;Singapore (SIN);Zurich (ZRH);LX177;12:30;00:05;00:44;06:15;Landed 06:14;44582
+Mittwoch, 20. November 2019;Miami (MIA);Zurich (ZRH);LX65;08:07;19:45;20:29;10:50;Landed 10:36;44582
+Mittwoch, 20. November 2019;Zurich (ZRH);Miami (MIA);LX64;10:09;13:05;13:33;17:40;Landed 17:43;44582
+Samstag, 30. November 2019;Los Angeles (LAX);Zurich (ZRH);LX41;10:29;19:20;19:39;15:15;Landed 15:08;44582
+Sonntag, 1. Dezember 2019;Zurich (ZRH);Bangkok (BKK);LX180;10:12;17:55;18:10;10:35;Landed 10:21;44582
+Montag, 2. Dezember 2019;Zurich (ZRH);Hong Kong (HKG);LX138;10:45;22:40;23:01;17:20;Landed 16:46;44582
+Montag, 2. Dezember 2019;Bangkok (BKK);Zurich (ZRH);LX181;11:42;13:05;13:17;19:10;Landed 18:59;44582
+Dienstag, 3. Dezember 2019;Hong Kong (HKG);Zurich (ZRH);LX181;-;18:15;-;19:10;Unknown;44582
+Mittwoch, 4. Dezember 2019;San Francisco (SFO);Zurich (ZRH);LX39;10:05;19:50;20:06;15:45;Landed 15:11;44582
+Mittwoch, 4. Dezember 2019;Zurich (ZRH);San Francisco (SFO);LX38;11:15;13:15;13:44;16:15;Landed 15:59;44582
+Mittwoch, 4. Dezember 2019;Hong Kong (HKG);Zurich (ZRH);LX139;11:57;00:20;01:07;06:10;Landed 06:04;44582
+Donnerstag, 5. Dezember 2019;Zurich (ZRH);Bangkok (BKK);LX180;10:28;17:55;18:18;10:35;Landed 10:46;44582
+Freitag, 6. Dezember 2019;Zurich (ZRH);Sao Paulo (GRU);LX92;11:07;22:40;23:07;06:45;Landed 06:14;44582
+Freitag, 6. Dezember 2019;Bangkok (BKK);Zurich (ZRH);LX181;11:15;13:05;13:24;19:10;Landed 18:39;44582
+Samstag, 7. Dezember 2019;Sao Paulo (GRU);Zurich (ZRH);LX93;10:42;19:20;19:32;10:30;Landed 10:15;44582
+Sonntag, 8. Dezember 2019;San Francisco (SFO);Zurich (ZRH);LX39;10:27;19:50;20:03;15:45;Landed 15:30;44582
+Sonntag, 8. Dezember 2019;Zurich (ZRH);San Francisco (SFO);LX38;11:01;13:15;13:44;16:15;Landed 15:44;44582
+Dienstag, 10. Dezember 2019;San Francisco (SFO);Zurich (ZRH);LX39;10:02;19:50;20:34;15:45;Landed 15:36;44582
+Dienstag, 10. Dezember 2019;Zurich (ZRH);San Francisco (SFO);LX38;11:07;13:15;13:54;16:15;Landed 16:01;44582
+Mittwoch, 11. Dezember 2019;Zurich (ZRH);Singapore (SIN);LX176;11:17;22:45;23:08;18:00;Landed 17:25;44582
+Freitag, 13. Dezember 2019;Miami (MIA);Zurich (ZRH);LX65;08:01;19:45;21:00;10:50;Landed 11:01;44582
+Freitag, 13. Dezember 2019;Zurich (ZRH);Miami (MIA);LX64;-;13:05;13:15;17:40;Unknown;44582
+Freitag, 13. Dezember 2019;Singapore (SIN);Zurich (ZRH);LX177;12:35;00:05;00:38;06:15;Landed 06:13;44582
+Samstag, 14. Dezember 2019;Los Angeles (LAX);Zurich (ZRH);LX41;10:14;19:20;20:01;15:15;Landed 15:14;44582
+Samstag, 14. Dezember 2019;Zurich (ZRH);Los Angeles (LAX);LX40;11:47;13:10;13:38;16:20;Landed 16:24;44582
+Sonntag, 15. Dezember 2019;Zurich (ZRH);Bangkok (BKK);LX180;09:57;17:55;18:19;10:35;Landed 10:16;44582
+Montag, 16. Dezember 2019;Zurich (ZRH);Singapore (SIN);LX176;11:44;22:45;23:19;18:00;Landed 18:02;44582
+Montag, 16. Dezember 2019;Bangkok (BKK);Zurich (ZRH);LX181;11:41;13:05;13:23;19:10;Landed 19:04;44582
+Mittwoch, 18. Dezember 2019;San Francisco (SFO);Zurich (ZRH);LX39;10:39;19:50;20:21;15:45;Landed 16:00;44582
+Mittwoch, 18. Dezember 2019;Zurich (ZRH);San Francisco (SFO);LX38;11:21;13:15;13:55;16:15;Landed 16:16;44582
+Mittwoch, 18. Dezember 2019;Singapore (SIN);Zurich (ZRH);LX177;12:42;00:05;00:22;06:15;Landed 06:04;44582
+Donnerstag, 19. Dezember 2019;Zurich (ZRH);Singapore (SIN);LX176;11:17;22:45;23:27;18:00;Landed 17:44;44582
+Samstag, 21. Dezember 2019;Zurich (ZRH);Sao Paulo (GRU);LX92;11:18;22:40;22:57;06:45;Landed 06:15;44582
+Samstag, 21. Dezember 2019;Porto (OPO);Zurich (ZRH);LX2065;01:48;11:50;13:07;15:20;Landed 15:55;44582
+Samstag, 21. Dezember 2019;Zurich (ZRH);Porto (OPO);LX2064;02:38;08:45;09:21;10:20;Landed 11:00;44582
+Samstag, 21. Dezember 2019;Singapore (SIN);Zurich (ZRH);LX177;12:36;00:05;00:48;06:15;Landed 06:24;44582
+Sonntag, 22. Dezember 2019;Sao Paulo (GRU);Zurich (ZRH);LX93;10:48;19:20;19:48;10:30;Landed 10:36;44582
+Montag, 23. Dezember 2019;Los Angeles (LAX);Zurich (ZRH);LX41;10:05;19:20;19:53;15:15;Landed 14:58;44582
+Montag, 23. Dezember 2019;Zurich (ZRH);Los Angeles (LAX);LX40;12:06;13:10;13:32;16:20;Landed 16:38;44582
+Mittwoch, 25. Dezember 2019;San Francisco (SFO);Zurich (ZRH);LX39;10:28;19:50;20:22;15:45;Landed 15:50;44582
+Mittwoch, 25. Dezember 2019;Zurich (ZRH);San Francisco (SFO);LX38;11:41;13:15;13:48;16:15;Landed 16:28;44582
+Donnerstag, 26. Dezember 2019;Zurich (ZRH);Sao Paulo (GRU);LX92;11:50;22:40;22:52;06:45;Landed 06:42;44582
+Freitag, 27. Dezember 2019;Sao Paulo (GRU);Zurich (ZRH);LX93;11:09;19:20;19:32;10:30;Landed 10:41;44582
+Samstag, 28. Dezember 2019;Miami (MIA);Zurich (ZRH);LX65;08:50;19:45;20:10;10:50;Landed 11:00;44582
+Samstag, 28. Dezember 2019;Zurich (ZRH);Miami (MIA);LX64;10:01;13:05;13:37;17:15;Landed 17:38;44582
+Sonntag, 29. Dezember 2019;San Francisco (SFO);Zurich (ZRH);LX39;10:13;19:50;20:21;15:45;Landed 15:34;44582
+Sonntag, 29. Dezember 2019;Zurich (ZRH);San Francisco (SFO);LX38;11:26;13:15;14:02;16:15;Landed 16:28;44582
+Montag, 30. Dezember 2019;Zurich (ZRH);Singapore (SIN);LX176;11:30;22:45;23:09;18:00;Landed 17:39;44582
+Mittwoch, 1. Januar 2020;Miami (MIA);Zurich (ZRH);LX65;08:11;19:45;20:25;10:50;Landed 10:36;44582
+Mittwoch, 1. Januar 2020;Zurich (ZRH);Miami (MIA);LX64;10:03;13:05;13:36;17:40;Landed 17:38;44582
+Mittwoch, 1. Januar 2020;Singapore (SIN);Zurich (ZRH);LX177;12:42;00:05;00:23;06:15;Landed 06:05;44582
+Donnerstag, 2. Januar 2020;Zurich (ZRH);Hong Kong (HKG);LX138;10:54;22:40;22:54;17:20;Landed 16:49;44582
+Freitag, 3. Januar 2020;Hong Kong (HKG);â€”;LX138;-;17:12;-;â€”;Unknown;44582
+Samstag, 4. Januar 2020;Zurich (ZRH);Tel Aviv (TLV);LX256;03:21;22:40;22:47;03:35;Landed 03:08;44582
+Samstag, 4. Januar 2020;Tel Aviv (TLV);Zurich (ZRH);LX253;03:50;16:00;16:24;19:20;Landed 19:13;44582
+Samstag, 4. Januar 2020;Zurich (ZRH);Tel Aviv (TLV);LX252;03:24;09:45;09:59;14:35;Landed 14:24;44582
+Samstag, 4. Januar 2020;Hong Kong (HKG);Zurich (ZRH);LX139;12:10;00:20;00:54;06:10;Landed 06:04;44582
+Sonntag, 5. Januar 2020;Miami (MIA);Zurich (ZRH);LX65;07:55;19:45;20:19;10:50;Landed 10:15;44582
+Sonntag, 5. Januar 2020;Zurich (ZRH);Miami (MIA);LX64;10:07;13:05;13:32;17:40;Landed 17:39;44582
+Sonntag, 5. Januar 2020;Tel Aviv (TLV);Zurich (ZRH);LX257;03:47;05:20;06:09;08:40;Landed 08:56;44582
+Montag, 6. Januar 2020;San Francisco (SFO);Zurich (ZRH);LX39;10:21;19:50;20:08;15:45;Landed 15:29;44582
+Montag, 6. Januar 2020;Zurich (ZRH);San Francisco (SFO);LX38;11:00;13:15;13:54;16:15;Landed 15:53;44582
+Dienstag, 7. Januar 2020;Zurich (ZRH);Hong Kong (HKG);LX138;10:36;22:40;22:51;17:20;Landed 16:27;44582
+Mittwoch, 8. Januar 2020;Hong Kong (HKG);â€”;â€”;-;21:37;-;â€”;Unknown;44582
+Donnerstag, 9. Januar 2020;Hong Kong (HKG);Zurich (ZRH);LX139;12:13;00:20;00:58;06:10;Landed 06:11;44582
+Samstag, 11. Januar 2020;Zurich (ZRH);Bangkok (BKK);LX180;10:07;17:55;18:12;10:35;Landed 10:19;44582
+Sonntag, 12. Januar 2020;Zurich (ZRH);Singapore (SIN);LX176;12:00;22:45;23:09;18:00;Landed 18:10;44582
+Sonntag, 12. Januar 2020;Bangkok (BKK);Zurich (ZRH);LX181;11:31;13:05;13:28;19:10;Landed 19:00;44582
+Dienstag, 14. Januar 2020;Zurich (ZRH);Bangkok (BKK);LX180;10:13;17:55;18:16;10:35;Landed 10:28;44582
+Dienstag, 14. Januar 2020;Singapore (SIN);Zurich (ZRH);LX177;12:30;00:05;00:36;06:15;Landed 06:06;44582
+Mittwoch, 15. Januar 2020;Zurich (ZRH);Singapore (SIN);LX176;12:07;22:45;22:51;18:00;Landed 17:57;44582
+Mittwoch, 15. Januar 2020;Bangkok (BKK);Zurich (ZRH);LX181;11:26;13:05;13:21;19:10;Landed 18:48;44582
+Freitag, 17. Januar 2020;Singapore (SIN);Zurich (ZRH);LX177;12:33;00:05;00:39;06:15;Landed 06:12;44582
+Samstag, 18. Januar 2020;Miami (MIA);Zurich (ZRH);LX65;08:41;19:45;20:22;10:50;Landed 11:02;44582
+Samstag, 18. Januar 2020;Zurich (ZRH);Miami (MIA);LX64;10:08;13:05;13:28;17:40;Landed 17:36;44582
+Sonntag, 19. Januar 2020;Zurich (ZRH);Sao Paulo (GRU);LX92;11:13;22:40;23:23;06:45;Landed 06:35;44582
+Montag, 20. Januar 2020;Sao Paulo (GRU);Zurich (ZRH);LX93;10:23;19:20;19:26;10:30;Landed 09:49;44582
+Dienstag, 21. Januar 2020;San Francisco (SFO);Zurich (ZRH);LX39;10:33;19:50;21:22;15:45;Landed 16:55;44582
+Dienstag, 21. Januar 2020;Zurich (ZRH);San Francisco (SFO);LX38;11:20;13:15;16:45;16:15;Landed 19:04;44582
+Mittwoch, 22. Januar 2020;Zurich (ZRH);Sao Paulo (GRU);LX92;11:36;22:40;23:09;06:45;Landed 06:45;44582
+Donnerstag, 23. Januar 2020;Sao Paulo (GRU);Zurich (ZRH);LX93;10:12;19:20;19:32;10:30;Landed 09:44;44582
+Freitag, 24. Januar 2020;Miami (MIA);Zurich (ZRH);LX65;08:43;19:45;20:17;10:50;Landed 11:00;44582
+Freitag, 24. Januar 2020;Zurich (ZRH);Miami (MIA);LX64;10:09;13:05;13:36;17:40;Landed 17:46;44582
+Samstag, 25. Januar 2020;Zurich (ZRH);Sao Paulo (GRU);LX92;11:36;22:40;23:17;06:45;Landed 06:53;44582
+Sonntag, 26. Januar 2020;Sao Paulo (GRU);Zurich (ZRH);LX93;10:47;19:20;19:39;10:30;Landed 10:26;44582
+Montag, 27. Januar 2020;San Francisco (SFO);Zurich (ZRH);LX39;10:30;19:50;19:56;15:45;Landed 15:26;44582
+Montag, 27. Januar 2020;Zurich (ZRH);San Francisco (SFO);LX38;11:23;13:15;13:44;16:15;Landed 16:07;44582
+Dienstag, 28. Januar 2020;Zurich (ZRH);Singapore (SIN);LX176;12:08;22:45;23:11;18:00;Landed 18:18;44582
+Donnerstag, 30. Januar 2020;Singapore (SIN);Zurich (ZRH);LX177;12:40;00:05;00:32;06:15;Landed 06:11;44582
+Freitag, 31. Januar 2020;Zurich (ZRH);Bangkok (BKK);LX180;09:48;17:55;18:08;10:35;Landed 09:55;44582
+Samstag, 1. Februar 2020;Zurich (ZRH);Sao Paulo (GRU);LX92;11:12;22:40;23:04;06:45;Landed 06:16;44582
+Samstag, 1. Februar 2020;Bangkok (BKK);Zurich (ZRH);LX181;11:35;13:05;13:27;19:10;Landed 19:02;44582
+Sonntag, 2. Februar 2020;Sao Paulo (GRU);Zurich (ZRH);LX93;10:52;19:20;19:28;10:30;Landed 10:20;44582
+Montag, 3. Februar 2020;Zurich (ZRH);Tokyo (NRT);LX160;11:10;13:00;13:32;08:30;Landed 08:42;44582
+Dienstag, 4. Februar 2020;Zurich (ZRH);Hong Kong (HKG);LX138;10:27;22:40;22:52;17:20;Landed 16:19;44582
+Dienstag, 4. Februar 2020;Tokyo (NRT);Zurich (ZRH);LX161;11:48;11:25;11:41;15:40;Landed 15:29;44582
+Mittwoch, 5. Februar 2020;Hong Kong (HKG);â€”;â€”;-;17:57;-;â€”;Unknown;44582
+Donnerstag, 6. Februar 2020;San Francisco (SFO);Zurich (ZRH);LX39;10:09;19:50;20:07;15:45;Landed 15:17;44582
+Donnerstag, 6. Februar 2020;Zurich (ZRH);San Francisco (SFO);LX38;10:55;13:15;13:35;16:15;Landed 15:30;44582
+Donnerstag, 6. Februar 2020;Hong Kong (HKG);Zurich (ZRH);LX139;12:11;00:20;00:54;06:10;Landed 06:05;44582
+Freitag, 7. Februar 2020;Zurich (ZRH);Hong Kong (HKG);LX138;10:40;22:40;23:12;17:20;Landed 16:52;44582
+Samstag, 8. Februar 2020;Hong Kong (HKG);â€”;â€”;-;17:50;-;â€”;Unknown;44582
+Sonntag, 9. Februar 2020;Hong Kong (HKG);Zurich (ZRH);LX139;12:06;00:20;00:59;06:10;Landed 06:06;44582
+Dienstag, 11. Februar 2020;Zurich (ZRH);Miami (MIA);LX64;10:15;00:03;13:48;17:47;Landed 18:02;44582
+Freitag, 14. Februar 2020;Hong Kong (HKG);Zurich (ZRH);LX139;12:19;00:20;00:56;06:10;Landed 06:15;44582
+Freitag, 21. Februar 2020;Zurich (ZRH);Hong Kong (HKG);LX138;10:58;22:40;22:50;17:20;Landed 16:47;44582
+Freitag, 21. Februar 2020;Bangkok (BKK);Zurich (ZRH);LX181;11:43;13:05;13:23;19:10;Landed 19:06;44582
+Sonntag, 23. Februar 2020;San Francisco (SFO);Zurich (ZRH);LX39;10:21;19:50;20:29;15:45;Landed 15:50;44582
+Sonntag, 23. Februar 2020;Zurich (ZRH);San Francisco (SFO);LX38;11:36;13:15;13:37;16:15;Landed 16:14;44582
+Sonntag, 23. Februar 2020;Hong Kong (HKG);Zurich (ZRH);LX139;12:19;00:20;00:47;06:10;Landed 06:05;44582
+Montag, 24. Februar 2020;Zurich (ZRH);Sao Paulo (GRU);LX92;11:13;22:40;22:58;06:45;Landed 06:11;44582
+Dienstag, 25. Februar 2020;Sao Paulo (GRU);Zurich (ZRH);LX93;10:46;19:20;19:49;10:30;Landed 10:35;44582
+Mittwoch, 26. Februar 2020;Los Angeles (LAX);Zurich (ZRH);LX41;10:17;19:20;19:40;15:15;Landed 14:57;44582
+Mittwoch, 26. Februar 2020;Zurich (ZRH);Los Angeles (LAX);LX40;11:29;13:10;13:51;16:20;Landed 16:20;44582
+Donnerstag, 27. Februar 2020;Zurich (ZRH);Bangkok (BKK);LX180;09:50;17:55;18:44;10:35;Landed 10:34;44582
+Freitag, 28. Februar 2020;Zurich (ZRH);Hong Kong (HKG);LX138;10:51;22:40;23:05;17:20;Landed 16:55;44582
+Freitag, 28. Februar 2020;Bangkok (BKK);Zurich (ZRH);LX181;11:52;13:05;13:15;19:10;Landed 19:08;44582
+Mittwoch, 20. Mai 2020;Zurich (ZRH);Shanghai (PVG);LX188;11:17;08:35;09:32;02:35;Landed 02:49;44582
+Donnerstag, 21. Mai 2020;Shanghai (PVG);Zurich (ZRH);LX189;11:27;12:00;13:02;18:50;Landed 18:29;44582
+Samstag, 23. Mai 2020;Zurich (ZRH);Shanghai (PVG);LX188;11:13;08:35;08:40;02:35;Landed 01:54;44582
+Sonntag, 24. Mai 2020;Shanghai (PVG);Zurich (ZRH);LX189;11:26;12:00;13:15;18:50;Landed 18:41;44582
+Montag, 25. Mai 2020;Zurich (ZRH);Shanghai (PVG);LX2688;11:33;09:35;09:49;03:35;Landed 03:22;44582
+Dienstag, 26. Mai 2020;Shanghai (PVG);Zurich (ZRH);LX2689;11:29;13:00;13:18;19:50;Landed 18:47;44582
+Freitag, 29. Mai 2020;Zurich (ZRH);Shenzhen (SZX);LX2672;10:57;13:30;13:47;07:20;Landed 06:44;44582
+Samstag, 30. Mai 2020;Shenzhen (SZX);Zurich (ZRH);LX2673;11:44;23:55;00:25;06:20;Landed 06:09;44582
+Donnerstag, 4. Juni 2020;Zurich (ZRH);Shenzhen (SZX);LX2672;10:36;13:25;13:16;07:20;Landed 05:52;44582
+Freitag, 5. Juni 2020;Shenzhen (SZX);Zurich (ZRH);LX2673;11:50;23:55;01:09;06:20;Landed 06:59;44582
+Samstag, 6. Juni 2020;Zurich (ZRH);Shenzhen (SZX);LX2672;10:36;13:25;13:35;07:20;Landed 06:11;44582
+Sonntag, 7. Juni 2020;Shenzhen (SZX);Zurich (ZRH);LX2673;11:38;23:55;00:29;06:20;Landed 06:07;44582
+Sonntag, 14. Juni 2020;Zurich (ZRH);Bangkok (BKK);LX180;10:24;15:45;15:56;07:25;Landed 07:20;44582
+Montag, 15. Juni 2020;Bangkok (BKK);Zurich (ZRH);LX181;10:59;23:20;00:37;06:10;Landed 06:36;44582
+Samstag, 20. Juni 2020;Zurich (ZRH);Mumbai (BOM);LX154;08:02;22:45;22:38;10:40;Landed 10:10;44582
+Sonntag, 21. Juni 2020;Zurich (ZRH);Mumbai (BOM);LX154;-;08:26;-;â€”;Unknown;44582
+Montag, 22. Juni 2020;New York (JFK);Zurich (ZRH);LX15;07:00;20:40;20:49;10:30;Landed 09:49;44582
+Montag, 22. Juni 2020;Zurich (ZRH);New York (JFK);LX14;07:44;13:30;13:48;16:20;Landed 15:32;44582
+Montag, 22. Juni 2020;Mumbai (BOM);Zurich (ZRH);LX155;08:17;05:35;05:28;10:55;Landed 10:16;44582
+Dienstag, 23. Juni 2020;Zurich (ZRH);Mumbai (BOM);LX154;07:48;22:45;22:44;10:40;Landed 10:02;44582
+Donnerstag, 25. Juni 2020;New York (JFK);Zurich (ZRH);LX15;06:41;20:40;20:54;10:30;Landed 09:35;44582
+Donnerstag, 25. Juni 2020;Zurich (ZRH);New York (JFK);LX14;07:47;13:30;13:59;16:20;Landed 15:46;44582
+Donnerstag, 25. Juni 2020;Mumbai (BOM);Zurich (ZRH);LX155;08:38;05:35;05:36;10:55;Landed 10:44;44582
+Samstag, 29. August 2020;Zurich (ZRH);Hong Kong (HKG);LX138;11:26;13:10;13:40;07:00;Landed 07:06;44582
+Sonntag, 30. August 2020;Hong Kong (HKG);Zurich (ZRH);LX139;12:08;23:45;23:56;06:10;Landed 06:04;44582
+Montag, 31. August 2020;Zurich (ZRH);Sao Paulo (GRU);LX92;10:59;13:30;13:58;20:20;Landed 19:58;44582
+Dienstag, 1. September 2020;Sao Paulo (GRU);Zurich (ZRH);LX93;11:32;18:10;18:20;10:30;Landed 10:51;44582
+Donnerstag, 3. September 2020;Zurich (ZRH);Hong Kong (HKG);LX138;11:47;13:10;13:29;07:00;Landed 07:17;44582
+Freitag, 4. September 2020;Hong Kong (HKG);Zurich (ZRH);LX139;12:10;23:45;23:56;06:10;Landed 06:06;44582
+Samstag, 5. September 2020;Moscow (DME);Zurich (ZRH);LX1327;03:00;19:30;20:28;22:00;Landed 22:28;44582
+Samstag, 5. September 2020;Zurich (ZRH);Moscow (DME);LX1326;02:48;13:25;14:43;17:50;Landed 18:31;44582
+Montag, 7. September 2020;Zurich (ZRH);Sao Paulo (GRU);LX92;10:49;13:30;13:51;20:20;Landed 19:39;44582
+Dienstag, 8. September 2020;Sao Paulo (GRU);Zurich (ZRH);LX93;11:13;18:10;18:15;10:30;Landed 10:28;44582
+Donnerstag, 10. September 2020;Zurich (ZRH);Bangkok (BKK);LX180;10:14;15:45;16:04;07:25;Landed 07:19;44582
+Freitag, 11. September 2020;Bangkok (BKK);Zurich (ZRH);LX181;10:47;23:20;00:22;06:10;Landed 06:09;44582
+Samstag, 12. September 2020;Moscow (DME);Zurich (ZRH);LX1327;02:51;19:30;20:22;22:00;Landed 22:13;44582
+Samstag, 12. September 2020;Zurich (ZRH);Moscow (DME);LX1326;02:51;13:25;14:27;17:50;Landed 18:19;44582
+Sonntag, 13. September 2020;Zurich (ZRH);Shanghai (PVG);LX188;11:08;13:30;14:24;07:30;Landed 07:32;44582
+Dienstag, 15. September 2020;Zurich (ZRH);Mumbai (BOM);LX154;08:06;21:45;21:59;09:40;Landed 09:35;44582
+Dienstag, 15. September 2020;Shanghai (PVG);Zurich (ZRH);LX189;11:13;09:30;10:09;15:50;Landed 15:21;44582
+Donnerstag, 17. September 2020;Zurich (ZRH);Bangkok (BKK);LX180;10:21;15:45;15:55;12:25;Landed 07:16;44582
+Donnerstag, 17. September 2020;Mumbai (BOM);Zurich (ZRH);LX155;08:29;05:35;05:49;07:25;Landed 10:48;44582
+Freitag, 18. September 2020;Bangkok (BKK);Zurich (ZRH);LX181;11:04;23:20;00:00;06:10;Landed 06:05;44582
+Samstag, 19. September 2020;Moscow (DME);Zurich (ZRH);LX1327;02:54;19:30;20:01;22:00;Landed 21:55;44582
+Samstag, 19. September 2020;Zurich (ZRH);Moscow (DME);LX1326;02:44;13:25;14:23;17:50;Landed 18:07;44582
+Freitag, 25. September 2020;Zurich (ZRH);Johannesburg (JNB);LX288;09:45;13:25;13:36;23:55;Landed 23:21;44582
+Samstag, 26. September 2020;Johannesburg (JNB);Zurich (ZRH);LX289;09:58;19:25;20:09;06:10;Landed 06:07;44582
+Sonntag, 27. September 2020;Zurich (ZRH);Shanghai (PVG);LX188;10:52;13:30;14:48;07:30;Landed 07:40;44582
+Dienstag, 29. September 2020;Shanghai (PVG);Zurich (ZRH);LX189;11:18;09:30;10:20;15:50;Landed 15:38;44582
+Freitag, 2. Oktober 2020;Zurich (ZRH);Johannesburg (JNB);LX288;09:59;13:25;13:36;23:55;Landed 23:35;44582
+Samstag, 3. Oktober 2020;Johannesburg (JNB);Zurich (ZRH);LX289;09:59;19:25;20:08;06:10;Landed 06:07;44582
+Montag, 5. Oktober 2020;Zurich (ZRH);Sao Paulo (GRU);LX92;11:13;13:30;13:40;20:20;Landed 19:53;44582
+Dienstag, 6. Oktober 2020;Sao Paulo (GRU);Zurich (ZRH);LX93;10:56;18:10;18:16;10:30;Landed 10:12;44582
+Mittwoch, 7. Oktober 2020;New York (JFK);Zurich (ZRH);LX15;06:34;20:40;20:59;10:30;Landed 09:33;44582
+Mittwoch, 7. Oktober 2020;Zurich (ZRH);New York (JFK);LX14;08:37;13:30;13:58;16:20;Landed 16:35;44582
+Donnerstag, 8. Oktober 2020;Zurich (ZRH);Tokyo (NRT);LX160;11:07;22:40;22:42;17:20;Landed 16:49;44582
+Samstag, 10. Oktober 2020;Zurich (ZRH);Tokyo (NRT);LX160;10:54;22:40;22:48;17:20;Landed 16:42;44582
+Samstag, 10. Oktober 2020;Tokyo (NRT);Zurich (ZRH);LX161;11:40;10:25;10:36;15:35;Landed 15:16;44582
+Montag, 12. Oktober 2020;Tokyo (NRT);Zurich (ZRH);LX161;11:50;10:25;10:28;15:35;Landed 15:18;44582
+Donnerstag, 15. Oktober 2020;Zurich (ZRH);Tokyo (NRT);LX160;10:55;22:40;22:33;17:20;Landed 16:28;44582
+Samstag, 17. Oktober 2020;Zurich (ZRH);Tokyo (NRT);LX160;11:12;22:40;23:03;17:20;Landed 17:15;44582
+Samstag, 17. Oktober 2020;Tokyo (NRT);Zurich (ZRH);LX161;11:21;10:25;10:47;15:35;Landed 15:08;44582
+Montag, 19. Oktober 2020;Tokyo (NRT);Zurich (ZRH);LX161;11:40;10:25;10:25;15:35;Landed 15:05;44582
+Dienstag, 20. Oktober 2020;Zurich (ZRH);Hong Kong (HKG);LX138;11:05;13:10;13:19;07:00;Landed 06:24;44582
+Mittwoch, 21. Oktober 2020;Hong Kong (HKG);Zurich (ZRH);LX139;12:10;23:45;23:59;06:10;Landed 06:09;44582
+Freitag, 23. Oktober 2020;Zurich (ZRH);Singapore (SIN);LX176;11:45;13:30;13:42;07:45;Landed 07:26;44582
+Sonntag, 25. Oktober 2020;Zurich (ZRH);Shanghai (PVG);LX188;10:17;12:55;13:13;07:55;Landed 06:30;44582
+Sonntag, 25. Oktober 2020;Singapore (SIN);Zurich (ZRH);LX177;12:36;00:30;00:47;06:10;Landed 06:24;44582
+Dienstag, 27. Oktober 2020;Shanghai (PVG);Zurich (ZRH);LX189;11:38;09:50;10:17;15:30;Landed 14:55;44582
+Dienstag, 3. November 2020;Zurich (ZRH);Hong Kong (HKG);LX138;11:16;16:10;16:14;10:30;Landed 10:30;44582
+Freitag, 6. November 2020;Johannesburg (JNB);Zurich (ZRH);LX289;09:58;22:15;22:28;07:55;Landed 07:27;44582
+Samstag, 7. November 2020;Zurich (ZRH);Bangkok (BKK);LX180;10:39;16:10;16:28;08:40;Landed 09:07;44582
+Montag, 9. November 2020;Zurich (ZRH);Johannesburg (JNB);LX288;09:46;12:30;12:45;00:10;Landed 23:30;44582
+Montag, 9. November 2020;Bangkok (BKK);Zurich (ZRH);LX181;11:06;00:15;01:00;06:20;Landed 06:06;44582
+Freitag, 13. November 2020;Sao Paulo (GRU);Zurich (ZRH);LX93;11:03;17:05;17:26;08:10;Landed 08:30;44582
+Freitag, 13. November 2020;Zurich (ZRH);Sao Paulo (GRU);LX92;-;09:04;-;05:04;Landed 05:04;44582
+Samstag, 14. November 2020;Zurich (ZRH);Bangkok (BKK);LX180;10:13;16:10;16:37;08:40;Landed 08:50;44582
+Samstag, 14. November 2020;Sao Paulo (GRU);Zurich (ZRH);LX93;-;04:31;-;08:31;Landed 08:31;44582
+Montag, 16. November 2020;Zurich (ZRH);Johannesburg (JNB);LX288;09:40;12:30;12:38;00:10;Landed 23:18;44582
+Montag, 16. November 2020;Bangkok (BKK);Zurich (ZRH);LX181;11:42;00:15;00:34;06:20;Landed 06:17;44582
+Dienstag, 17. November 2020;Johannesburg (JNB);Zurich (ZRH);LX289;10:09;20:30;20:55;06:10;Landed 06:04;44582
+Mittwoch, 18. November 2020;Zurich (ZRH);Sao Paulo (GRU);LX2692;11:43;21:45;21:45;05:40;Landed 05:28;44582
+Mittwoch, 18. November 2020;Johannesburg (JNB);Zurich (ZRH);LX289;-;07:05;-;06:05;Landed 06:05;44582
+Donnerstag, 19. November 2020;Sao Paulo (GRU);Santiago (SCL);LX2692;03:47;08:00;08:05;12:00;Landed 11:51;44582
+Freitag, 20. November 2020;Santiago (SCL);Zurich (ZRH);LX2693;13:21;18:00;18:25;12:50;Landed 11:46;44582
+Samstag, 21. November 2020;Zurich (ZRH);Sao Paulo (GRU);LX92;11:21;21:50;22:16;05:55;Landed 05:37;44582
+Sonntag, 22. November 2020;Sao Paulo (GRU);Zurich (ZRH);LX93;10:49;17:05;17:21;08:10;Landed 08:10;44582
+Montag, 23. November 2020;Zurich (ZRH);Johannesburg (JNB);LX288;-;22:39;-;23:39;Landed 23:39;44582
+Montag, 23. November 2020;Zurich (ZRH);Johannesburg (JNB);LX288;09:36;12:30;13:02;00:10;Landed 23:38;44582
+Dienstag, 24. November 2020;Johannesburg (JNB);Zurich (ZRH);LX289;10:17;20:30;20:43;06:10;Landed 06:00;44582
+Mittwoch, 25. November 2020;Zurich (ZRH);Sao Paulo (GRU);LX2692;11:25;21:45;21:49;05:40;Landed 05:14;44582
+Mittwoch, 25. November 2020;Johannesburg (JNB);Zurich (ZRH);LX289;-;07:01;-;06:01;Landed 06:01;44582
+Donnerstag, 26. November 2020;Sao Paulo (GRU);Santiago (SCL);LX2692;03:36;07:50;07:49;12:00;Landed 11:25;44582
+Freitag, 27. November 2020;Santiago (SCL);Zurich (ZRH);LX2693;13:19;17:30;18:02;12:20;Landed 11:21;44582
+Samstag, 28. November 2020;Zurich (ZRH);Bangkok (BKK);LX180;09:49;16:10;17:10;08:40;Landed 08:59;44582
+Montag, 30. November 2020;Bangkok (BKK);Zurich (ZRH);LX181;-;12:04;-;06:04;Landed 06:04;44582
+Montag, 30. November 2020;Bangkok (BKK);Zurich (ZRH);LX181;11:26;00:15;00:37;06:20;Landed 06:04;44582
+Freitag, 4. Dezember 2020;Zurich (ZRH);Johannesburg (JNB);LX288;10:17;16:50;20:52;04:30;Landed 08:09;44582
+Samstag, 5. Dezember 2020;Johannesburg (JNB);Zurich (ZRH);LX289;09:25;22:15;00:04;07:55;Landed 08:29;44582
+Sonntag, 6. Dezember 2020;Zurich (ZRH);Sao Paulo (GRU);LX92;11:28;21:50;23:22;05:55;Landed 06:51;44582
+Montag, 7. Dezember 2020;Sao Paulo (GRU);Zurich (ZRH);LX93;11:04;17:05;17:15;08:10;Landed 08:19;44582
+Dienstag, 8. Dezember 2020;Zurich (ZRH);Bangkok (BKK);LX180;10:22;16:10;16:26;08:40;Landed 08:48;44582
+Donnerstag, 10. Dezember 2020;Zurich (ZRH);Tokyo (NRT);LX160;11:20;21:50;22:15;17:20;Landed 17:35;44582
+Donnerstag, 10. Dezember 2020;London (LHR);Zurich (ZRH);LX319;01:08;12:30;13:32;15:10;Landed 15:40;44582
+Donnerstag, 10. Dezember 2020;Zurich (ZRH);London (LHR);LX318;01:17;09:45;10:19;10:40;Landed 10:37;44582
+Donnerstag, 10. Dezember 2020;Bangkok (BKK);Zurich (ZRH);LX181;11:27;00:15;00:38;06:20;Landed 06:05;44582
+Samstag, 12. Dezember 2020;Zurich (ZRH);Sao Paulo (GRU);LX92;10:58;21:50;22:33;05:55;Landed 05:31;44582
+Samstag, 12. Dezember 2020;Tokyo (NRT);Zurich (ZRH);LX161;11:56;09:45;09:57;14:00;Landed 13:53;44582
+Sonntag, 13. Dezember 2020;Sao Paulo (GRU);Zurich (ZRH);LX93;10:51;17:05;17:19;08:10;Landed 08:11;44582
+Montag, 14. Dezember 2020;New York (JFK);Zurich (ZRH);LX15;06:41;18:30;18:35;08:05;Landed 07:16;44582
+Montag, 14. Dezember 2020;Zurich (ZRH);New York (JFK);LX14;08:29;12:30;12:50;15:40;Landed 15:20;44582
+Montag, 14. Dezember 2020;Sao Paulo (GRU);Zurich (ZRH);LX93;-;04:12;-;08:12;Landed 08:12;44582
+Dienstag, 15. Dezember 2020;Zurich (ZRH);Hong Kong (HKG);LX138;11:01;16:10;16:42;10:30;Landed 10:44;44582
+Donnerstag, 17. Dezember 2020;Zurich (ZRH);Tokyo (NRT);LX160;10:53;21:50;22:13;17:20;Landed 17:06;44582
+Donnerstag, 17. Dezember 2020;Hong Kong (HKG);Zurich (ZRH);LX139;12:11;02:30;02:42;08:20;Landed 07:53;44582
+Samstag, 19. Dezember 2020;Zurich (ZRH);Hong Kong (HKG);LX138;11:00;16:10;16:45;10:30;Landed 10:44;44582
+Samstag, 19. Dezember 2020;Tokyo (NRT);Zurich (ZRH);LX161;12:07;09:45;09:54;14:00;Landed 14:01;44582
+Montag, 21. Dezember 2020;Zurich (ZRH);Johannesburg (JNB);LX288;09:46;16:50;17:01;04:30;Landed 03:47;44582
+Montag, 21. Dezember 2020;Hong Kong (HKG);Zurich (ZRH);LX139;12:08;02:30;02:30;08:15;Landed 07:38;44582
+Dienstag, 22. Dezember 2020;Johannesburg (JNB);Zurich (ZRH);LX289;10:10;22:15;22:22;07:55;Landed 07:33;44582
+Mittwoch, 23. Dezember 2020;Johannesburg (JNB);Zurich (ZRH);LX289;-;08:34;-;07:34;Landed 07:34;44582
+Donnerstag, 24. Dezember 2020;â€”;â€”;LX288;-;â€”;-;â€”;Unknown;44582
+Donnerstag, 24. Dezember 2020;Zurich (ZRH);Johannesburg (JNB);LX288;09:53;16:50;17:11;04:30;Landed 04:05;44582
+Donnerstag, 24. Dezember 2020;Zurich (ZRH);Zurich (ZRH);LX5200;00:42;10:03;09:21;10:03;Landed 10:03;44582
+Freitag, 25. Dezember 2020;Johannesburg (JNB);Zurich (ZRH);LX289;10:19;22:15;22:26;07:55;Landed 07:45;44582
+Freitag, 25. Dezember 2020;Zurich (ZRH);Johannesburg (JNB);LX288;-;03:10;-;04:11;Landed 04:11;44582
+Samstag, 26. Dezember 2020;Zurich (ZRH);Sao Paulo (GRU);LX92;11:10;21:50;22:10;05:55;Landed 05:20;44582
+Sonntag, 27. Dezember 2020;Sao Paulo (GRU);Zurich (ZRH);LX93;10:31;17:25;17:35;08:25;Landed 08:06;44582
+Dienstag, 29. Dezember 2020;Zurich (ZRH);Bangkok (BKK);LX180;10:21;16:10;16:32;08:40;Landed 08:53;44582
+Donnerstag, 31. Dezember 2020;Zurich (ZRH);Bangkok (BKK);LX180;10:29;16:10;16:31;08:40;Landed 09:00;44582
+Donnerstag, 31. Dezember 2020;Bangkok (BKK);Zurich (ZRH);LX181;11:22;00:15;00:42;06:20;Landed 06:04;44582
+Samstag, 2. Januar 2021;Moscow (DME);Zurich (ZRH);LX1327;02:59;19:00;19:47;20:40;Landed 20:47;44582
+Samstag, 2. Januar 2021;Zurich (ZRH);Moscow (DME);LX1326;02:46;11:50;12:48;17:20;Landed 17:34;44582
+Samstag, 2. Januar 2021;Bangkok (BKK);Zurich (ZRH);LX181;11:24;00:15;00:43;06:20;Landed 06:07;44582
+Sonntag, 3. Januar 2021;Lisbon (LIS);Zurich (ZRH);LX2085;02:11;15:50;16:12;19:35;Landed 19:23;44582
+Sonntag, 3. Januar 2021;Zurich (ZRH);Lisbon (LIS);LX2084;02:20;12:15;12:28;14:10;Landed 13:47;44582
+Mittwoch, 6. Januar 2021;New York (JFK);Zurich (ZRH);LX15;07:27;18:30;18:41;08:05;Landed 08:08;44582
+Mittwoch, 6. Januar 2021;Zurich (ZRH);New York (JFK);LX14;07:35;12:30;13:20;15:40;Landed 14:55;44582
+Donnerstag, 7. Januar 2021;Zurich (ZRH);Bangkok (BKK);LX180;10:08;16:10;16:36;08:40;Landed 08:44;44582
+Samstag, 9. Januar 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;11:33;21:50;22:10;05:55;Landed 05:43;44582
+Samstag, 9. Januar 2021;Moscow (DME);Zurich (ZRH);LX1327;02:57;18:10;18:53;19:50;Landed 19:50;44582
+Samstag, 9. Januar 2021;Zurich (ZRH);Moscow (DME);LX1326;02:47;11:00;11:31;16:30;Landed 16:18;44582
+Samstag, 9. Januar 2021;Bangkok (BKK);Zurich (ZRH);LX181;11:35;00:15;00:40;06:20;Landed 06:15;44582
+Sonntag, 10. Januar 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;10:28;17:25;17:55;08:25;Landed 08:23;44582
+Montag, 11. Januar 2021;Zurich (ZRH);Santiago (SCL);LX2690;13:37;20:15;20:47;06:10;Landed 06:24;44582
+Mittwoch, 13. Januar 2021;Sao Paulo (GRU);Zurich (ZRH);LX2691;10:32;17:25;17:42;08:25;Landed 08:14;44582
+Mittwoch, 13. Januar 2021;Santiago (SCL);Sao Paulo (GRU);LX2691;03:10;10:45;10:35;14:55;Landed 13:45;44582
+Donnerstag, 14. Januar 2021;Zurich (ZRH);Bangkok (BKK);LX180;09:11;16:10;21:12;08:40;Landed 12:24;44582
+Donnerstag, 14. Januar 2021;Zurich (ZRH);Bangkok (BKK);LX180;-;16:10;21:13;08:40;Unknown;44582
+Freitag, 15. Januar 2021;Zurich (ZRH);Bangkok (BKK);LX180;-;07:06;-;13:06;Landed 13:06;44582
+Samstag, 16. Januar 2021;Zurich (ZRH);Hong Kong (HKG);LX138;10:55;16:10;18:01;10:30;Landed 11:57;44582
+Samstag, 16. Januar 2021;Bangkok (BKK);Zurich (ZRH);LX181;11:35;00:15;07:56;06:20;Landed 13:31;44582
+Montag, 18. Januar 2021;Zurich (ZRH);Santiago (SCL);LX2690;14:07;20:15;20:38;06:10;Landed 06:45;44582
+Montag, 18. Januar 2021;Hong Kong (HKG);Zurich (ZRH);LX139;12:18;02:30;02:32;08:15;Landed 07:50;44582
+Mittwoch, 20. Januar 2021;Sao Paulo (GRU);Zurich (ZRH);LX2691;10:41;17:25;17:41;08:25;Landed 08:22;44582
+Mittwoch, 20. Januar 2021;Santiago (SCL);Sao Paulo (GRU);LX2691;03:21;10:45;11:25;14:55;Landed 14:46;44582
+Donnerstag, 21. Januar 2021;Zurich (ZRH);Bangkok (BKK);LX180;10:02;16:10;16:30;08:40;Landed 08:31;44582
+Samstag, 23. Januar 2021;San Francisco (SFO);Zurich (ZRH);LX39;10:56;18:05;18:06;14:00;Landed 14:02;44582
+Samstag, 23. Januar 2021;Zurich (ZRH);San Francisco (SFO);LX38;10:54;10:45;11:03;13:45;Landed 12:57;44582
+Samstag, 23. Januar 2021;Bangkok (BKK);Zurich (ZRH);LX181;11:50;00:15;00:18;06:20;Landed 06:08;44582
+Montag, 25. Januar 2021;Zurich (ZRH);Santiago (SCL);LX2690;14:00;20:15;20:44;06:10;Landed 06:45;44582
+Mittwoch, 27. Januar 2021;Sao Paulo (GRU);Zurich (ZRH);LX2691;10:47;17:25;17:34;08:25;Landed 08:21;44582
+Mittwoch, 27. Januar 2021;Santiago (SCL);Sao Paulo (GRU);LX2691;03:37;10:45;10:47;14:55;Landed 14:24;44582
+Donnerstag, 28. Januar 2021;Zurich (ZRH);Bangkok (BKK);LX180;09:59;16:10;16:48;08:40;Landed 08:46;44582
+Samstag, 30. Januar 2021;San Francisco (SFO);Zurich (ZRH);LX39;10:23;18:05;18:17;14:00;Landed 13:39;44582
+Samstag, 30. Januar 2021;Zurich (ZRH);San Francisco (SFO);LX38;11:27;10:45;11:55;13:45;Landed 14:21;44582
+Samstag, 30. Januar 2021;Bangkok (BKK);Zurich (ZRH);LX181;12:02;00:15;00:30;06:20;Landed 06:32;44582
+Sonntag, 31. Januar 2021;Zurich (ZRH);Shanghai (PVG);LX188;11:19;21:30;21:31;16:30;Landed 15:50;44582
+Dienstag, 2. Februar 2021;Shanghai (PVG);Zurich (ZRH);LX189;12:23;09:50;10:02;15:30;Landed 15:25;44582
+Sonntag, 7. Februar 2021;Singapore (SIN);Zurich (ZRH);LX177;13:49;00:05;00:10;06:10;Landed 06:59;44582
+Dienstag, 9. Februar 2021;Shanghai (PVG);Zurich (ZRH);LX2689;11:51;01:10;01:13;06:35;Landed 06:04;44582
+Donnerstag, 11. Februar 2021;Zurich (ZRH);Hong Kong (HKG);LX138;11:00;16:10;16:29;10:30;Landed 10:29;44582
+Dienstag, 16. Februar 2021;Zurich (ZRH);Mumbai (BOM);LX154;07:15;21:55;22:04;10:40;Landed 09:49;44582
+Donnerstag, 18. Februar 2021;Zurich (ZRH);Tokyo (NRT);LX160;10:56;21:50;22:14;17:20;Landed 17:10;44582
+Donnerstag, 18. Februar 2021;Mumbai (BOM);Zurich (ZRH);LX155;09:19;03:05;03:00;07:55;Landed 07:48;44582
+Samstag, 20. Februar 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;11:26;21:50;22:13;05:55;Landed 05:39;44582
+Samstag, 20. Februar 2021;Tokyo (NRT);Zurich (ZRH);LX161;11:27;09:45;09:51;14:00;Landed 13:18;44582
+Sonntag, 21. Februar 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;10:41;17:25;17:50;08:25;Landed 08:31;44582
+Montag, 22. Februar 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;11:07;21:50;22:01;05:55;Landed 05:07;44582
+Dienstag, 23. Februar 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;10:34;17:25;17:37;08:25;Landed 08:11;44582
+Mittwoch, 24. Februar 2021;New York (JFK);Zurich (ZRH);LX15;06:51;18:30;18:48;08:05;Landed 07:39;44582
+Mittwoch, 24. Februar 2021;Zurich (ZRH);New York (JFK);LX14;08:17;12:30;12:40;15:40;Landed 14:57;44582
+Donnerstag, 25. Februar 2021;Zurich (ZRH);Hong Kong (HKG);LX138;11:21;16:10;16:35;10:30;Landed 10:56;44582
+Samstag, 27. Februar 2021;San Francisco (SFO);Zurich (ZRH);LX39;10:40;18:05;18:12;14:00;Landed 13:52;44582
+Samstag, 27. Februar 2021;Zurich (ZRH);San Francisco (SFO);LX38;10:50;10:45;11:03;13:45;Landed 12:54;44582
+Samstag, 27. Februar 2021;Hong Kong (HKG);Zurich (ZRH);LX139;12:11;02:30;02:48;08:20;Landed 07:59;44582
+Sonntag, 28. Februar 2021;Zurich (ZRH);Shanghai (PVG);LX188;10:43;21:30;21:58;16:30;Landed 15:41;44582
+Donnerstag, 1. April 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;11:31;22:40;23:12;05:30;Landed 05:44;44582
+Freitag, 2. April 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;10:40;18:10;18:39;10:30;Landed 10:19;44582
+Sonntag, 4. April 2021;Zurich (ZRH);Singapore (SIN);LX176;11:23;11:30;12:04;05:45;Landed 05:26;44582
+Montag, 5. April 2021;Singapore (SIN);Zurich (ZRH);LX177;12:52;23:10;23:34;06:10;Landed 06:26;44582
+Mittwoch, 7. April 2021;Zurich (ZRH);Shanghai (PVG);LX188;11:10;11:30;11:51;04:45;Landed 05:01;44582
+Freitag, 9. April 2021;Zurich (ZRH);Tokyo (NRT);LX160;10:49;22:40;22:28;17:20;Landed 16:17;44582
+Freitag, 9. April 2021;Shanghai (PVG);Zurich (ZRH);LX189;11:30;00:10;01:06;06:30;Landed 06:35;44582
+Sonntag, 11. April 2021;Zurich (ZRH);Shanghai (PVG);LX188;11:53;22:30;23:13;16:30;Landed 17:06;44582
+Sonntag, 11. April 2021;Tokyo (NRT);Zurich (ZRH);LX161;12:21;09:45;10:02;14:55;Landed 15:23;44582
+Dienstag, 13. April 2021;Shanghai (PVG);Zurich (ZRH);LX189;11:49;09:30;10:22;15:50;Landed 16:11;44582
+Donnerstag, 15. April 2021;New York (JFK);Zurich (ZRH);LX15;07:06;21:05;21:16;10:55;Landed 10:22;44582
+Donnerstag, 15. April 2021;Zurich (ZRH);New York (JFK);LX14;07:56;12:55;13:25;15:45;Landed 15:21;44582
+Sonntag, 18. April 2021;Zurich (ZRH);Singapore (SIN);LX176;11:47;11:40;11:55;05:55;Landed 05:42;44582
+Montag, 19. April 2021;Singapore (SIN);Zurich (ZRH);LX177;12:49;23:10;23:29;06:10;Landed 06:18;44582
+Dienstag, 20. April 2021;San Francisco (SFO);Zurich (ZRH);LX39;10:54;19:55;20:12;15:45;Landed 16:06;44582
+Dienstag, 20. April 2021;Zurich (ZRH);San Francisco (SFO);LX38;11:21;13:00;13:15;15:50;Landed 15:36;44582
+Donnerstag, 22. April 2021;New York (JFK);Zurich (ZRH);LX15;07:08;21:05;21:09;10:55;Landed 10:17;44582
+Donnerstag, 22. April 2021;Zurich (ZRH);New York (JFK);LX14;07:51;12:55;13:17;15:45;Landed 15:08;44582
+Freitag, 23. April 2021;Zurich (ZRH);Johannesburg (JNB);LX288;09:40;22:40;22:40;09:10;Landed 08:21;44582
+Samstag, 24. April 2021;Johannesburg (JNB);Zurich (ZRH);LX289;09:49;19:25;20:23;06:10;Landed 06:12;44582
+Sonntag, 25. April 2021;Zurich (ZRH);Singapore (SIN);LX176;11:45;11:40;11:50;05:55;Landed 05:35;44582
+Montag, 26. April 2021;Singapore (SIN);Zurich (ZRH);LX177;12:39;23:10;23:32;06:10;Landed 06:10;44582
+Dienstag, 27. April 2021;Zurich (ZRH);Johannesburg (JNB);LX288;09:44;22:40;22:35;09:10;Landed 08:20;44582
+Mittwoch, 28. April 2021;Johannesburg (JNB);Zurich (ZRH);LX289;10:17;19:25;19:48;06:10;Landed 06:05;44582
+Donnerstag, 29. April 2021;New York (JFK);Zurich (ZRH);LX15;06:55;21:05;21:21;10:55;Landed 10:16;44582
+Donnerstag, 29. April 2021;Zurich (ZRH);New York (JFK);LX14;08:04;12:55;13:17;15:45;Landed 15:20;44582
+Freitag, 30. April 2021;Zurich (ZRH);Johannesburg (JNB);LX288;09:59;22:40;22:45;09:10;Landed 08:45;44582
+Samstag, 1. Mai 2021;Johannesburg (JNB);Zurich (ZRH);LX289;10:03;19:25;20:02;06:10;Landed 06:05;44582
+Sonntag, 2. Mai 2021;Zurich (ZRH);Hong Kong (HKG);LX138;11:20;12:25;12:30;06:15;Landed 05:50;44582
+Montag, 3. Mai 2021;Hong Kong (HKG);Zurich (ZRH);LX139;12:15;23:45;23:57;06:10;Landed 06:12;44582
+Dienstag, 4. Mai 2021;Zurich (ZRH);Johannesburg (JNB);LX288;09:44;22:40;22:37;09:10;Landed 08:21;44582
+Mittwoch, 5. Mai 2021;Johannesburg (JNB);Zurich (ZRH);LX289;10:04;19:25;20:01;06:10;Landed 06:06;44582
+Donnerstag, 6. Mai 2021;Zurich (ZRH);Bangkok (BKK);LX180;10:04;13:10;13:30;04:50;Landed 04:34;44582
+Freitag, 7. Mai 2021;Bangkok (BKK);Zurich (ZRH);LX181;11:22;23:40;23:56;06:10;Landed 06:18;44582
+Samstag, 8. Mai 2021;Zurich (ZRH);Hong Kong (HKG);LX138;10:57;12:25;13:47;06:15;Landed 06:44;44582
+Sonntag, 9. Mai 2021;Hong Kong (HKG);Zurich (ZRH);LX139;11:43;23:45;00:17;06:10;Landed 06:01;44582
+Dienstag, 11. Mai 2021;Zurich (ZRH);Hong Kong (HKG);LX138;11:02;12:25;12:56;06:15;Landed 05:58;44582
+Mittwoch, 12. Mai 2021;Hong Kong (HKG);Zurich (ZRH);LX139;11:34;23:45;00:30;06:10;Landed 06:04;44582
+Donnerstag, 13. Mai 2021;Zurich (ZRH);Hong Kong (HKG);LX138;10:56;12:25;12:50;06:15;Landed 05:47;44582
+Freitag, 14. Mai 2021;Hong Kong (HKG);Zurich (ZRH);LX139;11:39;23:45;00:26;06:10;Landed 06:05;44582
+Samstag, 15. Mai 2021;San Francisco (SFO);Zurich (ZRH);LX39;10:41;19:55;20:13;15:45;Landed 15:54;44582
+Samstag, 15. Mai 2021;Zurich (ZRH);San Francisco (SFO);LX38;11:03;13:00;13:21;15:50;Landed 15:24;44582
+Sonntag, 16. Mai 2021;Zurich (ZRH);Shanghai (PVG);LX188;11:40;22:30;23:10;16:30;Landed 16:50;44582
+Dienstag, 18. Mai 2021;Shanghai (PVG);Zurich (ZRH);LX189;11:39;09:30;10:12;15:50;Landed 15:50;44582
+Mittwoch, 19. Mai 2021;New York (JFK);Zurich (ZRH);LX15;07:01;21:05;21:14;10:55;Landed 10:15;44582
+Mittwoch, 19. Mai 2021;Zurich (ZRH);New York (JFK);LX14;07:38;12:55;13:23;15:45;Landed 15:01;44582
+Donnerstag, 20. Mai 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;11:42;22:40;22:40;05:30;Landed 05:22;44582
+Freitag, 21. Mai 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;10:40;18:10;18:19;10:30;Landed 09:59;44582
+Sonntag, 23. Mai 2021;Zurich (ZRH);Singapore (SIN);LX176;11:36;11:40;11:43;05:55;Landed 05:19;44582
+Montag, 24. Mai 2021;Singapore (SIN);Zurich (ZRH);LX177;12:28;23:10;23:37;06:10;Landed 06:05;44582
+Dienstag, 25. Mai 2021;Zurich (ZRH);Hong Kong (HKG);LX138;11:11;12:25;12:55;06:15;Landed 06:05;44582
+Mittwoch, 26. Mai 2021;Hong Kong (HKG);Zurich (ZRH);LX139;12:02;23:45;00:04;06:10;Landed 06:06;44582
+Donnerstag, 27. Mai 2021;Zurich (ZRH);Bangkok (BKK);LX180;10:30;13:10;13:26;04:50;Landed 04:55;44582
+Freitag, 28. Mai 2021;Bangkok (BKK);Zurich (ZRH);LX181;11:04;23:40;00:00;06:10;Landed 06:04;44582
+Samstag, 29. Mai 2021;Zurich (ZRH);Hong Kong (HKG);LX138;11:10;12:25;13:27;06:15;Landed 06:36;44582
+Sonntag, 30. Mai 2021;Hong Kong (HKG);Zurich (ZRH);LX139;11:59;23:45;00:06;06:10;Landed 06:05;44582
+Dienstag, 1. Juni 2021;Zurich (ZRH);Hong Kong (HKG);LX138;11:19;12:25;12:54;06:15;Landed 06:13;44582
+Mittwoch, 2. Juni 2021;Hong Kong (HKG);Zurich (ZRH);LX139;11:54;23:45;00:10;06:10;Landed 06:04;44582
+Donnerstag, 3. Juni 2021;Zurich (ZRH);London (LHR);LX332;01:07;12:10;12:24;13:05;Landed 12:32;44582
+Sonntag, 6. Juni 2021;Bangkok (BKK);Zurich (ZRH);LX181;11:16;23:40;23:56;06:10;Landed 06:11;44582
+Dienstag, 8. Juni 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;11:33;22:40;22:45;05:30;Landed 05:18;44582
+Mittwoch, 9. Juni 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;10:48;18:10;18:16;10:30;Landed 10:04;44582
+Mittwoch, 9. Juni 2021;Buenos Aires (EZE);Sao Paulo (GRU);LX93;02:16;13:10;13:18;16:10;Landed 15:34;44582
+Mittwoch, 9. Juni 2021;Sao Paulo (GRU);Buenos Aires (EZE);LX92;02:31;07:30;07:43;10:30;Landed 10:15;44582
+Donnerstag, 10. Juni 2021;Zurich (ZRH);Tokyo (NRT);LX160;11:34;22:40;22:58;17:20;Landed 17:32;44582
+Samstag, 12. Juni 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;11:22;22:40;22:42;05:30;Landed 05:04;44582
+Samstag, 12. Juni 2021;Tokyo (NRT);Zurich (ZRH);LX161;11:40;09:45;09:50;14:55;Landed 14:31;44582
+Sonntag, 13. Juni 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;11:07;18:10;18:17;10:30;Landed 10:24;44582
+Montag, 14. Juni 2021;Zurich (ZRH);Dubai (DXB);LX242;05:54;13:35;13:55;22:00;Landed 21:49;44582
+Dienstag, 15. Juni 2021;Zurich (ZRH);Bangkok (BKK);LX180;10:19;13:10;13:18;04:50;Landed 04:38;44582
+Dienstag, 15. Juni 2021;Dubai (DXB);Zurich (ZRH);LX243;06:08;01:30;02:01;06:15;Landed 06:08;44582
+Mittwoch, 16. Juni 2021;Bangkok (BKK);Zurich (ZRH);LX181;11:04;23:40;00:05;06:10;Landed 06:09;44582
+Mittwoch, 16. Juni 2021;Bangkok (BKK);Zurich (ZRH);LX181;-;23:40;00:05;06:10;Unknown;44582
+Donnerstag, 17. Juni 2021;Zurich (ZRH);Hong Kong (HKG);LX138;11:07;12:25;12:52;06:15;Landed 05:59;44582
+Freitag, 18. Juni 2021;Hong Kong (HKG);Zurich (ZRH);LX139;11:29;23:45;00:35;06:10;Landed 06:05;44582
+Samstag, 19. Juni 2021;San Francisco (SFO);Zurich (ZRH);LX39;10:09;19:55;20:20;15:45;Landed 15:30;44582
+Samstag, 19. Juni 2021;Zurich (ZRH);San Francisco (SFO);LX38;10:46;13:00;13:20;15:50;Landed 15:05;44582
+Dienstag, 22. Juni 2021;San Francisco (SFO);Zurich (ZRH);LX39;10:15;19:55;20:09;15:45;Landed 15:23;44582
+Dienstag, 22. Juni 2021;Zurich (ZRH);San Francisco (SFO);LX38;11:23;13:00;13:29;15:50;Landed 15:51;44582
+Donnerstag, 24. Juni 2021;Zurich (ZRH);Hong Kong (HKG);LX138;11:12;12:25;12:57;06:15;Landed 06:09;44582
+Freitag, 25. Juni 2021;Hong Kong (HKG);Zurich (ZRH);LX139;12:01;23:45;00:07;06:10;Landed 06:08;44582
+Samstag, 26. Juni 2021;Zurich (ZRH);Hong Kong (HKG);LX138;11:16;12:25;13:21;06:15;Landed 06:37;44582
+Sonntag, 27. Juni 2021;Hong Kong (HKG);Zurich (ZRH);LX139;11:53;23:45;00:11;06:10;Landed 06:04;44582
+Montag, 28. Juni 2021;New York (JFK);Zurich (ZRH);LX15;06:58;21:05;21:22;10:55;Landed 10:21;44582
+Montag, 28. Juni 2021;Zurich (ZRH);New York (JFK);LX14;07:30;12:55;13:19;15:45;Landed 14:49;44582
+Dienstag, 29. Juni 2021;Zurich (ZRH);Bangkok (BKK);LX180;10:24;13:10;13:24;04:50;Landed 04:48;44582
+Mittwoch, 30. Juni 2021;Bangkok (BKK);Zurich (ZRH);LX181;10:52;23:40;00:13;06:10;Landed 06:05;44582
+Donnerstag, 1. Juli 2021;New York (JFK);Zurich (ZRH);LX15;06:41;21:05;22:27;10:55;Landed 11:08;44582
+Donnerstag, 1. Juli 2021;Zurich (ZRH);New York (JFK);LX14;08:00;13:10;13:31;16:00;Landed 15:31;44582
+Freitag, 2. Juli 2021;New York (JFK);Zurich (ZRH);LX15;06:31;21:05;21:51;10:55;Landed 10:21;44582
+Freitag, 2. Juli 2021;Zurich (ZRH);New York (JFK);LX14;08:01;13:10;13:31;16:00;Landed 15:32;44582
+Samstag, 3. Juli 2021;New York (JFK);Zurich (ZRH);LX15;06:21;21:05;21:24;10:55;Landed 09:45;44582
+Samstag, 3. Juli 2021;Zurich (ZRH);New York (JFK);LX14;08:31;13:10;13:38;16:00;Landed 16:10;44582
+Sonntag, 4. Juli 2021;New York (JFK);Zurich (ZRH);LX15;06:39;21:05;21:28;10:55;Landed 10:07;44582
+Sonntag, 4. Juli 2021;Zurich (ZRH);New York (JFK);LX14;07:40;13:10;13:33;16:00;Landed 15:12;44582
+Mittwoch, 7. Juli 2021;Zurich (ZRH);Mumbai (BOM);LX154;07:54;22:00;22:11;09:45;Landed 09:35;44582
+Freitag, 9. Juli 2021;New York (JFK);Zurich (ZRH);LX15;06:49;21:05;21:36;10:55;Landed 10:25;44582
+Freitag, 9. Juli 2021;Zurich (ZRH);New York (JFK);LX14;08:04;13:10;13:39;16:00;Landed 15:42;44582
+Freitag, 9. Juli 2021;Mumbai (BOM);Zurich (ZRH);LX155;08:02;02:10;02:15;07:40;Landed 06:47;44582
+Samstag, 10. Juli 2021;Zurich (ZRH);Tokyo (NRT);LX160;11:28;22:40;22:53;17:20;Landed 17:21;44582
+Montag, 12. Juli 2021;Zurich (ZRH);Tokyo (NRT);LX160;10:57;22:40;23:39;17:20;Landed 17:36;44582
+Montag, 12. Juli 2021;Tokyo (NRT);Zurich (ZRH);LX161;11:46;09:45;09:54;14:55;Landed 14:40;44582
+Mittwoch, 14. Juli 2021;Tokyo (NRT);Zurich (ZRH);LX161;11:28;09:45;09:54;14:55;Landed 14:22;44582
+Donnerstag, 15. Juli 2021;New York (JFK);Zurich (ZRH);LX15;07:13;21:05;21:42;10:55;Landed 10:55;44582
+Donnerstag, 15. Juli 2021;Zurich (ZRH);New York (JFK);LX14;07:38;13:10;13:38;16:00;Landed 15:17;44582
+Freitag, 16. Juli 2021;Moscow (DME);Zurich (ZRH);LX1327;02:57;19:30;19:50;22:00;Landed 21:47;44582
+Freitag, 16. Juli 2021;Zurich (ZRH);Moscow (DME);LX1326;03:16;13:25;13:58;17:50;Landed 18:14;44582
+Samstag, 17. Juli 2021;Athens (ATH);Zurich (ZRH);LX1839;02:09;19:00;19:13;20:45;Landed 20:22;44582
+Samstag, 17. Juli 2021;Zurich (ZRH);Athens (ATH);LX1838;02:12;13:50;14:20;17:30;Landed 17:32;44582
+Samstag, 17. Juli 2021;Palma de Mallorca (PMI);Zurich (ZRH);LX2149;01:39;10:05;10:42;12:00;Landed 12:22;44582
+Samstag, 17. Juli 2021;Zurich (ZRH);Palma de Mallorca (PMI);LX2148;01:21;06:45;07:00;08:35;Landed 08:21;44582
+Sonntag, 18. Juli 2021;Zurich (ZRH);Singapore (SIN);LX176;11:47;11:40;12:29;05:55;Landed 06:17;44582
+Sonntag, 18. Juli 2021;Zurich (ZRH);Singapore (SIN);LX176;-;11:40;12:30;05:55;Unknown;44582
+Montag, 19. Juli 2021;Singapore (SIN);Zurich (ZRH);LX177;12:18;23:30;23:54;06:10;Landed 06:12;44582
+Dienstag, 20. Juli 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;10:55;22:40;23:14;05:30;Landed 05:09;44582
+Mittwoch, 21. Juli 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;10:48;18:10;18:29;10:30;Landed 10:16;44582
+Mittwoch, 21. Juli 2021;Buenos Aires (EZE);Sao Paulo (GRU);LX93;02:11;13:10;13:10;15:55;Landed 15:20;44582
+Mittwoch, 21. Juli 2021;Sao Paulo (GRU);Buenos Aires (EZE);LX92;02:41;07:30;07:30;10:30;Landed 10:11;44582
+Freitag, 23. Juli 2021;Palma de Mallorca (PMI);Zurich (ZRH);LX2157;01:28;15:40;15:58;17:35;Landed 17:27;44582
+Freitag, 23. Juli 2021;Zurich (ZRH);Palma de Mallorca (PMI);LX2156;01:27;12:10;12:33;14:10;Landed 14:00;44582
+Samstag, 24. Juli 2021;Palma de Mallorca (PMI);Zurich (ZRH);LX2149;01:27;10:05;10:55;12:00;Landed 12:22;44582
+Samstag, 24. Juli 2021;Zurich (ZRH);Palma de Mallorca (PMI);LX2148;01:43;06:45;06:59;08:35;Landed 08:42;44582
+Sonntag, 25. Juli 2021;New York (JFK);Zurich (ZRH);LX15;06:37;21:05;21:32;10:55;Landed 10:09;44582
+Sonntag, 25. Juli 2021;Zurich (ZRH);New York (JFK);LX14;07:32;13:10;14:02;16:00;Landed 15:34;44582
+Dienstag, 27. Juli 2021;Zurich (ZRH);Hong Kong (HKG);LX138;11:18;12:25;14:18;06:15;Landed 07:36;44582
+Mittwoch, 28. Juli 2021;Hong Kong (HKG);Zurich (ZRH);LX139;11:39;23:45;00:51;06:10;Landed 06:30;44582
+Donnerstag, 29. Juli 2021;Zurich (ZRH);â€”;(LX9TST);-;15:20;-;â€”;Unknown;44582
+Freitag, 30. Juli 2021;Porto (OPO);Zurich (ZRH);LX2061;02:01;10:55;11:12;14:20;Landed 14:12;44582
+Freitag, 30. Juli 2021;Zurich (ZRH);Porto (OPO);LX2060;02:16;07:45;08:01;09:25;Landed 09:17;44582
+Samstag, 31. Juli 2021;Porto (OPO);Zurich (ZRH);LX2061;01:57;12:45;13:28;16:05;Landed 16:24;44582
+Samstag, 31. Juli 2021;Zurich (ZRH);Porto (OPO);LX2060;02:15;09:35;09:53;11:15;Landed 11:08;44582
+Sonntag, 1. August 2021;New York (JFK);Zurich (ZRH);LX15;06:24;21:05;21:43;10:55;Landed 10:07;44582
+Sonntag, 1. August 2021;Zurich (ZRH);New York (JFK);LX14;08:29;13:10;14:15;16:00;Landed 16:44;44582
+Dienstag, 3. August 2021;San Francisco (SFO);Zurich (ZRH);LX39;10:14;19:55;20:10;15:45;Landed 15:25;44582
+Dienstag, 3. August 2021;Zurich (ZRH);San Francisco (SFO);LX38;11:21;13:00;14:05;15:50;Landed 16:26;44582
+Mittwoch, 4. August 2021;Zurich (ZRH);Tel Aviv (TLV);LX256;03:20;22:45;23:24;03:30;Landed 03:44;44582
+Donnerstag, 5. August 2021;New York (JFK);Zurich (ZRH);LX15;06:39;21:05;21:24;10:55;Landed 10:02;44582
+Donnerstag, 5. August 2021;Zurich (ZRH);New York (JFK);LX14;08:01;13:10;13:53;16:00;Landed 15:54;44582
+Donnerstag, 5. August 2021;Tel Aviv (TLV);Zurich (ZRH);LX257;03:36;07:35;07:56;10:55;Landed 10:33;44582
+Freitag, 6. August 2021;Palma de Mallorca (PMI);Zurich (ZRH);LX2157;01:26;16:00;16:25;17:55;Landed 17:51;44582
+Freitag, 6. August 2021;Zurich (ZRH);Palma de Mallorca (PMI);LX2156;01:35;12:40;13:07;14:40;Landed 14:42;44582
+Samstag, 7. August 2021;Palma de Mallorca (PMI);Zurich (ZRH);LX2159;01:34;13:30;13:42;15:25;Landed 15:16;44582
+Samstag, 7. August 2021;Zurich (ZRH);Palma de Mallorca (PMI);LX2158;01:31;10:05;10:23;12:00;Landed 11:54;44582
+Sonntag, 8. August 2021;Zurich (ZRH);Tokyo (NRT);LX160;11:10;22:40;22:51;17:20;Landed 17:01;44582
+Sonntag, 8. August 2021;Porto (OPO);Zurich (ZRH);LX2061;01:59;12:40;13:04;16:00;Landed 16:02;44582
+Sonntag, 8. August 2021;Zurich (ZRH);Porto (OPO);LX2060;02:19;09:25;09:38;11:05;Landed 10:57;44582
+Dienstag, 10. August 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;11:09;22:40;23:14;05:35;Landed 05:23;44582
+Dienstag, 10. August 2021;Tokyo (NRT);Zurich (ZRH);LX161;11:37;09:45;09:59;14:55;Landed 14:36;44582
+Mittwoch, 11. August 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;10:52;18:10;18:21;10:30;Landed 10:13;44582
+Mittwoch, 11. August 2021;Buenos Aires (EZE);Sao Paulo (GRU);LX93;02:10;13:10;13:33;16:10;Landed 15:43;44582
+Mittwoch, 11. August 2021;Sao Paulo (GRU);Buenos Aires (EZE);LX92;02:43;07:35;07:31;10:30;Landed 10:14;44582
+Donnerstag, 12. August 2021;Zurich (ZRH);Hong Kong (HKG);LX138;11:14;12:25;13:44;06:15;Landed 06:58;44582
+Freitag, 13. August 2021;Hong Kong (HKG);Zurich (ZRH);LX139;11:53;23:45;00:11;06:10;Landed 06:04;44582
+Samstag, 14. August 2021;Palma de Mallorca (PMI);Zurich (ZRH);LX2159;01:24;13:30;14:10;15:25;Landed 15:34;44582
+Samstag, 14. August 2021;Zurich (ZRH);Palma de Mallorca (PMI);LX2158;01:29;10:05;10:26;12:00;Landed 11:55;44582
+Sonntag, 15. August 2021;Zurich (ZRH);Shanghai (PVG);LX188;11:25;22:30;22:58;16:30;Landed 16:24;44582
+Sonntag, 15. August 2021;Porto (OPO);Zurich (ZRH);LX2061;02:01;12:35;14:09;16:00;Landed 17:10;44582
+Sonntag, 15. August 2021;Zurich (ZRH);Porto (OPO);LX2060;02:08;09:15;09:26;10:55;Landed 10:34;44582
+Dienstag, 17. August 2021;Shanghai (PVG);Zurich (ZRH);LX189;11:24;09:30;10:17;15:50;Landed 15:41;44582
+Sonntag, 22. August 2021;San Francisco (SFO);Zurich (ZRH);LX39;10:25;19:55;20:01;15:45;Landed 15:26;44582
+Sonntag, 29. August 2021;Chicago (ORD);Zurich (ZRH);LX9;08:03;19:15;19:49;10:50;Landed 10:52;44582
+Sonntag, 29. August 2021;Zurich (ZRH);Chicago (ORD);LX8;09:04;12:55;13:59;15:30;Landed 16:04;44582
+Mittwoch, 1. September 2021;Chicago (ORD);Zurich (ZRH);LX9;08:00;19:15;19:42;10:50;Landed 10:42;44582
+Mittwoch, 1. September 2021;Zurich (ZRH);Chicago (ORD);LX8;08:21;12:55;13:45;15:30;Landed 15:06;44582
+Donnerstag, 2. September 2021;Chicago (ORD);Zurich (ZRH);LX9;08:12;19:15;19:57;10:50;Landed 11:09;44582
+Donnerstag, 2. September 2021;Zurich (ZRH);Chicago (ORD);LX8;08:29;12:55;13:44;15:30;Landed 15:14;44582
+Freitag, 3. September 2021;Chicago (ORD);Zurich (ZRH);LX9;08:04;19:15;20:01;10:50;Landed 11:04;44582
+Freitag, 3. September 2021;Zurich (ZRH);Chicago (ORD);LX8;08:40;12:55;13:32;15:30;Landed 15:12;44582
+Samstag, 4. September 2021;New York (JFK);Zurich (ZRH);LX15;06:52;21:05;21:08;10:55;Landed 10:00;44582
+Samstag, 4. September 2021;Zurich (ZRH);New York (JFK);LX14;07:54;13:10;13:56;16:00;Landed 15:50;44582
+Sonntag, 5. September 2021;Los Angeles (LAX);Zurich (ZRH);LX41;10:28;19:20;19:39;15:15;Landed 15:06;44582
+Sonntag, 5. September 2021;Zurich (ZRH);Los Angeles (LAX);LX40;11:09;12:55;13:36;16:05;Landed 15:45;44582
+Montag, 6. September 2021;Zurich (ZRH);Tokyo (NRT);LX160;11:39;22:40;22:47;17:20;Landed 17:26;44582
+Mittwoch, 8. September 2021;Zurich (ZRH);Mumbai (BOM);LX154;07:50;22:00;22:10;09:45;Landed 09:30;44582
+Mittwoch, 8. September 2021;Tokyo (NRT);Zurich (ZRH);LX161;11:17;10:20;10:30;15:30;Landed 14:47;44582
+Freitag, 10. September 2021;Zurich (ZRH);Singapore (SIN);LX176;12:02;11:40;12:11;05:55;Landed 06:13;44582
+Freitag, 10. September 2021;Mumbai (BOM);Zurich (ZRH);LX155;07:52;02:10;02:11;07:40;Landed 06:32;44582
+Samstag, 11. September 2021;Singapore (SIN);Zurich (ZRH);LX177;12:21;23:10;23:45;06:10;Landed 06:07;44582
+Sonntag, 12. September 2021;San Francisco (SFO);Zurich (ZRH);LX39;10:26;19:55;20:01;15:45;Landed 15:26;44582
+Sonntag, 12. September 2021;Zurich (ZRH);San Francisco (SFO);LX38;11:26;13:00;13:23;15:50;Landed 15:49;44582
+Montag, 13. September 2021;Zurich (ZRH);Tokyo (NRT);LX160;10:54;22:40;23:08;17:20;Landed 17:02;44582
+Mittwoch, 15. September 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;10:43;22:40;22:54;05:30;Landed 04:37;44582
+Mittwoch, 15. September 2021;Tokyo (NRT);Zurich (ZRH);LX161;11:47;10:20;10:28;15:30;Landed 15:15;44582
+Donnerstag, 16. September 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;11:00;18:10;18:33;10:30;Landed 10:33;44582
+Freitag, 17. September 2021;Los Angeles (LAX);Zurich (ZRH);LX41;10:24;19:20;19:31;15:15;Landed 14:55;44582
+Freitag, 17. September 2021;Zurich (ZRH);Los Angeles (LAX);LX40;11:31;12:55;13:30;16:05;Landed 16:00;44582
+Samstag, 18. September 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;11:20;22:40;23:05;05:30;Landed 05:25;44582
+Sonntag, 19. September 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;10:54;18:10;18:25;10:30;Landed 10:19;44582
+Montag, 20. September 2021;New York (JFK);Zurich (ZRH);LX15;07:17;21:05;21:15;10:55;Landed 10:32;44582
+Montag, 20. September 2021;Zurich (ZRH);New York (JFK);LX14;07:31;13:10;13:28;16:00;Landed 14:59;44582
+Dienstag, 21. September 2021;New York (JFK);Zurich (ZRH);LX15;07:10;21:05;21:18;10:55;Landed 10:28;44582
+Dienstag, 21. September 2021;Zurich (ZRH);New York (JFK);LX14;07:34;13:10;13:21;16:00;Landed 14:55;44582
+Mittwoch, 22. September 2021;Chicago (ORD);Zurich (ZRH);LX9;07:23;19:15;19:41;10:50;Landed 10:04;44582
+Mittwoch, 22. September 2021;Zurich (ZRH);Chicago (ORD);LX8;08:52;12:55;13:16;15:30;Landed 15:08;44582
+Donnerstag, 23. September 2021;Chicago (ORD);Zurich (ZRH);LX9;07:56;19:15;19:54;10:50;Landed 10:50;44582
+Donnerstag, 23. September 2021;Zurich (ZRH);Chicago (ORD);LX8;08:32;12:55;13:19;15:30;Landed 14:51;44582
+Freitag, 24. September 2021;Los Angeles (LAX);Zurich (ZRH);LX41;10:43;19:20;21:05;15:15;Landed 16:48;44582
+Freitag, 24. September 2021;Las Vegas (LAS);Los Angeles (LAX);LX40;00:41;17:30;18:22;18:30;Landed 19:03;44582
+Freitag, 24. September 2021;Zurich (ZRH);Los Angeles (LAX);LX40;-;12:55;13:20;16:05;Diverted to LAS;44582
+Sonntag, 26. September 2021;Zurich (ZRH);Shanghai (PVG);LX188;11:08;22:30;23:06;16:30;Landed 16:13;44582
+Sonntag, 26. September 2021;Palma de Mallorca (PMI);Zurich (ZRH);LX2157;01:26;15:40;15:59;17:30;Landed 17:25;44582
+Sonntag, 26. September 2021;Zurich (ZRH);Palma de Mallorca (PMI);LX2156;01:28;12:10;12:30;14:10;Landed 13:59;44582
+Dienstag, 28. September 2021;Shanghai (PVG);Zurich (ZRH);LX189;11:23;09:30;10:21;15:50;Landed 15:44;44582
+Mittwoch, 29. September 2021;Los Angeles (LAX);Zurich (ZRH);LX41;10:41;19:20;19:31;15:15;Landed 15:13;44582
+Mittwoch, 29. September 2021;Zurich (ZRH);Los Angeles (LAX);LX40;11:25;12:55;13:17;16:05;Landed 15:41;44582
+Donnerstag, 30. September 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;11:10;22:40;23:06;05:30;Landed 05:16;44582
+Freitag, 1. Oktober 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;10:59;18:10;18:33;10:30;Landed 10:32;44582
+Samstag, 2. Oktober 2021;San Francisco (SFO);Zurich (ZRH);LX39;10:27;19:55;20:03;15:45;Landed 15:30;44582
+Samstag, 2. Oktober 2021;Zurich (ZRH);San Francisco (SFO);LX38;11:05;13:00;13:21;15:50;Landed 15:27;44582
+Sonntag, 3. Oktober 2021;Zurich (ZRH);Shanghai (PVG);LX188;11:12;22:30;22:45;16:30;Landed 15:57;44582
+Dienstag, 5. Oktober 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;11:13;22:40;22:52;05:30;Landed 05:05;44582
+Dienstag, 5. Oktober 2021;Shanghai (PVG);Zurich (ZRH);LX189;10:57;09:30;10:49;15:50;Landed 15:46;44582
+Mittwoch, 6. Oktober 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;10:57;18:10;18:35;10:30;Landed 10:33;44582
+Mittwoch, 6. Oktober 2021;Buenos Aires (EZE);Sao Paulo (GRU);LX93;02:10;13:10;13:18;16:10;Landed 15:28;44582
+Mittwoch, 6. Oktober 2021;Sao Paulo (GRU);Buenos Aires (EZE);LX92;02:40;07:35;07:44;10:30;Landed 10:24;44582
+Donnerstag, 7. Oktober 2021;Los Angeles (LAX);Zurich (ZRH);LX41;10:41;19:20;19:28;15:15;Landed 15:09;44582
+Donnerstag, 7. Oktober 2021;Zurich (ZRH);Los Angeles (LAX);LX40;11:40;12:55;13:23;16:05;Landed 16:03;44582
+Samstag, 9. Oktober 2021;Zurich (ZRH);Hong Kong (HKG);LX138;11:10;12:25;13:07;06:15;Landed 06:17;44582
+Sonntag, 10. Oktober 2021;Hong Kong (HKG);Zurich (ZRH);LX139;11:45;23:45;00:21;06:10;Landed 06:06;44582
+Montag, 11. Oktober 2021;New York (JFK);Zurich (ZRH);LX15;07:25;21:05;21:13;10:55;Landed 10:38;44582
+Montag, 11. Oktober 2021;Zurich (ZRH);New York (JFK);LX14;07:39;13:10;13:50;16:00;Landed 15:29;44582
+Mittwoch, 13. Oktober 2021;Los Angeles (LAX);Zurich (ZRH);LX41;10:32;19:20;19:38;15:15;Landed 15:10;44582
+Mittwoch, 13. Oktober 2021;Zurich (ZRH);Los Angeles (LAX);LX40;11:43;12:55;13:37;16:05;Landed 16:20;44582
+Donnerstag, 14. Oktober 2021;Zurich (ZRH);Tokyo (NRT);LX160;10:45;22:40;23:17;17:20;Landed 17:02;44582
+Samstag, 16. Oktober 2021;Tokyo (NRT);Zurich (ZRH);LX161;11:49;10:20;10:19;15:30;Landed 15:08;44582
+Sonntag, 17. Oktober 2021;Zurich (ZRH);Shanghai (PVG);LX188;11:06;22:30;22:38;16:30;Landed 15:44;44582
+Sonntag, 17. Oktober 2021;Larnaca (LCA);Zurich (ZRH);WK371;03:20;14:35;14:59;17:25;Landed 17:20;44582
+Sonntag, 17. Oktober 2021;Zurich (ZRH);Larnaca (LCA);WK370;03:09;08:30;08:52;13:05;Landed 13:01;44582
+Dienstag, 19. Oktober 2021;Shanghai (PVG);Zurich (ZRH);LX189;11:31;09:30;10:58;15:50;Landed 16:29;44582
+Mittwoch, 20. Oktober 2021;San Francisco (SFO);Zurich (ZRH);LX39;10:27;19:55;20:04;15:45;Landed 15:31;44582
+Mittwoch, 20. Oktober 2021;Zurich (ZRH);San Francisco (SFO);LX38;11:08;13:00;13:18;15:50;Landed 15:27;44582
+Donnerstag, 21. Oktober 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;11:18;22:40;23:14;05:30;Landed 05:32;44582
+Freitag, 22. Oktober 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;10:47;18:10;18:38;10:30;Landed 10:25;44582
+Samstag, 23. Oktober 2021;Chicago (ORD);Zurich (ZRH);LX9;07:52;19:15;19:53;10:50;Landed 10:45;44582
+Samstag, 23. Oktober 2021;Zurich (ZRH);Chicago (ORD);LX8;08:51;12:55;13:41;15:30;Landed 15:32;44582
+Sonntag, 24. Oktober 2021;San Francisco (SFO);Zurich (ZRH);LX39;10:25;19:55;20:24;15:45;Landed 15:49;44582
+Sonntag, 24. Oktober 2021;Zurich (ZRH);San Francisco (SFO);LX38;11:42;13:00;13:44;15:50;Landed 16:25;44582
+Montag, 25. Oktober 2021;Zurich (ZRH);Tokyo (NRT);LX160;10:42;22:40;22:47;17:20;Landed 16:29;44582
+Mittwoch, 27. Oktober 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;10:50;22:40;23:03;05:30;Landed 04:53;44582
+Mittwoch, 27. Oktober 2021;Tokyo (NRT);Zurich (ZRH);LX161;11:56;10:20;10:35;15:30;Landed 15:31;44582
+Donnerstag, 28. Oktober 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;11:12;18:10;18:38;10:30;Landed 10:50;44582
+Freitag, 29. Oktober 2021;New York (JFK);Zurich (ZRH);LX15;07:01;21:05;21:54;10:55;Landed 10:55;44582
+Freitag, 29. Oktober 2021;Zurich (ZRH);New York (JFK);LX14;07:44;13:10;13:35;16:00;Landed 15:19;44582
+Samstag, 30. Oktober 2021;Chicago (ORD);Zurich (ZRH);LX9;07:53;20:30;21:17;10:50;Landed 11:11;44582
+Samstag, 30. Oktober 2021;Zurich (ZRH);Chicago (ORD);LX8;08:51;12:55;13:35;15:30;Landed 15:26;44582
+Sonntag, 31. Oktober 2021;Geneva (GVA);Zurich (ZRH);LX2819;00:34;20:45;20:51;21:35;Landed 21:25;44582
+Sonntag, 31. Oktober 2021;Zurich (ZRH);Geneva (GVA);LX2810;00:32;17:35;18:39;18:25;Landed 19:10;44582
+Montag, 1. November 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;11:25;22:45;23:10;06:35;Landed 06:35;44582
+Dienstag, 2. November 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;10:54;19:20;19:37;10:40;Landed 10:31;44582
+Mittwoch, 3. November 2021;Chicago (ORD);Zurich (ZRH);LX9;08:00;20:30;20:50;10:50;Landed 10:50;44582
+Mittwoch, 3. November 2021;Zurich (ZRH);Chicago (ORD);LX8;08:59;13:05;13:13;16:40;Landed 16:12;44582
+Freitag, 5. November 2021;Zurich (ZRH);Beijing (PEK);LX2696;09:09;12:05;12:25;05:00;Landed 04:33;44582
+Sonntag, 7. November 2021;Zurich (ZRH);Shanghai (PVG);LX188;11:16;22:40;23:00;16:55;Landed 17:16;44582
+Sonntag, 7. November 2021;Beijing (PEK);Zurich (ZRH);LX2697;10:13;11:40;14:32;15:00;Landed 17:45;44582
+Dienstag, 9. November 2021;Shanghai (PVG);Zurich (ZRH);LX189;11:54;10:25;11:22;15:45;Landed 16:16;44582
+Donnerstag, 11. November 2021;Zurich (ZRH);Bangkok (BKK);LX180;10:26;13:10;13:50;05:50;Landed 06:16;44582
+Samstag, 13. November 2021;Zurich (ZRH);Shanghai (PVG);LX188;11:24;11:30;11:37;05:45;Landed 06:01;44582
+Samstag, 13. November 2021;Bangkok (BKK);Zurich (ZRH);LX181;11:17;00:20;00:51;06:10;Landed 06:08;44582
+Montag, 15. November 2021;Shanghai (PVG);Zurich (ZRH);LX189;11:25;01:00;02:27;06:20;Landed 06:53;44582
+Mittwoch, 17. November 2021;Zurich (ZRH);Beijing (PEK);LX2696;09:45;18:20;18:37;11:20;Landed 11:22;44582
+Mittwoch, 17. November 2021;Beijing (PEK);Zurich (ZRH);LX2697;10:22;11:40;11:52;15:00;Landed 15:15;44582
+Freitag, 19. November 2021;Zurich (ZRH);Beijing (PEK);LX2696;09:10;18:20;18:37;11:20;Landed 10:47;44582
+Montag, 22. November 2021;Zurich (ZRH);Tokyo (NRT);LX160;11:02;22:40;22:46;18:20;Landed 17:48;44582
+Donnerstag, 25. November 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;10:20;19:20;20:05;10:40;Landed 10:25;44582
+Sonntag, 28. November 2021;Beijing (PEK);Zurich (ZRH);LX2697;10:35;11:40;12:44;15:00;Landed 16:20;44582
+Montag, 29. November 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;11:31;22:45;23:45;06:35;Landed 07:17;44582
+Dienstag, 30. November 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;10:21;19:20;19:30;10:40;Landed 09:51;44582
+Mittwoch, 1. Dezember 2021;New York (JFK);Zurich (ZRH);LX15;06:38;21:05;21:21;10:55;Landed 09:59;44582
+Mittwoch, 1. Dezember 2021;Zurich (ZRH);New York (JFK);LX14;08:27;13:00;13:20;16:10;Landed 15:47;44582
+Donnerstag, 2. Dezember 2021;Zurich (ZRH);Bangkok (BKK);LX180;10:22;13:10;14:13;05:50;Landed 06:36;44582
+Samstag, 4. Dezember 2021;Zurich (ZRH);Bangkok (BKK);LX180;09:49;13:10;13:56;05:50;Landed 05:44;44582
+Samstag, 4. Dezember 2021;Bangkok (BKK);Zurich (ZRH);LX181;11:43;00:20;00:39;06:10;Landed 06:22;44582
+Montag, 6. Dezember 2021;Zurich (ZRH);Tokyo (NRT);LX160;11:04;22:40;23:01;18:20;Landed 18:05;44582
+Montag, 6. Dezember 2021;Bangkok (BKK);Zurich (ZRH);LX181;11:38;00:20;00:34;06:10;Landed 06:12;44582
+Mittwoch, 8. Dezember 2021;Tokyo (NRT);Zurich (ZRH);LX161;12:07;11:45;12:19;15:55;Landed 16:26;44582
+Donnerstag, 9. Dezember 2021;Zurich (ZRH);Shanghai (PVG);LX188;11:19;10:30;11:11;04:45;Landed 05:30;44582
+Samstag, 11. Dezember 2021;Shanghai (PVG);Zurich (ZRH);LX189;12:01;02:00;02:41;07:20;Landed 07:41;44582
+Mittwoch, 15. Dezember 2021;San Francisco (SFO);Zurich (ZRH);LX39;10:32;20:05;20:55;15:55;Landed 16:27;44582
+Mittwoch, 15. Dezember 2021;Zurich (ZRH);San Francisco (SFO);LX38;11:48;13:05;13:32;16:05;Landed 16:20;44582
+Donnerstag, 16. Dezember 2021;Zurich (ZRH);Tokyo (NRT);LX160;10:58;22:40;22:50;18:20;Landed 17:48;44582
+Samstag, 18. Dezember 2021;Tokyo (NRT);Zurich (ZRH);LX161;11:31;11:45;12:00;15:55;Landed 15:31;44582
+Sonntag, 19. Dezember 2021;San Francisco (SFO);Zurich (ZRH);LX39;10:37;20:05;20:29;15:55;Landed 16:05;44582
+Sonntag, 19. Dezember 2021;Zurich (ZRH);San Francisco (SFO);LX38;11:12;13:05;15:16;16:05;Landed 17:28;44582
+Dienstag, 21. Dezember 2021;Zurich (ZRH);Shanghai (PVG);LX188;10:54;10:30;10:42;04:45;Landed 04:35;44582
+Donnerstag, 23. Dezember 2021;Chicago (ORD);Zurich (ZRH);LX9;07:36;19:30;19:52;10:50;Landed 10:27;44582
+Donnerstag, 23. Dezember 2021;Zurich (ZRH);Chicago (ORD);LX8;08:32;13:05;13:45;15:40;Landed 15:17;44582
+Donnerstag, 23. Dezember 2021;Shanghai (PVG);Zurich (ZRH);LX189;11:30;02:00;02:11;07:20;Landed 06:41;44582
+Freitag, 24. Dezember 2021;Zurich (ZRH);Beijing (PEK);LX2696;09:25;18:20;18:29;11:20;Landed 10:54;44582
+Sonntag, 26. Dezember 2021;Beijing (PEK);Zurich (ZRH);LX2697;09:59;11:40;12:03;15:00;Landed 15:02;44582
+Montag, 27. Dezember 2021;Zurich (ZRH);Beijing (PEK);LX2696;09:13;18:20;18:38;11:20;Landed 10:51;44582
+Mittwoch, 29. Dezember 2021;Beijing (PEK);Zurich (ZRH);LX2697;10:18;11:40;12:05;15:00;Landed 15:23;44582
+Montag, 3. Januar 2022;Zurich (ZRH);Shanghai (PVG);LX2688;11:10;10:30;10:53;04:45;Landed 05:02;44582
+Mittwoch, 5. Januar 2022;Shanghai (PVG);Zurich (ZRH);LX2689;12:00;01:00;10:12;06:20;Landed 15:12;44582
+Donnerstag, 6. Januar 2022;Miami (MIA);Zurich (ZRH);LX65;07:46;19:50;20:38;10:40;Landed 10:23;44582
+Donnerstag, 6. Januar 2022;Zurich (ZRH);Miami (MIA);LX64;09:57;13:00;13:44;17:35;Landed 17:41;44582
+Freitag, 7. Januar 2022;San Francisco (SFO);Zurich (ZRH);LX39;09:43;20:05;20:48;15:55;Landed 15:31;44582
+Freitag, 7. Januar 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:11;13:05;13:23;16:05;Landed 15:34;44582
+Sonntag, 9. Januar 2022;Miami (MIA);Zurich (ZRH);LX65;08:15;19:50;21:09;10:40;Landed 11:24;44582
+Sonntag, 9. Januar 2022;Zurich (ZRH);Miami (MIA);LX64;10:13;12:55;13:21;17:30;Landed 17:34;44582
+Montag, 10. Januar 2022;Zurich (ZRH);Beijing (PEK);LX2696;09:32;18:20;18:35;11:20;Landed 11:08;44582
+Mittwoch, 12. Januar 2022;Beijing (PEK);Zurich (ZRH);LX2697;09:56;11:40;12:07;15:00;Landed 15:04;44582
+Freitag, 14. Januar 2022;Zurich (ZRH);Shanghai (PVG);LX188;11:23;10:30;11:11;04:45;Landed 05:33;44582
+Sonntag, 16. Januar 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:41;20:05;20:14;15:55;Landed 15:54;44582
+Sonntag, 16. Januar 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:27;13:05;13:27;16:05;Landed 15:54;44582
+Sonntag, 16. Januar 2022;Shanghai (PVG);Zurich (ZRH);LX189;11:41;01:00;01:54;06:20;Landed 06:34;44582
+Montag, 17. Januar 2022;Zurich (ZRH);Beijing (PEK);LX2696;09:14;18:20;18:18;11:20;Landed 10:33;44582
+Mittwoch, 19. Januar 2022;Zurich (ZRH);Beijing (PEK);LX2696;09:17;18:20;18:22;11:20;Landed 10:39;44582
+Mittwoch, 19. Januar 2022;Beijing (PEK);Zurich (ZRH);LX2697;10:20;11:40;12:17;15:00;Landed 15:37;44582
+Freitag, 21. Januar 2022;Beijing (PEK);Zurich (ZRH);LX2697;09:35;11:40;12:40;15:00;Landed 15:15;44582
+Samstag, 22. Januar 2022;Zurich (ZRH);Hong Kong (HKG);LX136;11:39;22:20;22:24;17:00;Landed 17:03;44582
+Mittwoch, 9. Februar 2022;Hong Kong (HKG);Zurich (ZRH);LX139;11:49;02:00;02:09;07:55;Landed 06:58;44582
+Samstag, 12. Februar 2022;Zurich (ZRH);Bangkok (BKK);LX180;09:48;13:10;13:55;05:50;Landed 05:44;44582
+Montag, 14. Februar 2022;Zurich (ZRH);Dubai (DXB);LX242;05:29;12:55;13:22;21:55;Landed 21:51;44582
+Montag, 14. Februar 2022;Bangkok (BKK);Zurich (ZRH);LX181;11:46;00:20;00:22;06:10;Landed 06:07;44582
+Dienstag, 15. Februar 2022;Zurich (ZRH);Bangkok (BKK);LX180;09:49;13:10;14:09;05:50;Landed 05:59;44582
+Dienstag, 15. Februar 2022;Dubai (DXB);Zurich (ZRH);LX243;06:43;02:05;02:26;06:10;Landed 06:09;44582
+Donnerstag, 17. Februar 2022;Bangkok (BKK);Zurich (ZRH);LX181;11:44;00:20;00:26;06:10;Landed 06:10;44582
+Freitag, 18. Februar 2022;Zurich (ZRH);Tokyo (NRT);LX160;10:55;22:40;22:49;18:20;Landed 17:44;44582
+Sonntag, 20. Februar 2022;Tokyo (NRT);Zurich (ZRH);LX161;11:47;11:45;11:48;15:55;Landed 15:35;44582
+Montag, 21. Februar 2022;Zurich (ZRH);Beijing (PEK);LX2696;09:18;18:20;18:34;11:20;Landed 10:52;44582
+Mittwoch, 23. Februar 2022;Zurich (ZRH);Beijing (PEK);LX2696;09:06;18:20;18:39;11:20;Landed 10:46;44582
+Mittwoch, 23. Februar 2022;Beijing (PEK);Zurich (ZRH);LX2697;10:01;05:10;05:18;08:30;Landed 08:19;44582
+Freitag, 25. Februar 2022;Zurich (ZRH);Beijing (PEK);LX2696;09:02;18:20;18:36;11:20;Landed 10:39;44582
+Freitag, 25. Februar 2022;Beijing (PEK);Zurich (ZRH);LX2697;10:40;11:40;11:41;15:00;Landed 15:21;44582
+Sonntag, 27. Februar 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:36;20:05;20:15;15:55;Landed 15:50;44582
+Sonntag, 27. Februar 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:29;13:05;13:47;16:05;Landed 16:16;44582
+Sonntag, 27. Februar 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:14;05:10;06:39;08:30;Landed 10:53;44582
+Montag, 28. Februar 2022;Zurich (ZRH);Beijing (PEK);LX2696;10:33;18:20;18:29;11:20;Landed 12:03;44582
+Freitag, 1. April 2022;Zurich (ZRH);Los Angeles (LAX);LX40;11:34;13:20;13:47;16:20;Landed 16:21;44582
+Samstag, 2. April 2022;Zurich (ZRH);Sao Paulo (GRU);LX92;11:23;22:40;23:57;05:30;Landed 06:19;44582
+Sonntag, 3. April 2022;Sao Paulo (GRU);Zurich (ZRH);LX93;10:32;18:20;18:39;10:40;Landed 10:11;44582
+Mittwoch, 6. April 2022;Pula (PUY);Pula (PUY);LX55712;01:28;13:44;12:16;12:44;Landed 12:44;44582
+Mittwoch, 6. April 2022;Zurich (ZRH);Pula (PUY);LX5570;00:51;08:00;08:21;09:00;Landed 09:12;44582
+Donnerstag, 7. April 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:28;20:00;20:29;15:50;Landed 15:57;44582
+Sonntag, 10. April 2022;Zurich (ZRH);Sao Paulo (GRU);LX92;11:37;22:40;23:06;05:30;Landed 05:43;44582
+Montag, 11. April 2022;Sao Paulo (GRU);Zurich (ZRH);LX93;10:51;18:20;18:54;10:40;Landed 10:44;44582
+Dienstag, 12. April 2022;Zurich (ZRH);Tokyo (NRT);LX160;12:20;13:00;13:15;09:10;Landed 08:35;44582
+Mittwoch, 13. April 2022;Tokyo (NRT);Zurich (ZRH);LX161;13:58;11:10;11:25;19:30;Landed 18:23;44582
+Sonntag, 17. April 2022;Zurich (ZRH);Bangkok (BKK);LX180;10:21;13:20;14:08;05:00;Landed 05:29;44582
+Montag, 18. April 2022;Bangkok (BKK);Zurich (ZRH);LX181;11:21;23:30;00:04;06:15;Landed 06:25;44582
+Mittwoch, 20. April 2022;Zurich (ZRH);Bangkok (BKK);LX180;10:10;13:20;13:48;05:00;Landed 04:58;44582
+Donnerstag, 21. April 2022;Bangkok (BKK);Zurich (ZRH);LX181;11:29;23:30;23:48;06:20;Landed 06:17;44582
+Freitag, 22. April 2022;Zurich (ZRH);Bangkok (BKK);LX180;10:17;13:20;14:15;05:00;Landed 05:32;44582
+Samstag, 23. April 2022;Bangkok (BKK);Zurich (ZRH);LX181;11:15;23:30;23:59;06:20;Landed 06:14;44582
+Sonntag, 24. April 2022;Zurich (ZRH);Bangkok (BKK);LX180;10:13;13:20;13:49;05:00;Landed 05:03;44582
+Montag, 25. April 2022;Bangkok (BKK);Zurich (ZRH);LX181;11:02;23:30;00:07;06:15;Landed 06:08;44582
+Dienstag, 26. April 2022;Zurich (ZRH);Beijing (PEK);LX2696;10:10;18:20;18:50;10:45;Landed 11:00;44582
+Donnerstag, 28. April 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:42;10:50;11:16;17:05;Landed 16:58;44582
+Dienstag, 3. Mai 2022;Zurich (ZRH);Beijing (PEK);LX2696;10:10;18:20;18:42;10:45;Landed 10:52;44582
+Donnerstag, 5. Mai 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:38;10:50;11:03;17:05;Landed 16:41;44582
+Samstag, 7. Mai 2022;Zurich (ZRH);Hong Kong (HKG);LX138;11:10;13:05;15:01;07:10;Landed 08:11;44582
+Montag, 9. Mai 2022;Hong Kong (HKG);Zurich (ZRH);LX139;12:48;01:30;01:54;09:15;Landed 08:43;44582
+Dienstag, 10. Mai 2022;Zurich (ZRH);Beijing (PEK);LX2696;10:13;18:20;18:41;10:45;Landed 10:55;44582
+Donnerstag, 12. Mai 2022;Beijing (PEK);Zurich (ZRH);LX2697;-;23:10;-;16:10;Landed 16:10;44582
+Donnerstag, 12. Mai 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:53;10:50;11:17;17:05;Landed 17:10;44582
+Freitag, 13. Mai 2022;Zurich (ZRH);Beijing (PEK);LX2696;10:25;18:20;18:57;10:45;Landed 11:22;44582
+Sonntag, 15. Mai 2022;Beijing (PEK);Zurich (ZRH);LX2697;-;22:47;-;15:47;Landed 15:47;44582
+Sonntag, 15. Mai 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:30;10:50;11:16;17:05;Landed 16:46;44582
+Montag, 16. Mai 2022;Zurich (ZRH);Shanghai (PVG);LX2688;11:22;09:50;10:19;03:45;Landed 03:41;44582
+Mittwoch, 18. Mai 2022;Zurich (ZRH);Beijing (PEK);LX2696;10:16;18:20;18:32;10:45;Landed 10:48;44582
+Mittwoch, 18. Mai 2022;Shanghai (PVG);Zurich (ZRH);LX2689;13:20;00:15;00:42;08:10;Landed 08:01;44582
+Freitag, 20. Mai 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:32;10:50;11:18;17:05;Landed 16:50;44582
+Sonntag, 22. Mai 2022;Zurich (ZRH);Shanghai (PVG);LX188;11:10;09:50;10:18;03:45;Landed 03:27;44582
+Montag, 23. Mai 2022;Shanghai (PVG);Zurich (ZRH);LX189;13:02;23:55;00:17;07:50;Landed 07:19;44582
+Mittwoch, 25. Mai 2022;Zurich (ZRH);Shanghai (PVG);LX188;11:08;09:50;10:10;03:45;Landed 03:17;44582
+Freitag, 27. Mai 2022;Zurich (ZRH);Beijing (PEK);LX2696;10:28;18:20;18:44;10:45;Landed 11:12;44582
+Freitag, 27. Mai 2022;Shanghai (PVG);Zurich (ZRH);LX189;12:56;01:00;00:47;08:55;Landed 07:43;44582
+Sonntag, 29. Mai 2022;Beijing (PEK);Zurich (ZRH);LX2697;-;22:26;-;15:26;Landed 15:26;44582
+Sonntag, 29. Mai 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:14;10:50;11:11;17:05;Landed 16:26;44582
+Montag, 30. Mai 2022;Zurich (ZRH);Shanghai (PVG);LX2688;11:37;09:50;10:17;03:45;Landed 03:53;44582
+Mittwoch, 1. Juni 2022;Zurich (ZRH);Shanghai (PVG);LX188;11:05;09:50;10:11;03:45;Landed 03:16;44582
+Mittwoch, 1. Juni 2022;Shanghai (PVG);Zurich (ZRH);LX2689;13:09;00:15;00:19;08:10;Landed 07:28;44582
+Freitag, 3. Juni 2022;Zurich (ZRH);Beijing (PEK);LX2696;10:13;18:20;19:17;10:45;Landed 11:30;44582
+Freitag, 3. Juni 2022;Shanghai (PVG);Zurich (ZRH);LX189;12:59;01:00;01:05;08:55;Landed 08:04;44582
+Sonntag, 5. Juni 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:45;10:50;10:59;17:05;Landed 16:45;44582
+Dienstag, 7. Juni 2022;Zurich (ZRH);Beijing (PEK);LX2696;10:13;18:20;18:46;10:45;Landed 10:59;44582
+Donnerstag, 9. Juni 2022;Beijing (PEK);Zurich (ZRH);LX2697;-;22:30;-;15:30;Landed 15:30;44582
+Donnerstag, 9. Juni 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:30;10:50;11:00;17:05;Landed 16:30;44582
+Samstag, 18. Juni 2022;Miami (MIA);Zurich (ZRH);LX65;08:41;19:40;20:03;10:45;Landed 10:44;44582
+Samstag, 18. Juni 2022;Zurich (ZRH);Miami (MIA);LX64;09:27;13:05;13:45;17:15;Landed 17:12;44582
+Sonntag, 19. Juni 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:06;20:00;20:34;15:50;Landed 15:40;44582
+Sonntag, 19. Juni 2022;San Francisco (SFO);â€”;(SWR38J);-;16:00;-;â€”;Unknown;44582
+Sonntag, 19. Juni 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:09;13:10;13:51;16:00;Landed 16:00;44582
+Dienstag, 21. Juni 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:13;20:00;20:18;15:50;Landed 15:30;44582
+Dienstag, 21. Juni 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:22;13:10;13:57;16:00;Landed 16:19;44582
+Mittwoch, 22. Juni 2022;Zurich (ZRH);Sao Paulo (GRU);LX92;11:18;22:40;23:29;05:30;Landed 05:47;44582
+Donnerstag, 23. Juni 2022;Sao Paulo (GRU);Zurich (ZRH);LX93;10:29;18:30;18:43;10:40;Landed 10:12;44582
+Freitag, 24. Juni 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:07;20:00;20:50;15:50;Landed 15:57;44582
+Freitag, 24. Juni 2022;Zurich (ZRH);San Francisco (SFO);LX38;10:48;13:10;14:48;16:00;Landed 16:36;44582
+Sonntag, 26. Juni 2022;Zurich (ZRH);Singapore (SIN);LX176;11:58;22:40;23:11;16:55;Landed 17:09;44582
+Montag, 27. Juni 2022;Singapore (SIN);Zurich (ZRH);LX177;11:36;23:30;00:31;06:10;Landed 06:06;44582
+Dienstag, 28. Juni 2022;Zurich (ZRH);Beijing (PEK);LX2696;10:06;18:20;18:40;10:45;Landed 10:45;44582
+Donnerstag, 30. Juni 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:34;10:50;11:02;17:05;Landed 16:37;44582
+Freitag, 1. Juli 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:19;20:00;20:18;15:50;Landed 15:38;44582
+Freitag, 1. Juli 2022;Zurich (ZRH);San Francisco (SFO);LX38;10:49;13:10;13:53;16:00;Landed 15:42;44582
+Samstag, 2. Juli 2022;Zurich (ZRH);Beijing (PEK);LX2696;09:37;18:10;18:35;10:45;Landed 10:12;44582
+Montag, 4. Juli 2022;Beijing (PEK);Zurich (ZRH);LX2697;-;23:17;-;16:17;Landed 16:17;44582
+Montag, 4. Juli 2022;Beijing (PEK);Zurich (ZRH);LX2697;12:02;10:50;11:13;17:05;Landed 17:16;44582
+Donnerstag, 7. Juli 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:09;20:00;20:54;15:50;Landed 16:03;44582
+Donnerstag, 7. Juli 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:22;13:10;13:53;16:00;Landed 16:15;44582
+Freitag, 8. Juli 2022;Zurich (ZRH);Beijing (PEK);LX2696;09:43;18:10;18:25;10:45;Landed 10:08;44582
+Sonntag, 10. Juli 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:51;10:50;11:11;17:05;Landed 17:02;44582
+Donnerstag, 14. Juli 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:20;20:00;20:30;15:50;Landed 15:49;44582
+Donnerstag, 14. Juli 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:30;13:10;13:57;16:00;Landed 16:28;44582
+Freitag, 15. Juli 2022;Zurich (ZRH);Beijing (PEK);LX2696;09:58;18:10;18:35;10:45;Landed 10:32;44582
+Sonntag, 17. Juli 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:34;10:50;15:42;17:05;Landed 21:16;44582
+Montag, 18. Juli 2022;Miami (MIA);Zurich (ZRH);LX65;08:51;19:40;19:52;10:45;Landed 10:42;44582
+Montag, 18. Juli 2022;Zurich (ZRH);Miami (MIA);LX64;09:31;13:05;13:50;17:15;Landed 17:21;44582
+Montag, 18. Juli 2022;Beijing (PEK);Zurich (ZRH);LX2697;-;03:16;-;20:16;Landed 20:16;44582
+Donnerstag, 21. Juli 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:17;20:00;20:20;15:50;Landed 15:37;44582
+Donnerstag, 21. Juli 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:32;13:10;14:16;16:00;Landed 16:48;44582
+Freitag, 22. Juli 2022;Zurich (ZRH);Beijing (PEK);LX2696;09:27;18:10;18:43;10:45;Landed 10:10;44582
+Sonntag, 24. Juli 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:48;10:50;11:04;17:05;Landed 16:53;44582
+Dienstag, 26. Juli 2022;Zurich (ZRH);Shanghai (PVG);LX2688;10:39;08:50;09:07;01:47;Landed 01:46;44582
+Mittwoch, 27. Juli 2022;Shanghai (PVG);Zurich (ZRH);LX2689;13:01;00:15;23:31;06:50;Landed 06:32;44582
+Freitag, 29. Juli 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:11;20:00;20:20;15:50;Landed 15:30;44582
+Freitag, 29. Juli 2022;Zurich (ZRH);San Francisco (SFO);LX38;10:50;13:10;15:04;16:00;Landed 16:54;44582
+Samstag, 30. Juli 2022;Zurich (ZRH);Beijing (PEK);LX2696;09:58;18:10;18:38;10:45;Landed 10:36;44582
+Montag, 1. August 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:37;10:50;10:59;17:05;Landed 16:35;44582
+Dienstag, 2. August 2022;Zurich (ZRH);Singapore (SIN);LX176;11:45;22:40;23:23;16:55;Landed 17:08;44582
+Mittwoch, 3. August 2022;Singapore (SIN);Zurich (ZRH);LX177;12:06;23:30;00:19;06:10;Landed 06:25;44582
+Donnerstag, 4. August 2022;Miami (MIA);Zurich (ZRH);LX65;08:52;19:40;20:01;10:45;Landed 10:53;44582
+Donnerstag, 4. August 2022;Zurich (ZRH);Miami (MIA);LX64;09:22;13:05;13:38;17:15;Landed 17:01;44582
+Freitag, 5. August 2022;Miami (MIA);Zurich (ZRH);LX65;08:54;19:40;20:00;10:55;Landed 10:53;44582
+Freitag, 5. August 2022;Zurich (ZRH);Miami (MIA);LX64;09:17;13:05;13:53;17:15;Landed 17:10;44582
+Samstag, 6. August 2022;Miami (MIA);Zurich (ZRH);LX65;09:02;19:40;19:44;10:45;Landed 10:46;44582
+Samstag, 6. August 2022;Zurich (ZRH);Miami (MIA);LX64;09:16;13:05;13:58;17:15;Landed 17:14;44582
+Samstag, 13. August 2022;Bangkok (BKK);Zurich (ZRH);LX181;10:53;13:05;13:34;19:35;Landed 19:27;44582
+Sonntag, 14. August 2022;Los Angeles (LAX);Zurich (ZRH);LX41;10:38;19:25;19:33;15:25;Landed 15:11;44582
+Sonntag, 14. August 2022;Zurich (ZRH);Los Angeles (LAX);LX40;11:21;13:20;14:04;16:30;Landed 16:25;44582
+Dienstag, 16. August 2022;Zurich (ZRH);Beijing (PEK);LX2696;09:57;18:10;18:30;10:45;Landed 10:27;44582
+Donnerstag, 18. August 2022;Zurich (ZRH);â€”;LX2697;-;17:29;-;â€”;Unknown;44582
+Donnerstag, 18. August 2022;Beijing (PEK);Zurich (ZRH);LX2697;-;23:24;-;16:24;Landed 16:24;44582
+Donnerstag, 18. August 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:42;10:50;11:42;17:05;Landed 17:24;44582
+Freitag, 19. August 2022;Zurich (ZRH);Tokyo (NRT);LX160;12:00;13:00;14:21;08:55;Landed 09:21;44582
+Samstag, 20. August 2022;Tokyo (NRT);Zurich (ZRH);LX161;14:15;11:00;11:36;18:35;Landed 18:52;44582
+Sonntag, 21. August 2022;Zurich (ZRH);Bangkok (BKK);LX180;10:37;13:20;14:04;05:00;Landed 05:41;44582
+Montag, 22. August 2022;Bangkok (BKK);Zurich (ZRH);LX181;10:40;13:05;13:29;19:35;Landed 19:09;44582
+Montag, 29. August 2022;Zurich (ZRH);Shanghai (PVG);LX2688;11:02;09:50;10:07;03:45;Landed 03:09;44582
+Mittwoch, 31. August 2022;Zurich (ZRH);Sao Paulo (GRU);LX92;11:06;22:40;23:02;05:30;Landed 05:07;44582
+Mittwoch, 31. August 2022;Shanghai (PVG);Zurich (ZRH);LX2689;12:38;00:15;00:27;07:50;Landed 07:05;44582
+Freitag, 2. September 2022;Los Angeles (LAX);Zurich (ZRH);LX41;10:43;19:25;19:52;15:25;Landed 15:34;44582
+Sonntag, 4. September 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:31;20:00;20:09;15:50;Landed 15:40;44582
+Sonntag, 4. September 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:01;13:10;14:08;16:00;Landed 16:08;44582
+Dienstag, 6. September 2022;Zurich (ZRH);Singapore (SIN);LX176;11:47;22:40;23:13;16:55;Landed 17:01;44582
+Mittwoch, 7. September 2022;Singapore (SIN);Zurich (ZRH);LX177;12:29;23:10;23:36;06:10;Landed 06:05;44582
+Freitag, 9. September 2022;Zurich (ZRH);Beijing (PEK);LX2696;09:50;18:10;18:30;10:45;Landed 10:20;44582
+Sonntag, 11. September 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:37;10:50;10:52;17:05;Landed 16:29;44582
+Montag, 12. September 2022;Miami (MIA);Zurich (ZRH);LX65;08:52;19:40;20:06;10:45;Landed 10:57;44582
+Montag, 12. September 2022;Zurich (ZRH);Miami (MIA);LX64;09:15;13:05;13:36;17:15;Landed 16:51;44582
+Dienstag, 13. September 2022;Zurich (ZRH);Singapore (SIN);LX176;11:34;22:40;23:10;16:55;Landed 16:44;44582
+Mittwoch, 14. September 2022;Singapore (SIN);Zurich (ZRH);LX177;11:57;23:10;00:08;06:10;Landed 06:05;44582
+Freitag, 16. September 2022;Los Angeles (LAX);Zurich (ZRH);LX41;10:30;19:25;19:47;15:25;Landed 15:17;44582
+Freitag, 16. September 2022;Zurich (ZRH);Los Angeles (LAX);LX40;11:42;13:20;14:13;16:30;Landed 16:55;44582
+Samstag, 17. September 2022;Zurich (ZRH);Sao Paulo (GRU);LX92;11:18;22:40;23:21;05:30;Landed 05:39;44582
+Montag, 19. September 2022;Los Angeles (LAX);Zurich (ZRH);LX41;10:25;19:25;19:44;15:25;Landed 15:09;44582
+Montag, 19. September 2022;Zurich (ZRH);Los Angeles (LAX);LX40;11:44;13:20;13:52;16:30;Landed 16:36;44582
+Dienstag, 20. September 2022;Zurich (ZRH);Beijing (PEK);LX2696;10:07;18:10;18:24;10:45;Landed 10:31;44582
+Donnerstag, 22. September 2022;Zurich (ZRH);Sao Paulo (GRU);LX92;10:59;22:40;23:15;05:30;Landed 05:14;44582
+Donnerstag, 22. September 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:15;10:50;11:04;17:05;Landed 16:18;44582
+Freitag, 23. September 2022;Sao Paulo (GRU);Zurich (ZRH);LX93;10:59;18:30;18:45;10:40;Landed 10:44;44582
+Samstag, 24. September 2022;Zurich (ZRH);Bangkok (BKK);LX180;10:11;13:20;13:55;05:20;Landed 05:06;44582
+Sonntag, 25. September 2022;Zurich (ZRH);Sao Paulo (GRU);LX92;10:57;22:40;23:27;05:30;Landed 05:24;44582
+Sonntag, 25. September 2022;Bangkok (BKK);Zurich (ZRH);LX181;11:09;12:45;13:09;19:35;Landed 19:18;44582
+Montag, 26. September 2022;Sao Paulo (GRU);Zurich (ZRH);LX93;10:45;18:30;18:50;10:40;Landed 10:35;44582
+Dienstag, 27. September 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:20;13:10;13:37;16:00;Landed 15:56;44582
+Donnerstag, 29. September 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:03;20:00;20:19;15:50;Landed 15:22;44582
+Donnerstag, 29. September 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:13;13:10;13:41;16:00;Landed 15:54;44582
+Samstag, 1. Oktober 2022;Miami (MIA);Zurich (ZRH);LX65;08:01;19:40;20:20;10:45;Landed 10:21;44582
+Sonntag, 2. Oktober 2022;Zurich (ZRH);Miami (MIA);LX64;09:40;13:05;13:35;17:15;Landed 17:15;44582
+Dienstag, 4. Oktober 2022;Bangkok (BKK);Zurich (ZRH);LX181;11:02;12:45;13:04;19:35;Landed 19:05;44582
+Mittwoch, 5. Oktober 2022;Miami (MIA);Zurich (ZRH);LX65;08:12;19:40;20:10;10:45;Landed 10:21;44582
+Mittwoch, 5. Oktober 2022;Zurich (ZRH);Miami (MIA);LX64;09:48;13:05;13:59;17:15;Landed 17:47;44582
+Donnerstag, 6. Oktober 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:31;20:00;20:28;15:50;Landed 15:59;44582
+Donnerstag, 6. Oktober 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:11;13:10;13:35;16:00;Landed 15:46;44582
+Samstag, 8. Oktober 2022;Miami (MIA);Zurich (ZRH);LX65;08:16;19:40;20:07;10:45;Landed 10:22;44582
+Samstag, 8. Oktober 2022;Zurich (ZRH);Miami (MIA);LX64;09:33;13:05;14:17;17:15;Landed 17:50;44582
+Sonntag, 9. Oktober 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:45;20:00;20:07;15:50;Landed 15:51;44582
+Sonntag, 9. Oktober 2022;Zurich (ZRH);San Francisco (SFO);LX38;10:48;13:10;13:52;16:00;Landed 15:39;44582
+Dienstag, 11. Oktober 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:25;20:00;20:19;15:50;Landed 15:44;44582
+Dienstag, 11. Oktober 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:09;13:10;13:49;16:00;Landed 15:58;44582
+Donnerstag, 13. Oktober 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:27;20:00;20:17;15:50;Landed 15:44;44582
+Donnerstag, 13. Oktober 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:11;13:10;13:40;16:00;Landed 15:51;44582
+Freitag, 14. Oktober 2022;Zurich (ZRH);Singapore (SIN);LX176;11:30;22:40;23:27;16:55;Landed 16:57;44582
+Samstag, 15. Oktober 2022;Singapore (SIN);Zurich (ZRH);LX177;12:32;23:10;23:42;06:10;Landed 06:14;44582
+Montag, 17. Oktober 2022;Zurich (ZRH);Shanghai (PVG);LX2688;11:25;09:50;10:11;03:45;Landed 03:36;44582
+Mittwoch, 19. Oktober 2022;Shanghai (PVG);Zurich (ZRH);LX2689;13:06;00:15;01:39;08:50;Landed 08:46;44582
+Donnerstag, 20. Oktober 2022;Miami (MIA);Zurich (ZRH);LX65;08:20;19:40;20:09;10:45;Landed 10:29;44582
+Donnerstag, 20. Oktober 2022;Zurich (ZRH);Miami (MIA);LX64;09:32;13:05;14:08;17:15;Landed 17:39;44582
+Freitag, 21. Oktober 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:10;20:00;20:18;15:50;Landed 15:28;44582
+Freitag, 21. Oktober 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:21;13:10;13:45;16:00;Landed 16:06;44582
+Sonntag, 23. Oktober 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:47;20:00;20:20;15:50;Landed 16:08;44582
+Sonntag, 23. Oktober 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:00;13:10;13:42;16:00;Landed 15:42;44582
+Dienstag, 25. Oktober 2022;Tel Aviv (TLV);Zurich (ZRH);LX253;03:40;18:20;19:37;21:40;Landed 22:16;44582
+Dienstag, 25. Oktober 2022;Zurich (ZRH);Tel Aviv (TLV);LX252;03:14;11:55;13:28;16:55;Landed 17:42;44582
+Mittwoch, 26. Oktober 2022;Zurich (ZRH);Bangkok (BKK);LX180;10:05;13:20;13:49;05:20;Landed 04:53;44582
+Donnerstag, 27. Oktober 2022;Bangkok (BKK);Zurich (ZRH);LX181;11:19;12:45;13:00;19:35;Landed 19:19;44582
+Freitag, 28. Oktober 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:22;20:00;20:13;15:50;Landed 15:35;44582
+Freitag, 28. Oktober 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:43;13:10;13:41;16:00;Landed 16:24;44582
+Sonntag, 30. Oktober 2022;Zurich (ZRH);Tokyo (NRT);LX160;12:25;13:00;13:47;10:05;Landed 10:12;44582
+Montag, 31. Oktober 2022;Tokyo (NRT);Zurich (ZRH);LX161;13:55;12:10;12:31;18:35;Landed 18:26;44582
+Dienstag, 1. November 2022;Zurich (ZRH);Dubai (DXB);LX242;05:41;13:05;13:27;22:15;Landed 22:08;44582
+Mittwoch, 2. November 2022;Zurich (ZRH);Dubai (DXB);LX242;05:41;13:05;13:26;22:15;Landed 22:07;44582
+Mittwoch, 2. November 2022;Dubai (DXB);Zurich (ZRH);LX243;06:22;02:05;02:43;06:10;Landed 06:05;44582
+Donnerstag, 3. November 2022;Zurich (ZRH);Bangkok (BKK);LX180;10:06;18:00;18:22;10:40;Landed 10:27;44582
+Donnerstag, 3. November 2022;Dubai (DXB);Zurich (ZRH);LX243;06:27;02:05;02:37;06:10;Landed 06:04;44582
+Freitag, 4. November 2022;Zurich (ZRH);Singapore (SIN);LX176;11:38;22:40;23:14;18:00;Landed 17:52;44582
+Freitag, 4. November 2022;Bangkok (BKK);Zurich (ZRH);LX181;11:38;13:20;13:43;19:25;Landed 19:21;44582
+Sonntag, 6. November 2022;Zurich (ZRH);Tokyo (NRT);LX160;12:23;13:00;13:28;10:05;Landed 09:51;44582
+Sonntag, 6. November 2022;Singapore (SIN);Zurich (ZRH);LX177;12:20;00:05;00:57;06:10;Landed 06:17;44582
+Montag, 7. November 2022;Zurich (ZRH);Singapore (SIN);LX176;11:38;22:40;23:03;18:00;Landed 17:41;44582
+Montag, 7. November 2022;Tokyo (NRT);Zurich (ZRH);LX161;13:36;12:10;12:34;18:35;Landed 18:10;44582
+Mittwoch, 9. November 2022;Zurich (ZRH);Singapore (SIN);LX176;11:40;22:40;23:07;18:00;Landed 17:47;44582
+Mittwoch, 9. November 2022;Singapore (SIN);Zurich (ZRH);LX177;12:37;00:05;00:37;06:10;Landed 06:14;44582
+Freitag, 11. November 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:30;19:50;20:05;15:45;Landed 15:35;44582
+Freitag, 11. November 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:00;13:15;13:44;16:15;Landed 15:44;44582
+Freitag, 11. November 2022;Singapore (SIN);Zurich (ZRH);LX177;12:31;00:05;00:37;06:10;Landed 06:07;44582
+Samstag, 12. November 2022;Zurich (ZRH);Sao Paulo (GRU);LX92;11:29;22:45;23:12;06:45;Landed 06:41;44582
+Sonntag, 13. November 2022;Sao Paulo (GRU);Zurich (ZRH);LX93;10:41;19:20;19:40;10:30;Landed 10:21;44582
+Montag, 14. November 2022;Miami (MIA);Zurich (ZRH);LX65;07:54;19:55;20:38;10:55;Landed 10:32;44582
+Montag, 14. November 2022;Zurich (ZRH);Miami (MIA);LX64;10:12;12:50;13:15;17:25;Landed 17:28;44582
+Dienstag, 15. November 2022;Zurich (ZRH);Dubai (DXB);LX242;05:47;13:05;13:34;22:15;Landed 22:21;44582
+Mittwoch, 16. November 2022;Dubai (DXB);Zurich (ZRH);LX243;06:19;02:05;02:46;06:10;Landed 06:04;44582
+Freitag, 18. November 2022;Zurich (ZRH);Dubai (DXB);LX242;-;13:05;-;22:15;Scheduled;44582
+Samstag, 19. November 2022;Zurich (ZRH);San Francisco (SFO);LX38;-;13:15;-;16:15;Scheduled;44582
+Samstag, 19. November 2022;Dubai (DXB);Zurich (ZRH);LX243;-;02:05;-;06:10;Scheduled;44582
+Sonntag, 1. März 2020;Los Angeles (LAX);Zurich (ZRH);LX41;10:05;19:20;19:27;15:15;Landed 14:31;44582
+Sonntag, 1. März 2020;Zurich (ZRH);Los Angeles (LAX);LX40;11:27;13:10;13:50;16:20;Landed 16:17;44582
+Sonntag, 1. März 2020;Hong Kong (HKG);Zurich (ZRH);LX139;12:32;00:20;00:33;06:10;Landed 06:06;44582
+Montag, 2. März 2020;San Francisco (SFO);Zurich (ZRH);LX39;10:22;19:50;21:21;15:45;Landed 16:43;44582
+Montag, 2. März 2020;Zurich (ZRH);San Francisco (SFO);LX38;11:12;13:15;16:50;16:15;Landed 19:02;44582
+Dienstag, 2. März 2021;Shanghai (PVG);Zurich (ZRH);LX189;11:47;09:50;10:26;15:30;Landed 15:13;44582
+Mittwoch, 2. März 2022;Zurich (ZRH);Beijing (PEK);LX2696;10:19;18:20;18:41;11:20;Landed 12:00;44582
+Mittwoch, 2. März 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:44;11:40;12:00;15:10;Landed 16:44;44582
+Dienstag, 3. März 2020;Zurich (ZRH);Sao Paulo (GRU);LX92;11:26;22:40;23:10;06:45;Landed 06:36;44582
+Mittwoch, 4. März 2020;Sao Paulo (GRU);Zurich (ZRH);LX93;10:28;19:20;19:40;10:30;Landed 10:07;44582
+Freitag, 4. März 2022;Zurich (ZRH);Sao Paulo (GRU);LX92;10:59;22:45;23:14;06:35;Landed 06:13;44582
+Freitag, 4. März 2022;Beijing (PEK);Zurich (ZRH);LX2697;11:26;11:40;12:15;15:10;Landed 16:41;44582
+Donnerstag, 5. März 2020;Miami (MIA);Zurich (ZRH);LX65;08:08;19:45;20:13;10:50;Landed 10:21;44582
+Donnerstag, 5. März 2020;Zurich (ZRH);Miami (MIA);LX64;10:00;13:05;13:39;17:40;Landed 17:39;44582
+Freitag, 5. März 2021;Zurich (ZRH);Johannesburg (JNB);LX288;09:47;21:30;21:48;09:10;Landed 08:35;44582
+Samstag, 5. März 2022;Sao Paulo (GRU);Zurich (ZRH);LX93;10:51;19:20;19:53;10:40;Landed 10:44;44582
+Samstag, 5. März 2022;Buenos Aires (EZE);Sao Paulo (GRU);LX93;02:19;14:25;14:50;17:20;Landed 17:10;44582
+Samstag, 5. März 2022;Sao Paulo (GRU);Buenos Aires (EZE);LX92;02:29;08:45;08:59;11:45;Landed 11:28;44582
+Freitag, 6. März 2020;Zurich (ZRH);Tokyo (NRT);LX160;10:50;13:00;13:19;08:30;Landed 08:10;44582
+Samstag, 6. März 2021;Johannesburg (JNB);Zurich (ZRH);LX289;10:06;20:00;20:59;06:10;Landed 06:05;44582
+Sonntag, 6. März 2022;Zurich (ZRH);Dubai (DXB);LX242;05:26;12:55;13:23;21:55;Landed 21:49;44582
+Samstag, 7. März 2020;Tokyo (NRT);Zurich (ZRH);LX161;11:54;11:25;11:47;15:40;Landed 15:40;44582
+Sonntag, 7. März 2021;Zurich (ZRH);Mumbai (BOM);LX154;07:15;21:55;21:47;10:40;Landed 09:32;44582
+Montag, 7. März 2022;Dubai (DXB);Zurich (ZRH);LX243;06:40;02:05;02:24;06:10;Landed 06:04;44582
+Sonntag, 8. März 2020;Zurich (ZRH);Bangkok (BKK);LX180;10:10;17:55;18:11;10:35;Landed 10:21;44582
+Dienstag, 8. März 2022;Zurich (ZRH);Bangkok (BKK);LX180;09:50;13:10;13:44;05:50;Landed 05:34;44582
+Montag, 9. März 2020;Bangkok (BKK);Zurich (ZRH);LX181;11:22;13:05;13:22;19:10;Landed 18:44;44582
+Dienstag, 9. März 2021;Zurich (ZRH);Hong Kong (HKG);LX138;10:43;16:10;16:25;10:30;Landed 10:08;44582
+Dienstag, 9. März 2021;Mumbai (BOM);Zurich (ZRH);LX155;09:01;03:05;03:11;07:55;Landed 07:42;44582
+Donnerstag, 10. März 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:24;20:05;20:49;15:55;Landed 16:13;44582
+Donnerstag, 10. März 2022;Zurich (ZRH);San Francisco (SFO);LX38;10:45;13:05;13:28;16:05;Landed 15:13;44582
+Donnerstag, 10. März 2022;Bangkok (BKK);Zurich (ZRH);LX181;11:37;00:20;00:32;06:10;Landed 06:09;44582
+Donnerstag, 11. März 2021;Zurich (ZRH);Bangkok (BKK);LX180;09:49;16:10;16:48;08:40;Landed 08:37;44582
+Donnerstag, 11. März 2021;Hong Kong (HKG);Zurich (ZRH);LX139;12:10;02:30;02:43;08:20;Landed 07:53;44582
+Donnerstag, 12. März 2020;Miami (MIA);Zurich (ZRH);LX65;08:33;20:45;21:11;10:50;Landed 10:45;44582
+Donnerstag, 12. März 2020;Zurich (ZRH);Miami (MIA);LX64;10:13;13:05;13:19;18:40;Landed 18:31;44582
+Samstag, 12. März 2022;Los Angeles (LAX);Zurich (ZRH);LX41;10:16;20:00;20:30;15:55;Landed 15:47;44582
+Samstag, 12. März 2022;Zurich (ZRH);Los Angeles (LAX);LX40;11:13;13:10;13:34;16:20;Landed 15:47;44582
+Samstag, 13. März 2021;San Francisco (SFO);Zurich (ZRH);LX39;10:50;18:05;18:15;14:00;Landed 14:05;44582
+Samstag, 13. März 2021;Zurich (ZRH);San Francisco (SFO);LX38;11:12;10:45;11:00;13:45;Landed 13:12;44582
+Samstag, 13. März 2021;Bangkok (BKK);Zurich (ZRH);LX181;11:38;00:15;00:36;06:20;Landed 06:13;44582
+Sonntag, 13. März 2022;Zurich (ZRH);Sao Paulo (GRU);LX92;11:30;22:45;22:58;06:35;Landed 06:28;44582
+Samstag, 14. März 2020;Zurich (ZRH);Bangkok (BKK);LX180;10:05;17:55;18:11;10:35;Landed 10:16;44582
+Sonntag, 14. März 2021;Zurich (ZRH);Mumbai (BOM);LX154;07:30;21:55;21:56;10:40;Landed 09:55;44582
+Montag, 14. März 2022;Sao Paulo (GRU);Zurich (ZRH);LX93;10:21;19:20;19:29;10:40;Landed 09:49;44582
+Sonntag, 15. März 2020;Bangkok (BKK);Zurich (ZRH);LX181;11:44;13:05;13:37;19:10;Landed 19:20;44582
+Dienstag, 15. März 2022;Zurich (ZRH);Sao Paulo (GRU);LX92;11:20;22:45;23:04;06:35;Landed 06:23;44582
+Dienstag, 16. März 2021;Mumbai (BOM);Zurich (ZRH);LX155;08:43;03:05;03:05;07:55;Landed 07:18;44582
+Mittwoch, 16. März 2022;Sao Paulo (GRU);Zurich (ZRH);LX93;11:22;19:20;19:36;10:40;Landed 10:58;44582
+Mittwoch, 16. März 2022;Buenos Aires (EZE);Sao Paulo (GRU);LX93;02:19;14:25;14:48;17:20;Landed 17:07;44582
+Mittwoch, 16. März 2022;Sao Paulo (GRU);Buenos Aires (EZE);LX92;02:27;08:45;08:54;11:45;Landed 11:20;44582
+Donnerstag, 17. März 2022;Zurich (ZRH);Bangkok (BKK);LX180;10:06;13:10;13:36;05:50;Landed 05:43;44582
+Freitag, 19. März 2021;Zurich (ZRH);Buenos Aires (EZE);WK90;13:18;22:10;22:44;08:10;Landed 08:02;44582
+Samstag, 19. März 2022;San Francisco (SFO);Zurich (ZRH);LX39;10:37;21:05;21:32;15:55;Landed 16:08;44582
+Samstag, 19. März 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:29;13:05;14:01;17:05;Landed 17:30;44582
+Samstag, 19. März 2022;Bangkok (BKK);Zurich (ZRH);LX181;11:27;00:20;00:49;06:10;Landed 06:16;44582
+Sonntag, 21. März 2021;Buenos Aires (EZE);Zurich (ZRH);WK91;13:22;13:20;13:32;06:20;Landed 06:54;44582
+Montag, 21. März 2022;Zurich (ZRH);Shanghai (PVG);LX2688;11:09;09:50;09:56;04:45;Landed 04:05;44582
+Montag, 22. März 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;11:28;21:50;21:49;05:55;Landed 05:17;44582
+Dienstag, 23. März 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;10:33;17:25;17:45;08:25;Landed 08:19;44582
+Mittwoch, 23. März 2022;Los Angeles (LAX);Zurich (ZRH);LX41;10:35;21:00;21:18;15:55;Landed 15:53;44582
+Mittwoch, 23. März 2022;Zurich (ZRH);Los Angeles (LAX);LX40;11:35;13:10;13:26;17:20;Landed 17:02;44582
+Mittwoch, 23. März 2022;Shanghai (PVG);Zurich (ZRH);LX2689;13:29;01:00;00:56;07:45;Landed 07:25;44582
+Donnerstag, 24. März 2022;Zurich (ZRH);Tokyo (NRT);LX160;12:41;18:30;18:54;15:40;Landed 15:35;44582
+Donnerstag, 25. März 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;11:36;21:50;21:51;05:55;Landed 05:27;44582
+Freitag, 26. März 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;10:14;17:25;18:02;08:25;Landed 08:16;44582
+Samstag, 26. März 2022;Tokyo (NRT);Zurich (ZRH);LX161;15:14;09:40;10:24;16:10;Landed 17:38;44582
+Samstag, 27. März 2021;Zurich (ZRH);Sao Paulo (GRU);LX92;11:46;21:50;21:53;05:55;Landed 05:40;44582
+Sonntag, 27. März 2022;Zurich (ZRH);San Francisco (SFO);LX38;11:13;13:10;13:37;16:00;Landed 15:50;44582
+Sonntag, 28. März 2021;Sao Paulo (GRU);Zurich (ZRH);LX93;10:40;18:10;19:30;10:30;Landed 11:10;44582
+Dienstag, 30. März 2021;Zurich (ZRH);Singapore (SIN);LX176;11:22;12:30;13:01;06:45;Landed 06:22;44582
+Mittwoch, 31. März 2021;Singapore (SIN);Zurich (ZRH);LX177;12:51;23:10;23:20;06:10;Landed 06:11;44582
