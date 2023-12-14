@@ -1,85 +1,147 @@
-import * as d3 from "/lib/d3v4.js";
+// Define variables and constants in the global scope
+const svg = d3.select("#map");
+const width = +svg.attr("width");
+const height = +svg.attr("height");
+const projection = d3.geoMercator().scale(150).translate([width / 2, height / 2]);
+const path = d3.geoPath().projection(projection);
 
+// Create a clip path to restrict the drawing area
+svg.append("defs").append("clipPath")
+    .attr("id", "map-clip")
+    .append("rect")
+    .attr("width", width)
+    .attr("height", height);
 
-//let max = d3.max(response.data, function(d, i) {
-//    return data.DELAY_IN_MIN;
-//});
-//let min = d3.min(response.data, function(d, i) {
-//    return data.DELAY_IN_MIN;
-//});
+let resetTimer;
 
-//const colorScale = d3.scaleSequential(d3.interpolateRdYlBu)
-//   .domain([min, max])
+// Enable zoom
+const zoom = d3.zoom()
+    .scaleExtent([1, 8])
+    .on('zoom', function (event) {
+        const { transform } = event;
 
+        // Apply the zoom transformation only to the world map
+        svg.select('#world-map')
+            .attr('transform', `translate(${transform.x}, ${transform.y}) scale(${transform.k})`);
 
+        // Apply a separate zoom transformation to the connections
+        svg.select('#connections')
+            .attr('transform', `translate(${transform.x}, ${transform.y}) scale(${transform.k})`);
 
-let zoom = d3.zoom()
-    .on('zoom', () => {
-        svg.attr('transform', d3.event.transform)
+        // Clear existing timer
+        clearTimeout(resetTimer);
+
+        // Set a timer to reset the zoom after 2 seconds
+        resetTimer = setTimeout(() => {
+            svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity);
+        }, 2000);
     });
 
+svg.call(zoom);
 
-// The svg
-var svg = d3.select("#map"),
-    width = +svg.attr("width"),
-    height = +svg.attr("height");
+// Disable dragging for the map
+svg.select('#world-map').style('pointer-events', 'none');
 
-// Map and projection
-var projection = d3.geoMercator()
-    .scale(150)
-    .translate([width / 2, height / 1.4])
+// Load the world map and connections
+d3.json("https://unpkg.com/world-atlas@1/world/110m.json").then(worldData => {
+    // Create a group for both the world map and connections
+    const container = svg.append("g").attr('id', 'container').attr("clip-path", "url(#map-clip)");
 
-// A path generator
-var path = d3.geoPath()
-    .projection(projection)
+    // Create a group for the world map
+    const worldMapGroup = container.append("g").attr('id', 'world-map');
 
-
-
-// Load world shape AND list of connection
-d3.queue()
-    .defer(d3.json, "https://raw.githubusercontent.com/holtzy/D3-graph-gallery/master/DATA/world.geojson") // World shape
-    .defer(d3.csv, "Merged_CSV.csv") // Position of circles
-    .await(ready);
-
-function ready(error, dataGeo, data) {
-
-    // Reformat the list of link. Note that columns in csv file are called long1, long2, lat1, lat2
-    var link = []
-    data.forEach(function (row) {
-        source = [+row.lon_from, +row.lat_from]
-        target = [+row.lon_To, +row.lat_To]
-        topush = {
-            type: "LineString",
-            coordinates: [source, target]
-        }
-        link.push(topush)
-    })
-
-    // Draw the map
-    svg.append("g")
-        .selectAll("path")
-        .data(dataGeo.features)
+    worldMapGroup.selectAll("path")
+        .data(topojson.feature(worldData, worldData.objects.countries).features)
         .enter().append("path")
+        .attr("d", path)
         .attr("fill", "#b8b8b8")
-        .attr("d", d3.geoPath()
-            .projection(projection)
-        )
         .style("stroke", "#fff")
-        .style("stroke-width", 0)
+        .style("stroke-width", 0.5);
 
-    // Add the path
-    svg.selectAll("myPath")
-        .data(link)
-        .enter()
-        .append("path")
-        .attr("d", function (d) {
-            return path(d)
-        })
-        .style("fill", "none")
-        .style("stroke", "#69b3a2")
-        .style("stroke-width", 2)
+    // Load the CSV data without filtering
+    loadAllData();
+});
 
+// Load the CSV data without filtering
+function loadAllData() {
+    console.log("Loading all data");
+
+    d3.csv("Merged_CSV.csv").then(data => {
+        console.log("CSV Data:", data);
+
+        // Remove existing paths
+        svg.selectAll(".connection").remove();
+
+        // Create a group for the connections
+        const connectionsGroup = svg.select("#container").append("g").attr('id', 'connections');
+
+        const link = data.map(d => ({
+            type: "LineString",
+            coordinates: [
+                [parseFloat(d.lon_from), parseFloat(d.lat_from)],
+                [parseFloat(d.lon_To), parseFloat(d.lat_To)]
+            ]
+        }));
+
+        // Add the connections to the separate group
+        connectionsGroup.selectAll(".connection")
+            .data(link)
+            .enter()
+            .append("path")
+            .attr("class", "connection")
+            .attr("d", path)
+            .style("fill", "none")
+            .style("stroke", "#69b3a2")
+            .style("stroke-width", 2);
+    });
 }
 
+// Event listener for dropdown change
+document.getElementById("seasonSelector").addEventListener("change", function () {
+    const selectedSeason = this.value;
 
-svg.call(zoom);
+    if (selectedSeason === "All") {
+        loadAllData(); // Load all data without filtering
+    } else {
+        loadFilteredData(selectedSeason); // Load data with filtering
+    }
+});
+
+// Load the CSV data based on the selected season
+function loadFilteredData(selectedSeason) {
+    console.log("Loading data for season:", selectedSeason);
+
+    d3.csv("Merged_CSV.csv").then(data => {
+        console.log("CSV Data:", data);
+        const filteredData = data.filter(d => d.SEASON === selectedSeason);
+
+        // Select the existing connections group
+        const connectionsGroup = svg.select("#connections");
+
+        // Update existing connections based on filtered data
+        const link = filteredData.map(d => ({
+            type: "LineString",
+            coordinates: [
+                [parseFloat(d.lon_from), parseFloat(d.lat_from)],
+                [parseFloat(d.lon_To), parseFloat(d.lat_To)]
+            ]
+        }));
+
+        // Select all existing connections, bind new data, and update
+        const connections = connectionsGroup.selectAll(".connection")
+            .data(link);
+
+        // Remove connections that are no longer needed
+        connections.exit().remove();
+
+        // Add new connections
+        connections.enter()
+            .append("path")
+            .attr("class", "connection")
+            .merge(connections)
+            .attr("d", path)
+            .style("fill", "none")
+            .style("stroke", "#69b3a2")
+            .style("stroke-width", 2);
+    });
+}
