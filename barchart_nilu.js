@@ -1,21 +1,20 @@
-var margin = { top: 100, right: 30, bottom: 70, left: 60 },
+const margin = { top: 100, right: 30, bottom: 70, left: 60 },
   width = 900 - margin.left - margin.right,
   height = 500 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
-var svg = d3.select("#barplot_nilu")
+const svg = d3.select("#barplot_nilu")
   .append("svg")
   .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
   .append("g")
-  .attr("transform",
-    "translate(" + margin.left + "," + margin.top + ")");
+  .attr("transform", `translate(${margin.left},${margin.top})`);
 
 // Parse the Data
-d3.csv("Merged_CSV.csv", function (data) {
+d3.csv("Merged_CSV.csv").then(data => {
 
-  var colorScale = d3.scaleOrdinal()
-    .domain(data.map(function (d) { return d.SEASON; }))
+  const colorScale = d3.scaleOrdinal()
+    .domain(data.map(d => d.SEASON))
     .range(['red', 'green', 'blue', 'orange']); // Add more colors as needed    
 
   const seasons = [...new Set(data.map(d => d.SEASON))];
@@ -28,34 +27,36 @@ d3.csv("Merged_CSV.csv", function (data) {
     .attr('value', d => d);
 
   // X axis
-  var x = d3.scaleBand()
+  const x = d3.scaleBand()
     .range([0, width])
-    .domain(data.map(function (d) { return d.SEASON; }))
+    .domain(data.map(d => d.SEASON))
     .padding(0.2);
   svg.append("g")
-    .attr("transform", "translate(0," + height + ")")
+    .attr("transform", `translate(0,${height})`)
     .call(d3.axisBottom(x))
     .selectAll("text")
     .attr("transform", "translate(-10,0)rotate(-45)")
     .style("text-anchor", "end");
 
   // Add Y axis
-  var y = d3.scaleLinear()
-    .domain([0, d3.max(data, d => d.DELAY_IN_MIN)])  // Adjusted the domain
-  .range([height, 0]);
+  const y = d3.scaleLinear()
+    .domain([0, d3.max(data, d => +d.DELAY_IN_MIN)])  // Adjusted the domain
+    .range([height, 0]);
   svg.append("g")
     .call(d3.axisLeft(y));
 
   // Initial rendering of bars
-  var bars = svg.selectAll("mybar")
+  let bars = svg.selectAll("mybar")
     .data(data)
     .enter()
     .append("rect")
-    .attr("x", function (d) { return x(d.SEASON); })
-    .attr("y", function (d) { return y(d.DELAY_IN_MIN); })
+    .attr("x", d => x(d.SEASON))
+    .attr("y", d => y(+d.DELAY_IN_MIN))
     .attr("width", x.bandwidth())
-    .attr("height", function (d) { return height - y(d.DELAY_IN_MIN); })
-    .attr("fill", function (d) { return colorScale(d.SEASON); });
+    .attr("height", d => height - y(+d.DELAY_IN_MIN))
+    .attr("fill", d => colorScale(d.SEASON))
+    .append("title")  // Append a title element to create a tooltip
+    .text(d => `Season: ${d.SEASON}\nDelay: ${d.DELAY_IN_MIN}`);
 
   // Add event listener for filtering
   document.getElementById('filterDropdown').addEventListener('change', updateChart);
@@ -67,11 +68,12 @@ d3.csv("Merged_CSV.csv", function (data) {
     // Filter the data based on the selected value
     const filteredData = filterValue === 'All' ? data : data.filter(d => d.SEASON === filterValue);
 
+   
     // Update the X axis domain based on the filtered data
     x.domain(filteredData.map(d => d.SEASON));
 
     // Update the Y axis domain based on the maximum value within the filtered data
-    y.domain([0, d3.max(filteredData, d => d.DELAY_IN_MIN)]);
+    y.domain([0, d3.max(filteredData, d => +d.DELAY_IN_MIN)]);
 
     // Remove all existing bars
     bars.remove();
@@ -81,10 +83,10 @@ d3.csv("Merged_CSV.csv", function (data) {
       .data(filteredData)
       .enter()
       .append("rect")
-      .attr("x", function (d) { return x(d.SEASON); })
-      .attr("y", function (d) { return y(d.DELAY_IN_MIN); })
+      .attr("x", d => x(d.SEASON))
+      .attr("y", d => y(+d.DELAY_IN_MIN))
       .attr("width", x.bandwidth())
-      .attr("height", function (d) { return height - y(d.DELAY_IN_MIN); })
-      .attr("fill", function (d) { return colorScale(d.SEASON); });
+      .attr("height", d => height - y(+d.DELAY_IN_MIN))
+      .attr("fill", d => colorScale(d.SEASON));
   }
 });
