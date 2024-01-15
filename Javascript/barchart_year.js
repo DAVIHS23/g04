@@ -9,7 +9,7 @@ const svg = d3.select("#barchart_year")
   .append("g")
   .attr("transform", `translate(${margin.left},${margin.top})`);
 
-d3.csv("/Data/Flights.csv").then(data => {
+d3.csv("Data/Flights.csv").then(data => {
 
   // Filter out rows with DELAY_IN_MIN less than or equal to 0
   data = data.filter(d => +d.DELAY_IN_MIN > 0);
