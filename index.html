@@ -56,11 +56,58 @@
     <!-- SECTION PROJECT INFO   -->
     <div class="w3-content w3-container w3-padding-64" id="info">
 
-        <h3 class="w4-center">Project Info</h3>
-        <p>&DAVI& Untertitel <br />
-            &DAVI& - Der Rest von Text über das Projekt
+        <h3 class="w3-center">Project Info</h3>
 
+        <h4>1. Ziel des Projektes</h4>
+        <p>
+            Das Hauptziel dieses Projekts ist es, dem Management von Swiss eine übersichtliche und aussagekräftige Darstellung der Flugverspätungen zu bieten.
+            Mit den Visualisierungen soll Transparenz geschaffen und detailierte Analysen möglich gemacht werden. Das Projekt soll helfen Spezialisten und Subject Matter Experts Muster in den Daten zu erkennen und so bessere Entscheidungen fällen zu erkennen. Durch diese transparente Darstellung streben wir danach, das Konzept des datenbasierten Entscheidungsfindung (Data-Driven Decision Making) zu fördern.
+            Unsere Visualisierungen bieten einen klaren Einblick in die Performance von Flügen, erlauben detaillierte Analysen und legen die Grundlage für fundierte Verbesserungen der aktuellen Prozesse.
         </p>
+
+
+        <h4>1.1 Fokus</h4>
+        <p>
+            In diesem Projekt wurde sich auf folgende Metriken beschränkt:
+        </p>
+        <ul>
+            <li>Die Analyse der Flugzeiten</li>
+            <li>Die Analyse der zeitlichen Entwicklungen</li>
+            <li>Die Analyse der Verschiedenen Flugrouten</li>
+        </ul>
+
+        <h4>1.2 Skizzen</h4>
+        <p>
+            Als Vorbereitung auf das Projekt wurden 3 Skizzen erstellt, in welcher die geplanten Visualisierungen von Hand dargestellt wurden.
+            <br>
+            Die Skizzen wurden noch ohne grosse Kenntnisse von D3.js umgesetzt, konnten aber zu grossen Teilen in finalen Projekt umgesetzt werden.
+            <br>
+            Als Einstiegseite wurde eine Übersicht verschiedener KPIs (Key Performance Indicator) geplant, die in einer Kacheloptik gezeichnet wurde:
+        </p>
+
+        <img src="Pictures/Skizze_KPI_Page.jpg" alt="Skizze der KPI-Page" width="1054" height="524">
+        <label>Skizze der KPI-Page</label>
+        <br>
+        <br>
+        <p>
+            Als zweite Seite sollte eine Weltkarte implementiert werden, auf welcher die Flüge grafisch aufgearbeitet sind.
+            Anhand dieser Karte können möglicherweise Orte / Flüge identifiziert werden, die grosse Verspätungen aufweisen.
+        </p>
+
+        <img src="Pictures/Skizze_Map.jpg" alt="Skizze Worldmap" width="811" height="462">
+        <br>
+        <label>Skizze Worldmap</label>
+        <br>
+        <br>
+        <p>
+            In der letzen Skizze wurde ein Vergleich der einzelnen Jahreszeiten angezeigt, bei welchem die Möglichkeit bestehen soll, zwischen der Ansicht der Jahreszeiten und der einzelnen Monate wechseln zu können.
+        </p>
+
+        <img src="Pictures/Skizze_Comparison.jpg" alt="Skizze zum Vergleich der Jahreszeiten" width="864" height="463">
+        <br>
+        <label>Skizze zum Vergleich der Jahreszeiten</label>
+
+
     </div>
 
     <!-- SECOND BG IMAGE WITH Data TEXT -->
@@ -74,15 +121,15 @@
 
     <!-- SECTION DATA   -->
     <div class="w3-content w3-container w3-padding-64" id="data">
-        <h3 class="w3-center">Datenherkunft & Datenaufbereitung</h3>
+        <h3 class="w3-center">2. Datenherkunft & Datenaufbereitung</h3>
         <br>
-        <h4 class="w3-center">Datenherkunft</h4>
+        <h4>2.1 Datenherkunft</h4>
 
         <p>
             Die Daten wurden über die API von Flightradar (<a href="https://www.flightradar24.com/data/airlines/lx-swr">Link</a>) bezogen und decken den Zeitraum vom November 2019 bis Dezember 2022 ab. Zur Verfügung stehen Flugdaten wie Abflugdatum, geplante Abflugzeit (Scheduled Time Departure - STD), effektive Abflugzeit (Actual Time Departure - ATD), geplante Ankunftszeit (Scheduled Time Arrival - STA) sowie der Status, in welchem die Landezeit festgehalten wird. In diesem Dataset sind zwar die einzelnen Abflug- und Zielflughäfen vermerkt, jedoch ohne geograpfische Informationen. Um die geograpfischen Daten zu den Flughäfen hinzuzufügen, wurde das Dataset mit einem weiteren Dataset (Airports.csv) zusammengeführt.
             <br>
             <br>
-            Insgesamt wurden 21'125 Flüge analyisert, die auf sechs unterschiedlichen Flugzeugtypen der Swiss basieren.
+            Insgesamt wurden 23'607 Flüge analyisert, die auf sechs unterschiedlichen Flugzeugtypen der Swiss basieren.
             <br>
             Um die Daten vorzubereiten wurden die folgenden Schritte durchgeführt:
         </p>
@@ -99,7 +146,7 @@
         </ol>
 
 
-        <h4 class="w3-center">Data Cleansing</h4>
+        <h4>2.2 Data Cleansing</h4>
 
         <p>Von den 21'125 Flügen beinhalteten 1'702 ungültige Daten. Dabei handelte es sich um falsche FROM- oder TO-Flughäfen, Flüge ohne Flugzeit oder interne Testflüge.
         </p>
@@ -143,14 +190,15 @@
     <!-- SECTION VISUALIZATION -->
 
     <div class="w3-content w3-container w3-padding-64" id="viz">
-        <h3 class="w3-center">Visualization</h3>
-        <p>Aufbau<br>
+        <h3 class="w3-center">3. Visualization</h3>
+        <h4>3.1 Aufbau</h4>
+        <p>
             Die Visualisierung der Daten wurde so aufgebaut, dass die zuerst ein Überblick über die Summe der Verspätungen aufgeteilt auf die Jahreszeiten angezeigt wird.
             <br>
             Dadurch können erste Muster entdeckt werden, die dann mit dem Scatterplot und der Map weiter analysiert werden können.
         </p>
-
-        <h4 class="w3-center">Overview</h4>
+        <br>
+        <h4>3.2 Overview</h4>
         <p> Im Overview-Bereich der Visualisierung sind zwei der insgesamt vier Grafiken. Diese Grafiken sollen einen ersten Überblick über die Daten ermöglichen.
             <br>
             Durch einen Klick auf eine Jahreszeit werden die dazugehörigen Monate angezeigt, damit die Verspätungen auch auf der monatlichen Ebene analysiert werden können.
@@ -169,20 +217,15 @@
 
 
         <br>
-        <h4 class="w3-center">Scatterplot of delayed Flights and World Map</h4>
-        <br>
+        <h4>3.3 Scatterplot of delayed Flights and World Map</h4>
         <p>
             Die folgenden zwei Visualisierungen können beide über die zwei Filter unten gesteuert werden. Zusätzlich ist es möglich, im Scatterplot interessante Daten mittels Brushing auszuwählen und dadurch eine detailliertere Ansicht auf gewisse Flug-Cluster zu erhalten.
             <br>
             Im Scatterplot sind die einzelnen Flüge aufgezeigt basierend auf ihrere Flugzeit und der Verspätung. Dabei werden nur Flüge berücksichtigt, die auch effektiv Verspätung aufwiesen.
             Die Flüge sind zudem basierend auf der Jahreszeit gefärbt.
-
-
         </p>
 
         <div class="centered-container">
-
-            <!-- Add aircraft type selector -->
             <label for="aircraftTypeSelector">Select Aircraft Type:</label>
             <select id="aircraftTypeSelector" multiple>
                 <option value="All">All Aircraft Types</option>
@@ -193,7 +236,6 @@
                 <option value="Airbus A340-313">Airbus A340</option>
                 <option value="Boeing 777-3DE(ER)">Boeing 777</option>
             </select>
-            <!-- Season selector -->
             <label for="seasonSelector">Select Season:</label>
             <select id="seasonSelector">
                 <option value="All">All Data</option>
@@ -202,23 +244,15 @@
                 <option value="HERBST">Herbst</option>
                 <option value="WINTER">Winter</option>
             </select>
-
-
         </div>
-
-
-
         <div class="centered-container">
-
             <svg id="scatterplot" width="960" height="500"></svg>
             <div id="legend-container-scatterplot"></div>
-
         </div>
 
         <p>
             Auf der Connection Map sind die einzelnen Flüge geografisch dargestellt und gemäss der Legende auf der rechten Seite eingefärbt. Auch diese Visualisierung beinhaltet nur Flüge, auf welchen tatsächlich Verspätungen aufgetreten sind.
         </p>
-
 
         <div class="centered-container">
             <!-- Buttons -->
@@ -231,8 +265,6 @@
             <div id="legend-container-map"></div>
         </div>
 
-
-
     </div>
 
 
@@ -243,37 +275,167 @@
     <!-- SECTION DESIGN -->
 
     <div class="w3-content w3-container w3-padding-64" id="design">
-        <h3 class="w3-center">Desing</h3>
-        <p>&DAVI& Untertitel<br />
-            &DAVI& Hier die Info wieso weshalb warum man was hingebogen hat im D3
+        <h3 class="w3-center">4. Design</h3>
+        <h4>4.1 Foundations Visual Design</h4>
+        <p>
+            Zwei Bar-Charts wurden erstellt, um die Jahreszeiten, den Monaten und ihren jeweiligen Summen an Verspätungen prägnant darzustellen. Diese visuellen Darstellungen bieten dem Management von Swiss eine unmittelbare Übersicht über die zeitliche Entwicklung der Verspätungsmuster.
+            Ein Scatterplott wurde erstellt um den Zusammenhang zwischen Verspätungen und der gesamten Flugzeit zu verdeutlichen. Diese Visualisierung ermöglicht es, potenzielle Muster und Ausreißer zu erkennen, um gezielte Optimierungen in den Flugabläufen vorzunehmen.
+
+            Die Einbindung einer Kartenvisualisierung vervollständigt das visuelle Design und bringt einen geografischen Touch in die Darstellung der Flugrouten. Diese Funktion ermöglicht dem User geografische Zusammenhänge zu erkennen.
+        </p>
+
+        <h4>4.2 Fundamental Principals of Analytical Design (Tufte)</h4>
+        <p>
+            Durch die Weltkarte und die Färbung gemäss Verspätung kann die Vergleichbarkeit sichergestellt werden. Die Kausalität kann durch die Filteroptionen hergestellt werden, da so die Zusammenhänge von Verspätungen zu den Jahreszeiten und Flugzeugtypen gezeigt werden. Durch die Verwendung verschiedener Grafiken mit unterschiedlichen Metriken ist die umgesetzte Analyse multivariat. Durch konsistente Farbgebung und Verwendung von Tooltips wird nachvollziehbar gezeigt, weshalb gewisse Flugrouten auf der Weltkarte röter gefärbt sind. Durch die Tooltips und die Kommentare auf der Webseite ist die Dokumentation der Visualisierung gegeben. Die Daten werden ohne unnötige Formatierungen präsentiert, sodass die Aufmerksamkeit ganz auf den Daten liegt.
+        </p>
+
+        <h4>4.3 Data-Ink Ratio (Tufte)</h4>
+        <p>
+            Gewisse Tinte der Graphen repräsentieren effektive und nützliche Informationen und andere Tinte nicht.
+            In einem gewissen Mass muss die non-data ink bestehen, aber es ist wichtig nur notwendige non-data ink Elemente hinzuzufügen, damit die Visualisierungen verständlich sind.<br>
+            (Stephen Few, S.141-142) <br>
+
+            In diesem Projekt wurde darauf geachtet keine unnötigen Elemente oder Farben zu brauchen, welche von den wesentlichen Informationen ablenken. Die Farben wurden wo nötig und sinnvoll wiederverwendet, bei den Bar Charts und dem Scatterplott wurden die gleichen Farben für die Jahreszeiten verwendet.
+        </p>
+        <h5>4.3.1 Reduzieren von unnötigener Data Ink (Stephen Few, S.143)</h5>
+        <p>
+            Am Anfang dieses Projektes wurden 9 KPI Cards im Konzept geplant. Auf diesen Cards sollten auf einem Blick verschiedene Kennzahlen stehen, damit die User eine Overview mit wichtigen Kennzahlen erhalten.
+            Da mit den restlichen Grafiken die Informationen besser und detailierter aufgezeigt werden kann, wurde beschlossen die KPI Cards ganz rauszunehemen.
+        </p>
+        <h5>4.3.2 Priorisieren</h5>
+        <p>
+            Mit den Visualisierungen soll Transparenz über die Flugdaten und eine Möglichkeit geboten werden, die Flugzeiten und deren Verspätungen analysieren zu können.
+            Um diese Informationen für den User priosieren zu können wurden die alle nötigen Information gefärbt und hervorgehoben.
+            (Stephen Few, S.146)
+
+        </p>
+        <h4>4.4 Human Perception</h4>
+        <p>
+            Die klare Gestaltung und farbliche Differenzierung in unseren Bar-Charts, beispielsweise nach Jahreszeiten, erleichtert es den Betrachtern, Muster und Trends schnell zu erfassen. Durch den Einsatz von
+            intuitiven Farbschemata und visuellen Hierarchien wird die Fokussierung auf relevante Daten unterstützt. Dies trägt dazu bei, die kognitiven Belastungen zu minimieren und die Effizienz der Informationsaufnahme
+            zu maximieren.
+            Obwohl die Grafiken selber sprechend sind, wurden Erläuterungen hinzugefügt um dem User Kontext zu geben und Hintergrundinformationen zu geben.
+            (Stephen Few, S. 149)
+            Um eine allgemeine, zusammenhängende Ansicht zu schaffen wurden Farben (Jahrezeiten) wiederverwendet und auch in der Map die Farben je nach Verspätung farblich hervorgehoben.
+        </p>
+        <h4>4.5 Tasks in Data Visualization</h4>
+        <p>
+            TODO
+            Jeffrey Heer und Ben Shneiderman
+            Spezifikation von Daten und Ansichten (visualisieren, filtern, sortieren, ableiten)
+            Manipulation von Ansichten (auswählen, navigieren, koordinieren, organisieren) -
+            Prozess und Herkunft (aufzeichnen, kommentieren, weiterleiten, anleiten)
+            https://medium.com/@barbaradong/information-visualization-ii-1f2a25998844
+
+            Tooltip
+
+        </p>
+        <h4>4.6 Interaction Concept</h4>
+        <p>Der User kann mit den folgenden Elementen mit den Visualisiserungen interagieren:</p>
+        
+        <h5>4.6.1 Overview-first</h5>
+         
+        <p>
+        
+        Als erstes werden die Jahreszeiten aufgezeigt. Wenn der User auf die einzelnen Jahreszeiten klickt, erhält der User eine Detail Ansicht der jeweiligen Monate.
+        Durch diese Grafiken soll der User einen Überblick bekommen, wie die Verspätungen über die Monate verteilt ist. So können Muster über die Jahreszeiten gezeigt werden oder die allgemeine Performance analysiert werden. 
+        </p>
+        
+            <h5>4.6.2 Zoom-and-filter</h5>
+         <p>
+        Im Scatterplott kann mit brushing zoomen und Datenpunkte genauer angeschaut werden. In der Wordmap kann allgemein gezoomt und zum gewünschten Punkt gezogen werden.
+        Beide Grafiken können mit zwei Filter spezifischer auf Jahreszeit und Flugzeugtyp gefiltert werden.
+        </p>
+        
+        <h5>4.6.3 Details on Demand</h5>
+        
+         <p>
+        Damit Informationen erst dann angezeigt werden, wenn der User diese auch wirklich braucht, kann das Prinzip Details on Demand angewendet werden.
+        In diesem Projekt wurde die Monatsansicht so erstellt, dass sie effektiv erst angezeigt wird, wenn der User an der monatlichen Ansicht interessiert ist.
+        Zusätzlich sind Tooltips in der Monatsansicht und in der Map ersichtlich um genauere Informationen zu erhalten, wenn eine spezifische Information interessant ist.
+        (Infovis Wiki)     
+        </p>
+        
+        
+        <h5>4.6.4 Mögliche Interaktionen</h5>
+        <ul>
+            <li>Bar Charts (Jahreszeit und Monatsview) welche mit "linking" verbunden sind</li>
+            <li>Scatterplot welche die brushing Funktionalität hat</li>
+            <li>Die Worldmap welche generell interaktiv ist und der User zoomen kann</li>
+            <li>Zwei Filter welche den Scatterplot und Worldmap filtern</li>
+            <li>Buttons mit denen der User die World Map zoomen, rauszoomen und wieder reseten kann auf die originale Ansicht</li>
+        </ul>
+
+
+
+        </p>
+
+        <h3 class="w3-center">5. Herausforderungen</h3>
+        <p> Das Erstellen der Visualisierungen in D3.js war eine grosse Herausforderung. Da beiden Projektmitgliedern Erfahrung im Umgang mit Javascript fehlte, musste sowohl Javascript als auch D3.js gelernt werden. Da die verfügbaren Beispiele im Internet oftmals auf unterschiedlichen D3.js Versionen basierten, wurde viel Zeit aufgewendet, Fehler zu korrigieren, die mit einer Abstimmung der D3.js Version hätten vermieden werden können.
+            <br>
+            Die Datenbeschaffung konnte leider nicht wie geplant umgesetzt werden. Die verwendeten Daten wurden ursprünglich für eine Gruppenarbeit in einem anderen Modul vorbereitet, schlussendlich dann aber nicht genutzt. In der Zwischenzeit wurde die API von Flightradar geändert, wodurch keine neuen Daten mehr bezogen werden konnten. Der geplante Vergleich der Swiss zu anderen Airlines (wie bei der Präsentation der Idee von einem anderen Studenten vorgeschlagen) war daher nicht möglich. Zudem musste die zugrundeliegende Problemstellung / Ausgangslage angepasst werden, da die Daten nicht die anfangs geplanten Schlussfolgerungen zuliessen.
+        </p>
+
+        <h3 class="w3-center">6. Erkenntnisse</h3>
+        <p>
+            Aus den Visualisierungen ist ersichtlich, dass die beste Jahreszeit für eine Flugreise der Frühling ist. Interessanterweise ist der Winter die zweitbeste Jahreszeit (gemessen an den total Delays), was vermutlich für viele nicht unbedingt intuitiv ist. Aufgrund von schlechterem Wetter, Schnee und Eis rechnet man mit mehr Verspätungen im Winter.
+            <br>
+            Im Scatterplot ist auch sichtbar, dass es keinen direkten Zusammenhang zwischen der Flugzeit und der Verspätung gibt. Interessant ist, dass sich die meisten Flugverspätungen auf unter 100 Minuten beschränken - Das ist als Reisender zwar eine lange Zeit, jedoch heisst das auch, dass die Chance auf eine mehrstündige Verspätung sehr klein ist.
+
+            <br>
+            <br>
+            Die in anderen Modulen genutzten Visualisierungstools wie Power BI, Tableau oder Grafana sind im Vergleich intuitiver nutzbar, jedoch nicht in demselben Ausmass konfigurierbar. Mit D3.js können nahezu alle vorstellbaren Visualisierungen umgesetzt werden, benötigen jedoch wesentlich mehr Aufwand für Debugging und Testing.
+            <br>
+            Die Auswahl und Qualität der Daten ist essenziell, um ein Projekt erfolgreich durchführen zu können. Trotz der Schwierigkeiten bei der Datenbeschaffung und Umsetzung war das Projekt lehrreich und es konnte schlussendlich eine funktionierende Webseite erstellt werden.
+
         </p>
 
     </div>
     <!-- SECTION DESIGN -->
 
     <div class="w3-content w3-container w3-padding-64" id="ref">
-        <h3 class="w3-center">References</h3>
+        <h3 class="w3-center">7. References</h3>
 
-        <h4 class="w3-center">Datenherkunft</h4>
+        <h4>7.1 Datenherkunft</h4>
 
         <a href=https://www.flightradar24.com/data/airlines/lx-swr>Flightradar24 API</a>
         <br>
         <a href=https://gist.github.com/fletchjeff/b60f46ca3c1aa51e9aea9fd86d0ab433>Koordinaten der Flughäfen</a>
+
+
+        <h4>7.2 Quellen</h4>
         <p>
             <a href=https://www.staralliance.com/documents/424633084/427207986/LX+%281%29.jpg/e6d39def-0600-5dba-46c2-86c066defddf?t=1557837272596> Hintergrundbild Swiss Airbus </a>
             <br>
             <a href=https://incas-training.de/blog/so-berechnest-du-stunden-in-excel>Hilfestellung bei Berechnung der Verspätung</a>
             <br>
-
-
-
+            <a href=https://stackoverflow.com/questions/tagged/d3.js?sort=MostVotes&edited=true>StackOverflow Artikel zum Lernen von D3.js</a>
+            <br>
+            <a href=https://chat.openai.com> Chat GPT 3.5 als Unterstützung beim Debugging des Codes </a>
+            <br>
+            <a href=https://infovis-wiki.net/wiki/Details_on_demand> Infovis Wiki - Details on Demand </a>
+             <br>
+            <a href= https://d3-graph-gallery.com/index.html>D3 Graph Gallery - Ausgangslage für Tooltip, Connection Map, Bar Charts und Brushing</a>
+            
+           
+            
+            <br><br>
+            Stephen Few - Show me the Numbers, Second Edition, 2012
         </p>
-    </div> <!-- SECTION DESIGN -->
+
+
+
+
+    </div>
 
     <div class="w3-content w3-container w3-padding-64" id="Team">
-        <h3 class="w3-center">Team</h3>
-        <p>&DAVI& Untertitel<br />
-            &DAVI& Kontaktdaten des Teams
+        <h3 class="w3-center">8. Team</h3>
+        <p>Die Webseite wurde erstellt von
+            <br>
+            <a href="mailto:nilukzil.fernando@stud.hslu.ch?subject=Anfrage%20zur%20DAVI%20Webseite">Nilukzil Fernando, nilukzil.fernando@stud.hslu.ch</a>
+            <br> und
+            <br>
+            <a href="mailto:finn.morgenthaler@stud.hslu.ch?subject=Anfrage%20zur%20DAVI%20Webseite">Finn Morgenthaler, finn.morgenthaler@stud.hslu.ch</a>
         </p>
     </div>
 
