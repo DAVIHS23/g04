@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Schweizer Pünktlichkeit?</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+   
+   <script type="module" src="Javascript/barchart_year.js"></script>
+    <script type="module" src="Javascript/barchart_month.js"></script>
+
+
+
+    <script type="module" src="Javascript/scatterplot.js"></script>
+    <script type="module" src="Javascript/map.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+
+
+
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <div class="w3-top navbarbg">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href="#info" class="w3-bar-item w3-button">Project Info</a>
+            <a href="#data" class="w3-bar-item w3-button">Data</a>
+            <a href="#viz" class="w3-bar-item w3-button">Visualization</a>
+            <a href="#design" class="w3-bar-item w3-button">Design Choices</a>
+            <a href="#ref" class="w3-bar-item w3-button">References</a>
+            <a href="#team" class="w3-bar-item w3-button">Team</a>
+
+        </div>
+    </div>
+
+    <!-- FIRST BG IMAGE / HOME SCREEN -->
+    <div class="bgimg-1 w3-display-containeer w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Schweizer Pünktlichkeit <span class="w3-hide-small">-</span>Wie pünktlich ist die Swiss wirklich?</span>
+        </div>
+    </div>
+
+    <!-- SECTION PROJECT INFO   -->
+    <div class="w3-content w3-container w3-padding-64" id="info">
+
+        <h3 class="w4-center">Project Info</h3>
+        <p>&DAVI& Untertitel <br />
+            &DAVI& - Der Rest von Text über das Projekt
+
+        </p>
+    </div>
+
+    <!-- SECOND BG IMAGE WITH Data TEXT -->
+
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">DATA</span>
+        </div>
+    </div>
+
+
+    <!-- SECTION DATA   -->
+    <div class="w3-content w3-container w3-padding-64" id="data">
+        <h3 class="w3-center">Data</h3>
+        <p>&DAVI& Untertitel<br />
+            &DAVI& Text woher die Daten kommen nach Aufgabenstellung
+        </p>
+    </div>
+
+    <!-- SECTION VISUALIZATION -->
+
+    <div class="w3-content w3-container w3-padding-64" id="viz">
+        <h3 class="w3-center">Visualization</h3>
+        <p>&DAVI& Untertitel<br />
+            &DAVI& Hierhin kommt der komplette D3 Code (kann natürlich auch mit externen script gemacht werden, aber hier hat er auch Platz)
+            Beispiel: <br />
+            
+        </p>
+        
+         <h3 class="w3-center">Overview</h3>
+    <button id="resetBarsButton">Reset Monthly Graph</button>
+    <div class="centered-container">
+
+        <div id="barchart_year"></div>
+        <div id="barchart_month"></div>
+
+    </div>
+
+
+
+
+    <br>
+
+    <div class="centered-container">
+
+        <!-- Add aircraft type selector -->
+        <label for="aircraftTypeSelector">Select Aircraft Type:</label>
+        <select id="aircraftTypeSelector" multiple>
+            <option value="All">All Aircraft Types</option>
+            <option value="Airbus A220-100">Airbus A220-100</option>
+            <option value="Airbus A220-300">Airbus A220-300</option>
+            <option value="Airbus A320-214">Airbus A320</option>
+            <option value="Airbus A330-343">Airbus A330</option>
+            <option value="Airbus A340-313">Airbus A340</option>
+            <option value="Boeing 777-3DE(ER)">Boeing 777</option>
+        </select>
+        <!-- Season selector -->
+        <label for="seasonSelector">Select Season:</label>
+        <select id="seasonSelector">
+            <option value="All">All Data</option>
+            <option value="FRÜHLING">Frühling</option>
+            <option value="SOMMER">Sommer</option>
+            <option value="HERBST">Herbst</option>
+            <option value="WINTER">Winter</option>
+        </select>
+
+
+    </div>
+
+
+    <h3 class="w3-center">Scatterplot of delayed Flights and World Map</h3>
+    <div class="centered-container">
+
+        <svg id="scatterplot" width="960" height="500"></svg>
+        <div id="legend-container-scatterplot"></div>
+
+    </div>
+
+    <br>
+
+    <div class="centered-container">
+        <!-- Buttons -->
+        <button id="zoom-in">Zoom In</button>
+        <button id="zoom-out">Zoom Out</button>
+        <button id="reset-zoom">Reset Zoom</button>
+    </div>
+    <div class="centered-container">
+
+        <svg id="map" width="800" height="600"></svg>
+
+        <div id="legend-container-map"></div>
+    </div>
+
+        
+        
+    </div>
+    
+    
+    
+    
+    
+    
+    <!-- SECTION DESIGN -->
+
+    <div class="w3-content w3-container w3-padding-64" id="design">
+        <h3 class="w3-center">Desing</h3>
+        <p>&DAVI& Untertitel<br />
+            &DAVI& Hier die Info wieso weshalb warum man was hingebogen hat im D3
+        </p>
+
+    </div>
+    <!-- SECTION DESIGN -->
+
+    <div class="w3-content w3-container w3-padding-64" id="ref">
+        <h3 class="w3-center">References</h3>
+        <p>
+            <a href=https://www.staralliance.com/documents/424633084/427207986/LX+%281%29.jpg/e6d39def-0600-5dba-46c2-86c066defddf?t=1557837272596> Hintergrundbild Swiss Airbus </a> </p> </div> <!-- SECTION DESIGN -->
+
+                <div class="w3-content w3-container w3-padding-64" id="Team">
+                    <h3 class="w3-center">Team</h3>
+                    <p>&DAVI& Untertitel<br />
+                        &DAVI& Kontaktdaten des Teams
+                    </p>
+                </div>
+
+</body>
+
+</html>
