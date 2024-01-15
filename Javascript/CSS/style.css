@@ -1,0 +1,152 @@
+/* style.css */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1,
+.bgimg-2,
+.navbarbg {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('https://www.staralliance.com/documents/424633084/427207986/LX+%281%29.jpg/e6d39def-0600-5dba-46c2-86c066defddf?t=1557837272596');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/18/13/26/interface-3614766_1280.png");
+    min-height: 400px;
+}
+
+.navbarbg {
+    background-color: white;
+}
+
+
+
+.w3-wide {
+    letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+    cursor: pointer;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1800px) {
+
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: scroll;
+        min-height: 400px;
+    }
+}
+
+.tooltip_map {
+    position: absolute;
+    text-align: left;
+    width: auto;
+    padding: 8px;
+    font: 12px sans-serif;
+    background: white;
+    border: solid 1px #aaa;
+    border-radius: 8px;
+    pointer-events: none;
+    opacity: 0;
+}
+
+
+#aircraftTypeSelector {
+    margin: 10px;
+    width: 150px;
+    height: 125px;
+}
+
+#seasonSelector {
+    margin-right: 30px;
+    
+}
+
+#map {
+    margin-top: 20px;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 1200px;
+}
+
+
+#zoom-in,
+#zoom-out,
+#reset-zoom {
+    margin: 10px;
+}
+
+label {
+    margin: 10px;
+}
+
+.axis-label {
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+}
+
+circle {
+    opacity: 0.7;
+    stroke: black;
+}
+
+.axis line,
+.axis path {
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.hidden-button {
+  visibility: hidden;
+}
+
+#chart-container {
+  overflow: hidden;
+  height: auto;
+  transition: height 0.5s ease; /* Add a smooth transition effect */
+}
+
+/* Adjust the layout when the chart is hidden */
+#barchart_month.hidden {
+  display: none;
+}
+
+#barchart_month.visible {
+  display: block;
+  opacity: 1;
+  transition: opacity 0.5s ease; /* Add a smooth transition effect for opacity */
+}
