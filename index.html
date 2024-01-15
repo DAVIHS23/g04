@@ -126,7 +126,7 @@
         <h4>2.1 Datenherkunft</h4>
 
         <p>
-            Die Daten wurden über die API von Flightradar (<a href="https://www.flightradar24.com/data/airlines/lx-swr">Link</a>) bezogen und decken den Zeitraum vom November 2019 bis Dezember 2022 ab. Zur Verfügung stehen Flugdaten wie Abflugdatum, geplante Abflugzeit (Scheduled Time Departure - STD), effektive Abflugzeit (Actual Time Departure - ATD), geplante Ankunftszeit (Scheduled Time Arrival - STA) sowie der Status, in welchem die Landezeit festgehalten wird. In diesem Dataset sind zwar die einzelnen Abflug- und Zielflughäfen vermerkt, jedoch ohne geograpfische Informationen. Um die geograpfischen Daten zu den Flughäfen hinzuzufügen, wurde das Dataset mit einem weiteren Dataset (Airports.csv) zusammengeführt.
+            Die Daten wurden über die API von Flightradar (<a href="https://www.flightradar24.com/data/airlines/lx-swr">Link</a>) bezogen und decken den Zeitraum vom November 2019 bis Dezember 2022 ab. Zur Verfügung stehen Flugdaten wie Abflugdatum, geplante Abflugzeit (Scheduled Time Departure - STD), effektive Abflugzeit (Actual Time Departure - ATD), geplante Ankunftszeit (Scheduled Time Arrival - STA) sowie der Status, in welchem die Landezeit festgehalten wird. In diesem Dataset sind zwar die einzelnen Abflug- und Zielflughäfen vermerkt, jedoch ohne geografische Informationen. Um die geografischen Daten zu den Flughäfen hinzuzufügen, wurde das Dataset mit einem weiteren Dataset (Airports.csv) zusammengeführt.
             <br>
             <br>
             Insgesamt wurden 23'607 Flüge analyisert, die auf sechs unterschiedlichen Flugzeugtypen der Swiss basieren.
@@ -278,8 +278,8 @@
         <h3 class="w3-center">4. Design</h3>
         <h4>4.1 Foundations Visual Design</h4>
         <p>
-            Zwei Bar-Charts wurden erstellt, um die Jahreszeiten, den Monaten und ihren jeweiligen Summen an Verspätungen prägnant darzustellen. Diese visuellen Darstellungen bieten dem Management von Swiss eine unmittelbare Übersicht über die zeitliche Entwicklung der Verspätungsmuster.
-            Ein Scatterplott wurde erstellt um den Zusammenhang zwischen Verspätungen und der gesamten Flugzeit zu verdeutlichen. Diese Visualisierung ermöglicht es, potenzielle Muster und Ausreißer zu erkennen, um gezielte Optimierungen in den Flugabläufen vorzunehmen.
+            Zwei Bar-Charts wurden erstellt, um die Jahreszeiten, Monate und ihren jeweiligen Summen an Verspätungen prägnant darzustellen. Diese visuellen Darstellungen bieten dem Management von Swiss eine Übersicht über die zeitliche Entwicklung der Verspätungsmuster.
+            Ein Scatterplott wurde erstellt, um den Zusammenhang zwischen Verspätungen und der gesamten Flugzeit zu verdeutlichen. Diese Visualisierung ermöglicht es, potenzielle Muster und Ausreißer zu erkennen, um gezielte Optimierungen in den Flugabläufen vorzunehmen.
 
             Die Einbindung einer Kartenvisualisierung vervollständigt das visuelle Design und bringt einen geografischen Touch in die Darstellung der Flugrouten. Diese Funktion ermöglicht dem User geografische Zusammenhänge zu erkennen.
         </p>
@@ -291,11 +291,11 @@
 
         <h4>4.3 Data-Ink Ratio (Tufte)</h4>
         <p>
-            Gewisse Tinte der Graphen repräsentieren effektive und nützliche Informationen und andere Tinte nicht.
-            In einem gewissen Mass muss die non-data ink bestehen, aber es ist wichtig nur notwendige non-data ink Elemente hinzuzufügen, damit die Visualisierungen verständlich sind.<br>
+            Gewisse Elemente der Graphen repräsentieren effektive und nützliche Informationen und andere Elemente nicht (Non-Ink Data).
+            In einem gewissen Mass muss die Non-Ink Data bestehen, aber es ist wichtig nur notwendige non-data ink Elemente hinzuzufügen, damit die Visualisierungen verständlich sind.<br>
             (Stephen Few, S.141-142) <br>
 
-            In diesem Projekt wurde darauf geachtet keine unnötigen Elemente oder Farben zu brauchen, welche von den wesentlichen Informationen ablenken. Die Farben wurden wo nötig und sinnvoll wiederverwendet, bei den Bar Charts und dem Scatterplott wurden die gleichen Farben für die Jahreszeiten verwendet.
+            In diesem Projekt wurde darauf geachtet keine unnötigen Elemente oder Farben zu brauchen, welche von den wesentlichen Informationen ablenken. Die Farben wurden wo nötig und sinnvoll wiederverwendet, bei den Bar Charts und dem Scatterplot wurden die gleichen Farben für die Jahreszeiten verwendet.
         </p>
         <h5>4.3.1 Reduzieren von unnötigener Data Ink (Stephen Few, S.143)</h5>
         <p>
@@ -305,7 +305,7 @@
         <h5>4.3.2 Priorisieren</h5>
         <p>
             Mit den Visualisierungen soll Transparenz über die Flugdaten und eine Möglichkeit geboten werden, die Flugzeiten und deren Verspätungen analysieren zu können.
-            Um diese Informationen für den User priosieren zu können wurden die alle nötigen Information gefärbt und hervorgehoben.
+            Um diese Informationen für den User priorisieren zu können, wurden alle nötigen Informationen gefärbt und hervorgehoben.
             (Stephen Few, S.146)
 
         </p>
@@ -320,10 +320,10 @@
         </p>
         <h4>4.5 Tasks in Data Visualization</h4>
         <p>
-            
+
             Jedes Projekt in der Datenvisualisierung besteht gemäss Jeffrey Heer und Ben Shneiderman im wesentlichen aus drei Teilen:
         </p>
-            
+
         <ol type="1">
             <li>Definition der Daten und Betrachtungsweisen (Visualisieren, Filtern, Sortieren, Ableiten)</li>
             <li>Interaktion / Manipulation der Datenansicht (Selektieren, Navigieren, Koordinieren, Organisieren)</li>
@@ -337,40 +337,35 @@
             Der Nutzer wird so durch die Webseite geführt und kann die Daten im passenden Detailgrad analysieren.
             <br>
             Durch die Dokumentation der notwendigen Data preparation und die Zusammenfassung von Erkenntnissen im Kapitel 6 ist der Analyseprozess nachvollziehbar und kann als Basis für weitere Schritte genommen werden.
-            
-        
-           
 
-            
 
-       
         <h4>4.6 Interaction Concept</h4>
         <p>Der User kann mit den folgenden Elementen mit den Visualisiserungen interagieren:</p>
-        
+
         <h5>4.6.1 Overview-first</h5>
-         
+
         <p>
-        
-        Als erstes werden die Jahreszeiten aufgezeigt. Wenn der User auf die einzelnen Jahreszeiten klickt, erhält der User eine Detail Ansicht der jeweiligen Monate.
-        Durch diese Grafiken soll der User einen Überblick bekommen, wie die Verspätungen über die Monate verteilt ist. So können Muster über die Jahreszeiten gezeigt werden oder die allgemeine Performance analysiert werden. 
+
+            Als erstes werden die Jahreszeiten aufgezeigt. Wenn der User auf die einzelnen Jahreszeiten klickt, erhält der User eine Detail Ansicht der jeweiligen Monate.
+            Durch diese Grafiken soll der User einen Überblick bekommen, wie die Verspätungen über die Monate verteilt ist. So können Muster über die Jahreszeiten gezeigt werden oder die allgemeine Performance analysiert werden.
         </p>
-        
-            <h5>4.6.2 Zoom-and-filter</h5>
-         <p>
-        Im Scatterplott kann mit brushing zoomen und Datenpunkte genauer angeschaut werden. In der Wordmap kann allgemein gezoomt und zum gewünschten Punkt gezogen werden.
-        Beide Grafiken können mit zwei Filter spezifischer auf Jahreszeit und Flugzeugtyp gefiltert werden.
+
+        <h5>4.6.2 Zoom-and-filter</h5>
+        <p>
+            Im Scatterplott kann mit brushing zoomen und Datenpunkte genauer angeschaut werden. In der Wordmap kann allgemein gezoomt und zum gewünschten Punkt gezogen werden.
+            Beide Grafiken können mit zwei Filter spezifischer auf Jahreszeit und Flugzeugtyp gefiltert werden.
         </p>
-        
+
         <h5>4.6.3 Details on Demand</h5>
-        
-         <p>
-        Damit Informationen erst dann angezeigt werden, wenn der User diese auch wirklich braucht, kann das Prinzip Details on Demand angewendet werden.
-        In diesem Projekt wurde die Monatsansicht so erstellt, dass sie effektiv erst angezeigt wird, wenn der User an der monatlichen Ansicht interessiert ist.
-        Zusätzlich sind Tooltips in der Monatsansicht und in der Map ersichtlich um genauere Informationen zu erhalten, wenn eine spezifische Information interessant ist.
-        (Infovis Wiki)     
+
+        <p>
+            Damit Informationen erst dann angezeigt werden, wenn der User diese auch wirklich braucht, kann das Prinzip Details on Demand angewendet werden.
+            In diesem Projekt wurde die Monatsansicht so erstellt, dass sie effektiv erst angezeigt wird, wenn der User an der monatlichen Ansicht interessiert ist.
+            Zusätzlich sind Tooltips in der Monatsansicht und in der Map ersichtlich um genauere Informationen zu erhalten, wenn eine spezifische Information interessant ist.
+            (Infovis Wiki)
         </p>
-        
-        
+
+
         <h5>4.6.4 Mögliche Interaktionen</h5>
         <ul>
             <li>Bar Charts (Jahreszeit und Monatsview) welche mit "linking" verbunden sind</li>
@@ -428,13 +423,13 @@
             <a href=https://chat.openai.com> Chat GPT 3.5 als Unterstützung beim Debugging des Codes </a>
             <br>
             <a href=https://infovis-wiki.net/wiki/Details_on_demand> Infovis Wiki - Details on Demand </a>
-             <br>
+            <br>
             <a href=https://d3-graph-gallery.com/index.html>D3 Graph Gallery - Ausgangslage für Tooltip, Connection Map, Bar Charts und Brushing</a>
             <br>
             <a href=https://medium.com/@barbaradong/information-visualization-ii-1f2a25998844>Information Visualization II</a>
-           
-             
-            
+
+
+
             <br><br>
             Stephen Few - Show me the Numbers, Second Edition, 2012
         </p>
