@@ -61,8 +61,8 @@
         <h4>1. Ziel des Projektes</h4>
         <p>
             Das Hauptziel dieses Projekts ist es, dem Management von Swiss eine übersichtliche und aussagekräftige Darstellung der Flugverspätungen zu bieten.
-            Mit den Visualisierungen soll Transparenz geschaffen und detailierte Analysen möglich gemacht werden. Das Projekt soll helfen Spezialisten und Subject Matter Experts Muster in den Daten zu erkennen und so bessere Entscheidungen fällen zu erkennen. Durch diese transparente Darstellung streben wir danach, das Konzept des datenbasierten Entscheidungsfindung (Data-Driven Decision Making) zu fördern.
-            Unsere Visualisierungen bieten einen klaren Einblick in die Performance von Flügen, erlauben detaillierte Analysen und legen die Grundlage für fundierte Verbesserungen der aktuellen Prozesse.
+            Mit den Visualisierungen soll Transparenz geschaffen und detailierte Analysen möglich gemacht werden. Das Projekt soll Spezialisten und Subject Matter Experts helfen, Muster in den Daten zu erkennen und so bessere Entscheidungen fällen zu können. Durch diese transparente Darstellung streben wir danach, das Konzept der datenbasierten Entscheidungsfindung (Data-Driven Decision Making) zu fördern.
+            Die Visualisierungen bieten einen klaren Einblick in die Performance von Flügen, erlauben detaillierte Analysen und legen die Grundlage für fundierte Verbesserungen der aktuellen Prozesse.
         </p>
 
 
@@ -78,7 +78,7 @@
 
         <h4>1.2 Skizzen</h4>
         <p>
-            Als Vorbereitung auf das Projekt wurden 3 Skizzen erstellt, in welcher die geplanten Visualisierungen von Hand dargestellt wurden.
+            Als Vorbereitung auf das Projekt wurden 3 Skizzen erstellt, in welchen die geplanten Visualisierungen von Hand dargestellt wurden.
             <br>
             Die Skizzen wurden noch ohne grosse Kenntnisse von D3.js umgesetzt, konnten aber zu grossen Teilen in finalen Projekt umgesetzt werden.
             <br>
@@ -131,7 +131,7 @@
             <br>
             Insgesamt wurden 23'607 Flüge analyisert, die auf sechs unterschiedlichen Flugzeugtypen der Swiss basieren.
             <br>
-            Um die Daten vorzubereiten wurden die folgenden Schritte durchgeführt:
+            Um die Daten vorzubereiten, wurden die folgenden Schritte durchgeführt:
         </p>
 
         <ol type="1">
@@ -167,12 +167,12 @@
 
         <br>
         <br>
-        <p>Die IATA Codes sind dreistellige Codes, die für jeden Flughafen einzigartig sind. Durch diese Codes konnte das zusätzliche "Airports" Dataset gejoint werden, wodurch die Koordinaten der Flughäfen genutzt werden können. Diese Codes können aus der FROM und TO Spalte entnommen werden, da die letzten 3 Zeichen dieser Spalten die IATA Codes beinhalten.
+        <p>Die IATA (International Air Transport Association) Codes sind dreistellige Codes, die für jeden Flughafen einzigartig sind. Durch diese Codes konnte das zusätzliche "Airports" Dataset gejoint werden, wodurch die Koordinaten der Flughäfen genutzt werden können. Diese Codes können aus der FROM und TO Spalte entnommen werden, da die letzten 3 Zeichen dieser Spalten die IATA Codes beinhalten.
         </p>
 
         <br>
         <p>
-            Um die Flugzeugtypen in der Visualisierung darstellen zu können, mussten über die Flightradar API auch die von der Swiss genutzten Flugzeugtypen inkl. Informationen wie Alter des Fliegers etc. hinzugefügt werden. Die Verbindung konnte dabei über die Serial Number (MSN) durchgeführt werden, da diese für jeden Flugzeug einzigartig ist.
+            Um die Flugzeugtypen in der Visualisierung darstellen zu können, mussten über die Flightradar API auch die von der Swiss genutzten Flugzeugtypen inkl. Informationen wie Alter des Fliegers etc. hinzugefügt werden. Die Verbindung konnte dabei über die Serial Number (MSN) durchgeführt werden, da diese für jedes Flugzeug einzigartig ist.
         </p>
 
         <br>
@@ -182,7 +182,7 @@
         </p>
 
         <img src="Pictures/final_dataset.png" alt="Finales Dataset nach Anpassungen" width="1000" height="291">
-        <label>Beispiel für fehlerhafte Flugdaten</label>
+        <label>Auszug finales Dataset</label>
 
 
     </div>
@@ -193,8 +193,7 @@
         <h3 class="w3-center">3. Visualization</h3>
         <h4>3.1 Aufbau</h4>
         <p>
-            Die Visualisierung der Daten wurde so aufgebaut, dass die zuerst ein Überblick über die Summe der Verspätungen aufgeteilt auf die Jahreszeiten angezeigt wird.
-            <br>
+            Die Visualisierung der Daten wurde so aufgebaut, dass zuerst ein Überblick über die Summe der Verspätungen aufgeteilt auf die Jahreszeiten angezeigt wird.
             Dadurch können erste Muster entdeckt werden, die dann mit dem Scatterplot und der Map weiter analysiert werden können.
         </p>
         <br>
@@ -221,7 +220,7 @@
         <p>
             Die folgenden zwei Visualisierungen können beide über die zwei Filter unten gesteuert werden. Zusätzlich ist es möglich, im Scatterplot interessante Daten mittels Brushing auszuwählen und dadurch eine detailliertere Ansicht auf gewisse Flug-Cluster zu erhalten.
             <br>
-            Im Scatterplot sind die einzelnen Flüge aufgezeigt basierend auf ihrere Flugzeit und der Verspätung. Dabei werden nur Flüge berücksichtigt, die auch effektiv Verspätung aufwiesen.
+            Im Scatterplot sind die einzelnen Flüge aufgezeigt basierend auf ihrer Flugzeit und der Verspätung. Dabei werden nur Flüge berücksichtigt, die auch effektiv Verspätung aufwiesen.
             Die Flüge sind zudem basierend auf der Jahreszeit gefärbt.
         </p>
 
@@ -316,7 +315,7 @@
             zu maximieren.
             Obwohl die Grafiken selber sprechend sind, wurden Erläuterungen hinzugefügt um dem User Kontext zu geben und Hintergrundinformationen zu geben.
             (Stephen Few, S. 149)
-            Um eine allgemeine, zusammenhängende Ansicht zu schaffen wurden Farben (Jahrezeiten) wiederverwendet und auch in der Map die Farben je nach Verspätung farblich hervorgehoben.
+            Um eine allgemeine, zusammenhängende Ansicht zu schaffen, wurden Farben (Jahreszeiten) wiederverwendet und auch in der Map die Flüge je nach Verspätung farblich hervorgehoben.
         </p>
         <h4>4.5 Tasks in Data Visualization</h4>
         <p>
@@ -352,7 +351,7 @@
 
         <h5>4.6.2 Zoom-and-filter</h5>
         <p>
-            Im Scatterplott kann mit brushing zoomen und Datenpunkte genauer angeschaut werden. In der Wordmap kann allgemein gezoomt und zum gewünschten Punkt gezogen werden.
+            Im Scatterplott kann mit der brushing-Funktionalität gezoomt werden und Datenpunkte genauer angeschaut werden. In der Worldmap kann allgemein gezoomt und zum gewünschten Punkt gezogen werden.
             Beide Grafiken können mit zwei Filter spezifischer auf Jahreszeit und Flugzeugtyp gefiltert werden.
         </p>
 
