@@ -62,7 +62,7 @@ function getSelectedAircraftTypes() {
 function loadData(selectedSeason, selectedAircraftTypes) {
     console.log("Loading data for season:", selectedSeason, "and aircraft types:", selectedAircraftTypes);
 
-    d3.csv("/../Data/Flights.csv").then(data => {
+    d3.csv("Data/Flights.csv").then(data => {
         let routes = {};
 
         data.forEach(d => {
