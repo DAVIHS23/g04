@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Schweizer Pünktlichkeit?</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
+
+    <script type="module" src="Javascript/barchart_year.js"></script>
+    <script type="module" src="Javascript/barchart_month.js"></script>
+
+
+
+    <script type="module" src="Javascript/scatterplot.js"></script>
+    <script type="module" src="Javascript/map.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+
+
+
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <div class="w3-top navbarbg">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+
+            <a href="#home" class="w3-bar-item w3-button">HOME</a>
+            <a href="#info" class="w3-bar-item w3-button">Project Info</a>
+            <a href="#data" class="w3-bar-item w3-button">Data</a>
+            <a href="#viz" class="w3-bar-item w3-button">Visualization</a>
+            <a href="#design" class="w3-bar-item w3-button">Design Choices</a>
+            <a href="#ref" class="w3-bar-item w3-button">References</a>
+            <a href="#team" class="w3-bar-item w3-button">Team</a>
+
+        </div>
+    </div>
+
+    <!-- FIRST BG IMAGE / HOME SCREEN -->
+    <div class="bgimg-1 w3-display-containeer w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Schweizer Pünktlichkeit <span class="w3-hide-small">-</span>Wie pünktlich ist die Swiss wirklich?</span>
+        </div>
+    </div>
+
+    <!-- SECTION PROJECT INFO   -->
+    <div class="w3-content w3-container w3-padding-64" id="info">
+
+        <h3 class="w4-center">Project Info</h3>
+        <p>&DAVI& Untertitel <br />
+            &DAVI& - Der Rest von Text über das Projekt
+
+        </p>
+    </div>
+
+    <!-- SECOND BG IMAGE WITH Data TEXT -->
+
+    <div class="bgimg-2 w3-display-container w3-opacity-min">
+        <div class="w3-display-middle">
+            <span class="w3-xxlarge w3-text-white w3-wide">DATA</span>
+        </div>
+    </div>
+
+
+    <!-- SECTION DATA   -->
+    <div class="w3-content w3-container w3-padding-64" id="data">
+        <h3 class="w3-center">Datenherkunft & Datenaufbereitung</h3>
+        <br>
+        <h4 class="w3-center">Datenherkunft</h4>
+
+        <p>
+            Die Daten wurden über die API von Flightradar (<a href="https://www.flightradar24.com/data/airlines/lx-swr">Link</a>) bezogen und decken den Zeitraum vom November 2019 bis Dezember 2022 ab. Zur Verfügung stehen Flugdaten wie Abflugdatum, geplante Abflugzeit (Scheduled Time Departure - STD), effektive Abflugzeit (Actual Time Departure - ATD), geplante Ankunftszeit (Scheduled Time Arrival - STA) sowie der Status, in welchem die Landezeit festgehalten wird. In diesem Dataset sind zwar die einzelnen Abflug- und Zielflughäfen vermerkt, jedoch ohne geograpfische Informationen. Um die geograpfischen Daten zu den Flughäfen hinzuzufügen, wurde das Dataset mit einem weiteren Dataset (Airports.csv) zusammengeführt.
+            <br>
+            <br>
+            Insgesamt wurden 21'125 Flüge analyisert, die auf sechs unterschiedlichen Flugzeugtypen der Swiss basieren.
+            <br>
+            Um die Daten vorzubereiten wurden die folgenden Schritte durchgeführt:
+        </p>
+
+        <ol type="1">
+            <li>Zusammenführen der Daten der Flugzeugtypen</li>
+            <li>Entfernen von ungültigen Daten (Data Cleansing)</li>
+            <li>Definition IATA Codes</li>
+            <li>Korrektur des Datums</li>
+            <li>Hinzufügen der Daten zum Flugzeugtype</li>
+            <li>Hinzufügen der Lat und Long für die Flughäfen</li>
+            <li>Berechnung der Verspätung</li>
+            <li>Zusätzliche Datumsaufteilungen</li>
+        </ol>
+
+
+        <h4 class="w3-center">Data Cleansing</h4>
+
+        <p>Von den 21'125 Flügen beinhalteten 1'702 ungültige Daten. Dabei handelte es sich um falsche FROM- oder TO-Flughäfen, Flüge ohne Flugzeit oder interne Testflüge.
+        </p>
+        <img src="Pictures/Incorrect_data_example.png" alt="Beispiel für fehlerhafte Flugdaten" width="989" height="63">
+        <label>Beispiel für fehlerhafte Flugdaten</label>
+
+        <br>
+        <p> Bei den Flugnummern fiel auf, dass gewisse Flüge eine Art "Testcode" aufweisen. Nach näherer Untersuchung stellte sich heraus, dass es sich dabei um Testflüge nach Wartungen / Reparaturen handelt, weshalb diese Flüge nicht weiter berücksichtigt wurden.</p>
+
+        <div class="centered-container">
+            <img src="Pictures/removed_flight_numbers.png" alt="Entfernte Flugnummern" width="143" height="310">
+        </div>
+        <br>
+        <img src="Pictures/example_removed_flights.png" alt="Entfernte Flugnummern" width="1000" height="383">
+        <br>
+        <br>
+        <label>Beispiele für fehlerhafte Flugdaten</label>
+
+        <br>
+        <br>
+        <p>Die IATA Codes sind dreistellige Codes, die für jeden Flughafen einzigartig sind. Durch diese Codes konnte das zusätzliche "Airports" Dataset gejoint werden, wodurch die Koordinaten der Flughäfen genutzt werden können. Diese Codes können aus der FROM und TO Spalte entnommen werden, da die letzten 3 Zeichen dieser Spalten die IATA Codes beinhalten.
+        </p>
+
+        <br>
+        <p>
+            Um die Flugzeugtypen in der Visualisierung darstellen zu können, mussten über die Flightradar API auch die von der Swiss genutzten Flugzeugtypen inkl. Informationen wie Alter des Fliegers etc. hinzugefügt werden. Die Verbindung konnte dabei über die Serial Number (MSN) durchgeführt werden, da diese für jeden Flugzeug einzigartig ist.
+        </p>
+
+        <br>
+
+        <p>
+            Nach dem Einfügen der Koordinaten, der Berechnung der Verspätung aus dem Status (Landed on XX:XX) und der STA (Scheduled Time Arrival) sowie dem hinzufügen weiterer Datumsangaben konnte die Datenvorbereitung fertiggestellt werden. Dabei wurde auf eine Formel zugegriffen, mit welcher die Verspätung auch bei tagesübergreifenden Flügen korrekt berechnet werden kann (siehe Referenzen).
+        </p>
+
+        <img src="Pictures/final_dataset.png" alt="Finales Dataset nach Anpassungen" width="1000" height="291">
+        <label>Beispiel für fehlerhafte Flugdaten</label>
+
+
+    </div>
+
+    <!-- SECTION VISUALIZATION -->
+
+    <div class="w3-content w3-container w3-padding-64" id="viz">
+        <h3 class="w3-center">Visualization</h3>
+        <p>Aufbau<br>
+            Die Visualisierung der Daten wurde so aufgebaut, dass die zuerst ein Überblick über die Summe der Verspätungen aufgeteilt auf die Jahreszeiten angezeigt wird.
+            <br>
+            Dadurch können erste Muster entdeckt werden, die dann mit dem Scatterplot und der Map weiter analysiert werden können.
+        </p>
+
+        <h4 class="w3-center">Overview</h4>
+        <p> Im Overview-Bereich der Visualisierung sind zwei der insgesamt vier Grafiken. Diese Grafiken sollen einen ersten Überblick über die Daten ermöglichen.
+            <br>
+            Durch einen Klick auf eine Jahreszeit werden die dazugehörigen Monate angezeigt, damit die Verspätungen auch auf der monatlichen Ebene analysiert werden können.
+            Die Daten von November 2019 - Dezember 2022 wurden für diese Darstellung nicht weiter aufgeteilt, das heisst, dass also beispielsweise die Monate Dezember, Januar und Februar der Jahre 2019/2020/2021 und 2022 als Winter klassifiziert werden.
+        </p>
+
+        <div class="centered-container">
+            <div id="barchart_year"></div>
+            <div id="chart-container">
+
+                <div id="barchart_month"></div>
+                <button id="resetBarsButton" class="hidden-button">Hide Monthly Graph</button>
+            </div>
+        </div>
+
+
+
+        <br>
+        <h4 class="w3-center">Scatterplot of delayed Flights and World Map</h4>
+        <br>
+        <p>
+            Die folgenden zwei Visualisierungen können beide über die zwei Filter unten gesteuert werden. Zusätzlich ist es möglich, im Scatterplot interessante Daten mittels Brushing auszuwählen und dadurch eine detailliertere Ansicht auf gewisse Flug-Cluster zu erhalten.
+            <br>
+            Im Scatterplot sind die einzelnen Flüge aufgezeigt basierend auf ihrere Flugzeit und der Verspätung. Dabei werden nur Flüge berücksichtigt, die auch effektiv Verspätung aufwiesen.
+            Die Flüge sind zudem basierend auf der Jahreszeit gefärbt.
+
+
+        </p>
+
+        <div class="centered-container">
+
+            <!-- Add aircraft type selector -->
+            <label for="aircraftTypeSelector">Select Aircraft Type:</label>
+            <select id="aircraftTypeSelector" multiple>
+                <option value="All">All Aircraft Types</option>
+                <option value="Airbus A220-100">Airbus A220-100</option>
+                <option value="Airbus A220-300">Airbus A220-300</option>
+                <option value="Airbus A320-214">Airbus A320</option>
+                <option value="Airbus A330-343">Airbus A330</option>
+                <option value="Airbus A340-313">Airbus A340</option>
+                <option value="Boeing 777-3DE(ER)">Boeing 777</option>
+            </select>
+            <!-- Season selector -->
+            <label for="seasonSelector">Select Season:</label>
+            <select id="seasonSelector">
+                <option value="All">All Data</option>
+                <option value="FRÜHLING">Frühling</option>
+                <option value="SOMMER">Sommer</option>
+                <option value="HERBST">Herbst</option>
+                <option value="WINTER">Winter</option>
+            </select>
+
+
+        </div>
+
+
+
+        <div class="centered-container">
+
+            <svg id="scatterplot" width="960" height="500"></svg>
+            <div id="legend-container-scatterplot"></div>
+
+        </div>
+
+        <p>
+            Auf der Connection Map sind die einzelnen Flüge geografisch dargestellt und gemäss der Legende auf der rechten Seite eingefärbt. Auch diese Visualisierung beinhaltet nur Flüge, auf welchen tatsächlich Verspätungen aufgetreten sind.
+        </p>
+
+
+        <div class="centered-container">
+            <!-- Buttons -->
+            <button id="zoom-in">Zoom In</button>
+            <button id="zoom-out">Zoom Out</button>
+            <button id="reset-zoom">Reset Zoom</button>
+        </div>
+        <div class="centered-container">
+            <svg id="map" width="800" height="600"></svg>
+            <div id="legend-container-map"></div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+    <!-- SECTION DESIGN -->
+
+    <div class="w3-content w3-container w3-padding-64" id="design">
+        <h3 class="w3-center">Desing</h3>
+        <p>&DAVI& Untertitel<br />
+            &DAVI& Hier die Info wieso weshalb warum man was hingebogen hat im D3
+        </p>
+
+    </div>
+    <!-- SECTION DESIGN -->
+
+    <div class="w3-content w3-container w3-padding-64" id="ref">
+        <h3 class="w3-center">References</h3>
+
+        <h4 class="w3-center">Datenherkunft</h4>
+
+        <a href=https://www.flightradar24.com/data/airlines/lx-swr>Flightradar24 API</a>
+        <br>
+        <a href=https://gist.github.com/fletchjeff/b60f46ca3c1aa51e9aea9fd86d0ab433>Koordinaten der Flughäfen</a>
+        <p>
+            <a href=https://www.staralliance.com/documents/424633084/427207986/LX+%281%29.jpg/e6d39def-0600-5dba-46c2-86c066defddf?t=1557837272596> Hintergrundbild Swiss Airbus </a>
+            <br>
+            <a href=https://incas-training.de/blog/so-berechnest-du-stunden-in-excel>Hilfestellung bei Berechnung der Verspätung</a>
+            <br>
+
+
+
+        </p>
+    </div> <!-- SECTION DESIGN -->
+
+    <div class="w3-content w3-container w3-padding-64" id="Team">
+        <h3 class="w3-center">Team</h3>
+        <p>&DAVI& Untertitel<br />
+            &DAVI& Kontaktdaten des Teams
+        </p>
+    </div>
+
+</body>
+
+</html>
